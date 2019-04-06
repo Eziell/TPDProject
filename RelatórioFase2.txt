@@ -21,11 +21,11 @@
     Grão – Cada linha na tabela corresponde aos resultados obtidos e valor da equipa em determinada ronda. Estes dados são gerados nas datas de publicação de cada ronda (que, uma vez que estas correspondem a jornadas do campeonato nacional da 1ª liga de futebol, acontece um número pré-determinado de vezes em datas de intervalos diferentes mas conhecidos à partida) e sempre que é necessária alguma correcção a resultados previamente publicados. 
     Tipo da tabela de factos – Como foi referido, os dados são registados em datas pré-determinadas mas com intervalos variados.Os dados já publicados podem ter que ser actualizados em 2 circunstâncias: sempre que há um jogo diferido (realizado depois da data oficial da jornada) ou quando é aceite alguma reclamação relativa a pontos atribuídos a alguma equipa dos concorrentes. Em ambos os casos, a data da actualização não é conhecida à partida. A data de publicação mantém-se a mesma, apenas mudam os valores quantitativos da tabela. Tendo em conta o que foi descrito, esta trata-se de uma tabela de factos Instantânea Comulativa.
     Medidas:
-    Team Points Round – Pontos obtidos pela equipa na ronda considerada. Não havendo reclamações, mantém-se inalterada mesmo que o registo sofra actualizações devido a recálculo de pontuações gerais por jogos diferidos.
-    Team Points Total – Pontos obtidos pela equipa desde o início do jogo e necessários para integrar a equipa na classificação geral. Estes pontos são actualizados sempre que sejam aceites reclamações ou que haja resultados decorrentes de jogos diferidos.
-    Team Rank Round – Posição da equipa na ronda considerada. Esta posição é conseguida pela ordenação da pontuação obtida na ronda e, em caso de empate, por regras inerentes ao jogo. Tal como os pontos na ronda, o valor obtido no registo inicial só é recalculado caso haja alguma reclamação de um concorrente que seja aceite.
-    Team Rank Total – Posição da equipa na classificação geral. Esta posição conseguida pela ordenação da pontuação geral e, em caso de empate, por regras de desempate próprias (diferentes das usadas na obtenção da posição na ronda). É actualizada nas mesmas circustâncias da coluna Team Points Total.
-    Utilized Team Players Value – Soma dos valores de aquizição dos jogadores esolhidos para entrar em campo na ronda em questão. Este valor ser considerado nas perguntas analíticas para avaliar se a obtenção de melhores resultados tem relação com equipas mais caras . 
+        Team Points Round – Pontos obtidos pela equipa na ronda considerada. Não havendo reclamações, mantém-se inalterada mesmo que o registo sofra actualizações devido a recálculo de pontuações gerais por jogos diferidos.
+        Team Points Total – Pontos obtidos pela equipa desde o início do jogo e necessários para integrar a equipa na classificação geral. Estes pontos são actualizados sempre que sejam aceites reclamações ou que haja resultados decorrentes de jogos diferidos.
+        Team Rank Round – Posição da equipa na ronda considerada. Esta posição é conseguida pela ordenação da pontuação obtida na ronda e, em caso de empate, por regras inerentes ao jogo. Tal como os pontos na ronda, o valor obtido no registo inicial só é recalculado caso haja alguma reclamação de um concorrente que seja aceite.
+        Team Rank Total – Posição da equipa na classificação geral. Esta posição conseguida pela ordenação da pontuação geral e, em caso de empate, por regras de desempate próprias (diferentes das usadas na obtenção da posição na ronda). É actualizada nas mesmas circustâncias da coluna Team Points Total.
+        Utilized Team Players Value – Soma dos valores de aquizição dos jogadores esolhidos para entrar em campo na ronda em questão. Este valor ser considerado nas perguntas analíticas para avaliar se a obtenção de melhores resultados tem relação com equipas mais caras . 
     Chaves estrangeiras:
         Season Key (FK) – Chave estrangeira, liga à dimensão que representa a temporada (season) na qual os concorrentes estão a pontuar com as suas equipas.
         Date Key (FK) – Chave estrangeira, liga à dimensão data que corresponde à data de publicação de resultados da ronda considerada.
@@ -38,7 +38,8 @@
 5.2 Tabelas de Dimensões
 
 5.2.1   Tabela Date
-
+    Atributos:
+        F
 
 
 	

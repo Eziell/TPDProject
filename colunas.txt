@@ -1,5 +1,4 @@
-tabela de logins
-    Login Key (PK)
+Fact Logins
     Login Count
     Season Key (FK)
     Date Key (FK)
@@ -10,24 +9,55 @@ tabela de logins
 
 Fact Team Details per Round
     
-Season Key (FK)
-Date Key (FK)	Checked
-Team Key (FK)
-User Key (FK)
-Durable User Key (DK) (FK)
-Team Points Round
-Team Points Total
-Team Rank Round
-Team Rank Total
-Utilized Team Players Value
+    Season Key (FK)
+    Date Key (FK)	Checked
+    Team Key (FK)
+    User Key (FK)
+    Durable User Key (DK) (FK)
+    Team Points Round
+    Team Points Total
+    Team Rank Round
+    Team Rank Total
+    Team Utilized Team Players Value
 
 
 
 Dimension Season
 
-Season Key (PK)
-Season name
-Season Starting Date
-Season Ending Date
-Uses Current Game Version
-Is Results Publish Day Variable
+    Season Key (PK)
+    Season name
+    Season Starting Date
+    Season Ending Date
+    Uses Current Game Version
+    Is Results Publish Day Variable
+
+Dimension Date
+
+    Date Key (PK)
+    Date Day
+    Date Day ? 
+    Date Weekday
+    Date Month
+    Date Year
+    Date Full    
+    Date Weekend
+    Date Holiday
+    Date Round Number
+    Date Round Publication Day
+    Date Round End Day
+    Date Round Start Day
+    Date Season Ongoing
+    Date Season Start   
+    Date Season End
+    #   Dado que existe uma jornada durante o inverno e outra durante o verão correto?
+    Date Season Winter
+    Date Season Summer
+    Date Game Day    
+    Date Game Before Start
+    Date Game After End
+    #   Conseguimos informação se algum dos clássicos está a jogar?    
+    Date Game Popular 
+    
+    
+    
+
