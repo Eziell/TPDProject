@@ -38,23 +38,17 @@ Dimension Date
     Date Day ? 
     Date Weekday
     Date Month
+    Date Calendar Month
     Date Year
     Date Full    
-    Date Weekend
-    Date Holiday
+    Date Weekend Indicator
+    Date Holiday Indicator
     Date Round Number
-    Date Round Publication Day
-    Date Round End Day
-    Date Round Start Day
-    Date Season Ongoing
-    Date Season Start   
-    Date Season End
+    Date Round Indicator
+    Date Season Indicator
     #   Dado que existe uma jornada durante o inverno e outra durante o verão correto?
-    Date Season Winter
-    Date Season Summer
-    Date Game Day    
-    Date Game Before Start
-    Date Game After End
+    Date Season Indicator
+    Date Game Indicator
     #   Conseguimos informação se algum dos clássicos está a jogar?    
     Date Game Popular 
     
