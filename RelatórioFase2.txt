@@ -1,0 +1,50 @@
+5.1	Tabelas de factos
+
+5.1.1 	Tabela de factos logins
+Grão – Cada linha na tabela de factos de logins irá corresponder à contagem de logins por dia e utilizador.
+Com esta informação vai ser possível quantificar quais os dias que despertam mais interesse por parte dos concorrentes. 
+Por exemplo, espectável que as datas de fecho de ronda (principalmente a primeira), datas de publicação de resultados e datas em que é possível fazer troca de jogadores do plantel em fevereiro (mercado de inverno) sejam as mais participadas. Esta tabela permite-nos fazer essa quantificação.
+Medidas – A única medida presente nos logins vai ser a quantificação absoluta das vezes que um utilizador iniciou sessão a um dado dia. Existem dois cenários possíveis nesta medida:
+Se iniciar sessão - Um utilizador que inicie sessão pode permanecer com a sessão ligada durante o dia inteiro, no entanto é comum utilizadores que interrompam a sua sessão sistematicamente ao longo do dia dado que podem existir vários logins por dia para um determinado dia.
+Se não iniciar sessão - Se o utilizador não fizer login não vai constar nos factos para o dia. 
+Tipo da tabela de factos – Como os factos são registados em períodos fixos de um dia, o grão correspondendo a uma linha por dia, o carregamento de factos feito apenas por inserções, a actualização dos mesmos inexistente, a dimensão data registada correspodendo ao fim do período e com os factos representando o número de logins por período, esta pode ser considerada sem dúvidas de tipo Instantânea Periódica.
+Dados:
+Login Key (PK) – Chave Primária para o registo dos logins. Identifica cada facto nesta tabela e como tal o seu valor tem de ser único e não nulo.
+Logins – Número de logins (delimitados por início e fim de sessão) durante um período de um dia. Único facto registado.
+Season Key (FK) – Chave estrangeira, liga a dimensão Season para identificar a Época corrente no jogo online.
+Date Key (FK) – Chave estrangeira, liga a dimensão data de modo a caracterizar temporalmente o facto, junto com outras informações qualitativas que podem eventualmente ser pertinentes para possíveis questões analíticas (corresponde a fim de semana? Semana? Feriado?).
+User Key (FK) – Chave estrangeira, liga dimensão user associando toda a informação de um user ao facto registado.
+User Original (FK NK) – Chave estrangeira supernatural, liga de novo a dimensão user como uma chave mais “resistente”, na enventualiade e possibilidade de identificar o mesmo utilizador registado com dados diferentes.
+Hierarquias – A única Hierarquia presente na tabela de factos logins é a relação representada entre a User Key e a User Original Key.
+User Original Key (FK NK) > User Key (FK).
+
+
+5.1.2 	Tabela de factos representativa do valor e resultados de cada equipa por ronda
+Grão – Cada linha na tabela corresponde aos resultados obtidos e valor da equipa em determinada ronda. 
+Estes dados são gerados nas datas de publicação de cada ronda (que, uma vez que estas correspondem a jornadas do campeonato nacional da 1ª liga de futebol, acontece um número pré-determinado de vezes em datas de intervalos diferentes mas conhecidos à partida) e sempre que é necessária alguma correcção a resultados previamente publicados. 
+Tipo da tabela de factos – Como foi referido, os dados são registados em datas pré-determinadas mas com intervalos variados.
+Os dados já publicados podem ter que ser actualizados em 2 circunstâncias: sempre que há um jogo diferido (realizado depois da data oficial da jornada) ou quando é aceite alguma reclamação relativa a pontos atribuídos a alguma equipa dos concorrentes. 
+Em ambos os casos, a data da actualização não é conhecida à partida. A data de publicação mantém-se a mesma, apenas mudam os valores quantitativos da tabela.
+Tendo em conta o que foi descrito, esta trata-se de uma tabela de factos Instantânea Comulativa.
+Medidas:
+Team Points Round – Pontos obtidos pela equipa na ronda considerada. 
+Não havendo reclamações, mantém-se inalterada mesmo que o registo sofra actualizações devido a recálculo de pontuações gerais por jogos diferidos.
+Team Points Total – Pontos obtidos pela equipa desde o início do jogo e necessários para integrar a equipa na classificação geral. 
+Estes pontos são actualizados sempre que sejam aceites reclamações ou que haja resultados decorrentes de jogos diferidos.
+Team Rank Round – Posição da equipa na ronda considerada. 
+Esta posição é conseguida pela ordenação da pontuação obtida na ronda e, em caso de empate, por regras inerentes ao jogo. Tal como os pontos na ronda, o valor obtido no registo inicial só é recalculado caso haja alguma reclamação de um concorrente que seja aceite.
+Team Rank Total – Posição da equipa na classificação geral. 
+Esta osição conseguida pela ordenação da pontuação geral e, em caso de empate, por regras de desempate próprias (diferentes das usadas na obtenção da posição na ronda)
+É actualizada nas mesmas circustâncias da coluna Team Points Total.
+Utilized Team Players Value – Soma dos valores de aquizição dos jogadores esolhidos para entrar em campo na ronda em questão. Este valor ser considerado nas perguntas analíticas para avaliar se a obtenção de melhores resultados tem relação com equipas mais caras . 
+Chaves estrangeiras:
+Season Key (FK) – Chave estrangeira, liga à dimensão que representa a temporada (season) na qual os concorrentes estão a pontuar com as suas equipas.
+Date Key (FK) – Chave estrangeira, liga à dimensão data que corresponde à data de publicação de resultados da ronda considerada.
+Team Key (FK) – Chave estrangeira, liga à dimensão que representa a equipa que originou os resultados apresentados nas medidas.
+User Key (FK) – Chave estrangeira, liga à dimensão que representa o concorrente (user) associando os resultados obtidos na ronda por uma determinada equipa a um concorrente específico.
+User Original Key (FK NK) – Chave estrangeira supernatural. Usada para identificar o concorrente através da sua chave original. Desta forma, mesmo sendo este um registo de factos já passados, temos sempre uma forma rápida de obter os dados mais recentes do concorrente.
+Hierarquias – A única Hierarquia presente na tabela de factos logins é a relação representada entre a User Key e a User Original Key.
+User Original Key (FK NK) agrega uma nova User Key (FK) por temporada (season).
+
+
+	
