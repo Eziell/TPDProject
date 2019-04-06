@@ -1,0 +1,9 @@
+tabela de logins
+    Login Key (PK)
+    Login Count
+    Round Number
+    Season Key (FK)
+    Date Key (FK)
+    User Key (FK)
+    User Original (FK)
+    
