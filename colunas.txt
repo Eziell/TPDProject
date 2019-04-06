@@ -6,3 +6,28 @@ tabela de logins
     User Key (FK)
     User Original (FK NK)
     
+
+
+Fact Team Details per Round
+    
+Season Key (FK)
+Date Key (FK)	Checked
+Team Key (FK)
+User Key (FK)
+Durable User Key (DK) (FK)
+Team Points Round
+Team Points Total
+Team Rank Round
+Team Rank Total
+Utilized Team Players Value
+
+
+
+Dimension Season
+
+Season Key (PK)
+Season name
+Season Starting Date
+Season Ending Date
+Uses Current Game Version
+Is Results Publish Day Variable
