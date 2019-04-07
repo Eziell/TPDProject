@@ -45,28 +45,24 @@
         Day Of Month - Atributo representativo do dia, os valores de tipo int compreendem qualquer valor entre 1 e 31. 
         Weekday - Atributo representativo do dia da semana, os valores de tipo int compreendem qualquer valor entre 1 e 7, com 1 a corresponder a uma segunda-feira e 7 a domingo.
         Calendar Weekday - Atributo representativo do dia da semana, igual ao atributo Weekday em significado mas aceitando valores de tipo varchar, escrito por extenso desde "segunda-feira" a "domingo".  
-        Month - Atributo representativo do mês, os valores de tipo int compreendem qualquer valor entre 1 e 12, com 1 a corresponder ao mês de Janeiro e 12 ao mês de Dezembro.
-        Calendar Month - Atributo representativo do dia do mês, em significado igual ao atributo Month mas aceitando valores varchar, escrito por extenso desde "Janeiro" a "Dezembro". ***
+        Month - Atributo representativo do mês, os valores de tipo int compreendem qualquer valor entre 1 e 12, com 1 a corresponder ao mês de Janeiro e 12 ao mês de dezembro.
+        Calendar Month - Atributo representativo do dia do mês, em significado igual ao atributo Month mas aceitando valores varchar, escrito por extenso desde "janeiro" a "dezembro". 
         Year - Atributo representativo do dia do ano, aceitando valores de tipo int.
         Full - Atributo representativo da data completa. Uma dimensão degenerada, junta os valores de Day, Month, e Year para formar um valor de tipo Datetime.
-        Weekend Indicator - Atributo usado para determinar se o dia corresponde a um fim de semana ou não aceitando valores de tipo Boolean.
-        Holiday Indicator - Atributo usado para determinar se o dia corresponde a um feriado ou não aceitando valores de tipo Boolean.
-        Season Time Indicator - Atributo usado para determinar a posição relativa da data em relação ao período da época, aceitando valores varchar e variando o seu valor entre "start", "ongoing", "finish" e "outside", para identificar o começo, meio, fim ou fora de data normal da época respectivamente. Jogos fora da data normal da época são pouco comuns mas podem ocorrer dado que pode haver interesse em manter registo desta dimensão.
+        Weekend Indicator - Atributo usado para determinar se o dia corresponde a um fim de semana ou não. Aceitando valores de tipo Boolean (true/false).
+        Holiday Indicator - Atributo usado para determinar se o dia corresponde a um feriado ou não aceitando valores de tipo Boolean (true/false).
         Round Number - Atributo usado para determinar o número da ronda corrente, aceitando valores int desde 1 até 31. Apesar das Jornadas a que as rondas correspondem serem 34, a rondas da liga record só começam depois do fecho do mercado de Verão de jogadores, pelo que podem começar na 4ª ou 5ª jornada. Este valor pode ser NULL quando a data ocorre fora das datas em que ocorrem rondas.
         Round Time Indicator - Atributo usado para determinar a posição relativa da data em relação ao período da época, aceitando valores varchar e variando o seu valor entre "start", "ongoing" e "finish", para identificar se se trata da primeira ronda, ronda intermédia ou última ronda da época respectivamente. Este valor pode ser NULL quando a data ocorre fora das datas em que ocorrem rondas.
-        Is Round Publication Date - Atributo usado para determinar se a data em questão é uma data de publicação de resultados obtidos na ronda, aceitando valores de tipo Boolean.
+	Round Includes Classic Match - Atributo usado para identificar se a ronda a que a data corresponde inclui um clássico - jogo entre 2 dos 3 grandes (Benfica, Sporting e FC Porto).
+        Is Round Publication Date - Atributo usado para determinar se a data em questão é uma data de publicação de resultados obtidos na ronda, aceitando valores de tipo Boolean (true/false).
+	Is Before Game Starts - valor Boolean (true/false) indicando se a data em questão é uma data da época anterior ao começo das rondas, o que costuma acontecer durante os meses de julho e agosto
+	Is After Game Starts - valor Boolean (true/false) indicando se a data em questão é uma data da época posterior ao fim das rondas, o que costuma acontecer durante os o final de maio e o mês de junho
+	Is Winter Transfer Season - valor Boolean (true/false) indicando se a data em questão é uma data em que é permitido fazer compras e vendas de jogadores em volume superior ao normal (6 ao longo do período de transferência em vez do habitual 1 ou 2 por mês). Ocorre durante o mês de fevereiro
         Turn - Atributo usado para determinar se o dia corresponde a primeira ou segunda volta. Aceita valores int de 1 a 2, correspondendo a 1 e 2 volta respectivamente. 
         Turn Indicator - Atributo usado para determinar a posiçao relativa da data em relação ao período de tempo compreendido entre o início e o fim da volta. Aceita valores varchar, variando entre "start", "ongoing" e finish, para identificar se se trata da primeira ronda, ronda intermédia ou última ronda da época respectivamente.
         Online Game Process Indicator - Atributo usado para determinar a posição relativa da data em relação a duração do jogo online. Toma valores varchar, variando o seu valor entre "before", "during" ou "after", para identificar se a data corresponde a um período de tempo, antes, durante ou depois do período de tempo normal do jogo online. O início costuma registar-se entre os meses de julho e agosto, e o fim entre o final de maio e o mês de junho.
         Is Winter Transfer Season - Atributo usado para identificar se a data em questão corresponde a uma data durante a qual é permitido fazer compras/vendas de jogadores em volume superior ao normal (6 ao longo do período de transferência em vez do habitual 1 ou 2 por mês). Ocorre durante o mês de fevereiro, tomando valores de tipo boolean para identificar a aplicabilidade da data.
         
-Faltam atributos que têm que existir:
-
-* is_before_game_starts: pode chamar-se "Is Before Game Starts" - valor booleano (true/false) indicando se a data em questão é uma data da época anterior ao começo das rondas, o que costuma acontecer durante os meses de julho e agosto
-* is_after_game_ends: pode chamar-se "Is After Game Starts" - valor booleano (true/false) indicando se a data em questão é uma data da época posterior ao fim das rondas, o que costuma acontecer durante os o final de maio e o mês de junho
-* is_winter_transfer_season: pode chamar-se "Is Winter Transfer Season" - valor booleano (true/false) indicando se a data em questão é uma data em que é permitido fazer compras e vendas de jogadores em volume superior ao normal (6 ao longo do período de transferência em vez do habitual 1 ou 2 por mês). Ocorre durante o mês de fevereiro
-
-
     Hierarquias:
         Hierarquia fixa para:
             Full > Year > Month, Calendar Month > Day
@@ -84,8 +80,8 @@ Uma vez que o jogo da liga record segue o campeonato da português da 1ª liga d
         Season Name - Atributo representativo da época em formato varchar. Exemplo "2018/19".
 	Season Start Date - Atributo do tipo datetime indicando a data em que a temporada começa - o que ocorre no dia 1 de julho de cada ano. Exemplo "2018-07-01".
 	Season End Date - Atributo do tipo datetime indicando a data em que a temporada termina - o que ocorre no dia 30 de junho de cada ano. Exemplo "2018-06-30".
-	Season Has Updated Game Version - Atributo do tipo booleano (true/false) que indica se na temporada em questão é usada uma versão actual do site da liga record ou se ocorre antes da última remodelação. Esta remodelação ocorreu na época 2015/16.
-	Season Has Variable Weekday Publish Date - Atributo do tipo booleano (true/false) que indica se na temporada em questão a data de publicação de resultados de cada ronda é fixa num dia da semana ou se depende depende da datas datas em que são jogadas as datas da 1ª liga. Antes da temporada 2016/17 (inclusivé), estes dias eram fixos (à quarta-feira), depois passaram a ser variáveis. 
+	Season Has Updated Game Version - Atributo do tipo Boolean (true/false) que indica se na temporada em questão é usada uma versão actual do site da liga record ou se ocorre antes da última remodelação. Esta remodelação ocorreu na época 2015/16.
+	Season Has Variable Weekday Publish Date - Atributo do tipo Boolean (true/false) que indica se na temporada em questão a data de publicação de resultados de cada ronda é fixa num dia da semana ou se depende depende da datas datas em que são jogadas as datas da 1ª liga. Antes da temporada 2016/17 (inclusivé), estes dias eram fixos (à quarta-feira), depois passaram a ser variáveis. 
 	Team Player Transfer Allowed Per Month - Atributo do tipo inteiro (1 ou 2) indicando quantas transferências de jogadores (venda de um e compra de outro) numa equipa são permitidas por mês. Até 2016/17 (inclusivé) era permitida apenas uma transferência mensal, depois passou a ser quinzenal.
 
     Hierarquias:
