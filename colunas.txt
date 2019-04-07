@@ -53,6 +53,35 @@ Dimension Date
     #   Conseguimos informação se algum dos clássicos está a jogar?    
     Date Game Popular 
     
+Dimension User
+
+    User Key (PK)
+    User Original Key
+    User Email
+    User Nickname
+    User Birthdate
+    User Gender
+    User Club
+    User Region
+    User Zipcode Locality
+    User Zipcode Locality Designation
+    User Locality
+    User County
+    User District
+    User Country
+    User Original Start Date
+    User Season Start Date
+    User Premium Date
+    User Agegroup
+    User Is In League
+    Effective Date Row
+    Expiration Date Row
+    Timestamp Row
+    Is Current Row
+ 
+    
+    
+    
     
     
 
