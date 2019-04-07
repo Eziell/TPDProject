@@ -51,22 +51,19 @@
         Date Weekend Indicator - Atributo usado para determinar se o dia corresponde a um fim de semana ou não aceitando valores de tipo Boolean.
         Date Holiday Indicator - Atributo usado para determinar se o dia corresponde a um feriado ou não aceitando valores de tipo Boolean.
         Date Round Number - Atributo usado para determinar o número da ronda corrente, aceitando valores int compreendendo 1 e o número de rondas na Época.
-        DAte Round Indicator - Atributo usado para determinar a posição relativa da data em relação ao período da época, aceitando valores varchar e variando o seu valor entre "start", "ongoing" e "finish", para identificar o começo, meio e fim da ronda respectivamente.
-        Date Season Number - Atributo usado para determinar o número da 
-        época corrente, aceintando valores int desde 1.
+        Date Round Indicator - Atributo usado para determinar a posição relativa da data em relação ao período da época, aceitando valores varchar e variando o seu valor entre "start", "ongoing" e "finish", para identificar o começo, meio e fim da ronda respectivamente.
+        Date Season Number - Atributo usado para determinar o número da época corrente, aceintando valores int desde 1 até 34.
         Date Season Indicator - Atributo usado para determinar a posição relativa da data em relação ao período da época, aceitando valores varchar e variando o seu valor entre "start", "ongoing", "finish" e "outside", para identificar o começo, meio, fim ou fora de época respectivamente. Jogos fora de época são pouco comuns mas podem ocorrer dado que pode haver interesse em manter registo desta dimensão.
         Date Game Indicator - Atributo usado para determinar a posição relativa da data em relação a partidas de futebol reais. Aceita valores varchar e varia entre "before", "current", "after", para determinar se corresponde ao dia anterior, corrente, ou procendente a uma determinada partida.
-        Date Game Popular - Atributo usado para determinar se o dia está próximo (1 dia de distância) de um jogo em que pelo menos um dos concorrentes corresponda a um clube popular. Aceita valores boolean.
+        Date Turn - Atributo usado para determinar se o dia corresponde a primeira ou segunda volta. Aceita valores int de 1 a 2, correspondendo a 1 e 2 volta respectivamente. 
+        Date Turn Indicator - Atributo usado para determinar a posiçao relativa da data em relação ao período de tempo compreendido entre o início e o fim da volta. Aceita valores varchar, variando entre "start", "ongoing" e finish, para identifcar o começo, meio ou fim da volta.
     Hierarquias:
         Hierarquia fixa para:
             Date Full > Date Year > Date Month, Date Calendar Month > Date Day
-        Hierarquia fixa para:
-            Date Season Number > Date Round Number
         Hierarquia fixa para: 
             Date Round Number > Date Round Indicator
         Hierarquia fixa para: 
             Date Season Number > Date Season Indicator
-        
 
 
 	
