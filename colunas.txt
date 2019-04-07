@@ -37,6 +37,7 @@ Dimension Date
     Date Day
     Date Day ? 
     Date Weekday
+    Date Calendar Weekday
     Date Month
     Date Calendar Month
     Date Year
@@ -45,7 +46,7 @@ Dimension Date
     Date Holiday Indicator
     Date Round Number
     Date Round Indicator
-    Date Season Indicator
+    Date Season Number
     #   Dado que existe uma jornada durante o inverno e outra durante o verão correto?
     Date Season Indicator
     Date Game Indicator
