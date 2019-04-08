@@ -87,12 +87,12 @@ Uma vez que o jogo da liga record segue o campeonato da português da 1ª liga d
     Hierarquias:
         Não tem
 
-5.2.2   Tabela Team
+5.2.3   Tabela Team
 
 A tabela de dimensões Team está relacionada com a tabela de factos Team_Round.
 
     Atributos:
-        Team Key - Chave Primária da tabela team, como tal identifica cada dimensão de forma única, garantido segurança estrutural. Este atributo é do tipo inteiro representando a temporada em questão. Exemplo: 201819.
+        Team Key - Chave Primária da tabela team, como tal identifica cada dimensão de forma única, garantido segurança estrutural. Este atributo é do tipo inteiro representando a equipa em questão. Exemplo: 5447.
 	Team Original Key - Atributo representativo da chave da equipa no sistema original, em formato int.
         Team Name - Atributo representativo da equipa em formato varchar. Exemplo "Gama Team".
 	Team Create Date - Atributo do tipo datetime indicando a data em que a equipa foi criada. Exemplo "2017-02-15".
