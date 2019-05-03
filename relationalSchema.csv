@@ -1,0 +1,7 @@
+user	;id	nickname	birthdate	address	phone	id_gender	id_club	id_region	date_start
+team	;id	id_user	name	code	id_origin	lastupdate
+keys	;id	name	is_paid
+league	;id	name	id_owner
+teamLeaguePrivateCleanup	;id_league	id_team	lastupdate	>>primaryKey==False
+rounds	;id	date_end_bets	date_publish
+userLoginCleanup	;id	id_user	timestamp
