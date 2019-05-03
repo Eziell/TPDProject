@@ -1,0 +1,104 @@
+﻿5.1	Tabelas de factos
+
+5.1.1 	Tabela de factos logins
+    Grão – Cada linha na tabela de factos de logins irá corresponder à contagem de logins por dia e utilizador.
+    Com esta informação vai ser possível quantificar quais os dias que despertam mais interesse por parte dos concorrentes. 
+    Por exemplo, espectável que as datas de fecho de ronda (principalmente a primeira), datas de publicação de resultados e datas em que é possível fazer troca de jogadores do plantel em fevereiro (mercado de inverno) sejam as mais participadas. Esta tabela permite-nos fazer essa quantificação.
+    Se não iniciar sessão - Se o utilizador não fizer login não vai constar nos factos para o dia. 
+    Tipo da tabela de factos – Como os factos são registados em períodos fixos de um dia, o grão correspondendo a uma linha por dia, o carregamento de factos feito apenas por inserções, a actualização dos mesmos inexistente, a dimensão data registada correspodendo ao fim do período e com os factos representando o número de logins por período, esta pode ser considerada sem dúvidas de tipo Instantânea Periódica.
+    Medidas – A única medida presente está no attributo Login Count, que corresponde ao número de logins (delimitados por início e fim de sessão) durante o período de um dia.Existem dois cenários possíveis nesta medida:
+    Se iniciar sessão - Um utilizador que inicie sessão pode permanecer com a sessão ligada durante o dia inteiro, no entanto é comum utilizadores que interrompam a sua sessão sistematicamente ao longo do dia dado que podem existir vários logins por dia para um determinado dia.
+    Chaves estrangeiras:
+        Season Key (FK) – Chave estrangeira, liga a dimensão Season para identificar a Época corrente no jogo online.
+        Date Key (FK) – Chave estrangeira, liga a dimensão data de modo a caracterizar temporalmente o facto, junto com outras informações qualitativas que podem eventualmente ser pertinentes para possíveis questões analíticas (corresponde a fim de semana? Semana? Feriado?).
+        User Key (FK) – Chave estrangeira, liga dimensão user associando toda a informação de um user ao facto registado.
+        User Original (FK NK) – Chave estrangeira supernatural, liga de novo a dimensão user como uma chave mais “resistente”, na enventualiade e possibilidade de identificar o mesmo utilizador registado com dados diferentes.
+
+
+5.1.2 	Tabela de factos Team Details
+    Regista o valor e resultados de cada equipa por ronda.
+    Grão – Cada linha na tabela corresponde aos resultados obtidos e valor da equipa em determinada ronda. Estes dados são gerados nas datas de publicação de cada ronda (que, uma vez que estas correspondem a jornadas do campeonato nacional da 1ª liga de futebol, acontece um número pré-determinado de vezes em datas de intervalos diferentes mas conhecidos à partida) e sempre que é necessária alguma correcção a resultados previamente publicados. 
+    Tipo da tabela de factos – Como foi referido, os dados são registados em datas pré-determinadas mas com intervalos variados.Os dados já publicados podem ter que ser actualizados em 2 circunstâncias: sempre que há um jogo diferido (realizado depois da data oficial da jornada) ou quando é aceite alguma reclamação relativa a pontos atribuídos a alguma equipa dos concorrentes. Em ambos os casos, a data da actualização não é conhecida à partida. A data de publicação mantém-se a mesma, apenas mudam os valores quantitativos da tabela. Tendo em conta o que foi descrito, esta trata-se de uma tabela de factos Instantânea Comulativa.
+    Medidas:
+        Team Points Round – Pontos obtidos pela equipa na ronda considerada. Não havendo reclamações, mantém-se inalterada mesmo que o registo sofra actualizações devido a recálculo de pontuações gerais por jogos diferidos.
+        Team Points Total – Pontos obtidos pela equipa desde o início do jogo e necessários para integrar a equipa na classificação geral. Estes pontos são actualizados sempre que sejam aceites reclamações ou que haja resultados decorrentes de jogos diferidos.
+        Team Rank Round – Posição da equipa na ronda considerada. Esta posição é conseguida pela ordenação da pontuação obtida na ronda e, em caso de empate, por regras inerentes ao jogo. Tal como os pontos na ronda, o valor obtido no registo inicial só é recalculado caso haja alguma reclamação de um concorrente que seja aceite.
+        Team Rank Total – Posição da equipa na classificação geral. Esta posição conseguida pela ordenação da pontuação geral e, em caso de empate, por regras de desempate próprias (diferentes das usadas na obtenção da posição na ronda). É actualizada nas mesmas circustâncias da coluna Team Points Total.
+        Utilized Team Players Value – Soma dos valores de aquizição dos jogadores esolhidos para entrar em campo na ronda em questão. Este valor ser considerado nas perguntas analíticas para avaliar se a obtenção de melhores resultados tem relação com equipas mais caras . 
+    Chaves estrangeiras:
+        Season Key (FK) – Chave estrangeira, liga à dimensão que representa a temporada (season) na qual os concorrentes estão a pontuar com as suas equipas.
+        Date Key (FK) – Chave estrangeira, liga à dimensão data que corresponde à data de publicação de resultados da ronda considerada.
+        Team Key (FK) – Chave estrangeira, liga à dimensão que representa a equipa que originou os resultados apresentados nas medidas.
+        User Key (FK) – Chave estrangeira, liga à dimensão que representa o concorrente (user) associando os resultados obtidos na ronda por uma determinada equipa a um concorrente específico.
+        User Original Key (FK NK) – Chave estrangeira supernatural. Usada para identificar o concorrente através da sua chave original. Desta forma, mesmo sendo este um registo de factos já passados, temos sempre uma forma rápida de obter os dados mais recentes do concorrente.
+        Hierarquias – A única Hierarquia presente na tabela de factos logins é a relação representada entre a User Key e a User Original Key.
+        User Original Key (FK NK) agrega uma nova User Key (FK) por temporada (season).
+
+5.2 Tabelas de Dimensões
+
+5.2.1   Tabela Date
+
+    Como é esperado da tabela de dimensões Date é comum às duas tabelas de factos. Além de determinar parte do grão das tabelas de factos, limitando cada linha ao período de tempo de um dia para cada facto, guarda atributos relevantes para possíveis para questões analíticas como datas de eventos interessantes ou de dias de folga, no entanto a razão de cada vai ser abordado na seccão procedente.
+    Atributos:
+        Key (PK)- Chave Primária da tabela date, como tal identifica cada dimensão de forma única, garantido segurança estrutural. Este atributo é to tipo inteiro representando a data em questão. Exemplo: 20190401.
+        Day - Atributo data em formato datetime para permitir comparações entre datas. Ex: "2019-04-01"
+        Day Of Month - Atributo representativo do dia, os valores de tipo int compreendem qualquer valor entre 1 e 31. 
+        Weekday - Atributo representativo do dia da semana, os valores de tipo int compreendem qualquer valor entre 1 e 7, com 1 a corresponder a uma segunda-feira e 7 a domingo.
+        Calendar Weekday - Atributo representativo do dia da semana, igual ao atributo Weekday em significado mas aceitando valores de tipo varchar, escrito por extenso desde "segunda-feira" a "domingo".  
+        Month - Atributo representativo do mês, os valores de tipo int compreendem qualquer valor entre 1 e 12, com 1 a corresponder ao mês de Janeiro e 12 ao mês de dezembro.
+        Calendar Month - Atributo representativo do dia do mês, em significado igual ao atributo Month mas aceitando valores varchar, escrito por extenso desde "janeiro" a "dezembro". 
+        Year - Atributo representativo do dia do ano, aceitando valores de tipo int.
+        Full - Atributo representativo da data completa. Uma dimensão degenerada, junta os valores de Day, Month, e Year para formar um valor de tipo Datetime.
+        Weekend Indicator - Atributo usado para determinar se o dia corresponde a um fim de semana ou não. Aceitando valores de tipo Boolean (true/false).
+        Holiday Indicator - Atributo usado para determinar se o dia corresponde a um feriado ou não aceitando valores de tipo Boolean (true/false).
+        Round Number - Atributo usado para determinar o número da ronda corrente, aceitando valores int desde 1 até 31. Apesar das Jornadas a que as rondas correspondem serem 34, a rondas da liga record só começam depois do fecho do mercado de Verão de jogadores, pelo que podem começar na 4ª ou 5ª jornada. Este valor pode ser NULL quando a data ocorre fora das datas em que ocorrem rondas.
+        Round Time Indicator - Atributo usado para determinar a posição relativa da data em relação ao período da época, aceitando valores varchar e variando o seu valor entre "start", "ongoing" e "finish", para identificar se se trata da primeira ronda, ronda intermédia ou última ronda da época respectivamente. Este valor pode ser NULL quando a data ocorre fora das datas em que ocorrem rondas.
+	Round Includes Classic Match - Atributo usado para identificar se a ronda a que a data corresponde inclui um clássico - jogo entre 2 dos 3 grandes (Benfica, Sporting e FC Porto).
+        Is Round Publication Date - Atributo usado para determinar se a data em questão é uma data de publicação de resultados obtidos na ronda, aceitando valores de tipo Boolean (true/false).
+	Is Before Game Starts - valor Boolean (true/false) indicando se a data em questão é uma data da época anterior ao começo das rondas, o que costuma acontecer durante os meses de julho e agosto
+	Is After Game Starts - valor Boolean (true/false) indicando se a data em questão é uma data da época posterior ao fim das rondas, o que costuma acontecer durante os o final de maio e o mês de junho
+	Is Winter Transfer Season - valor Boolean (true/false) indicando se a data em questão é uma data em que é permitido fazer compras e vendas de jogadores em volume superior ao normal (6 ao longo do período de transferência em vez do habitual 1 ou 2 por mês). Ocorre durante o mês de fevereiro
+        Turn - Atributo usado para determinar se o dia corresponde a primeira ou segunda volta. Aceita valores int de 1 a 2, correspondendo a 1 e 2 volta respectivamente. 
+        Turn Indicator - Atributo usado para determinar a posiçao relativa da data em relação ao período de tempo compreendido entre o início e o fim da volta. Aceita valores varchar, variando entre "start", "ongoing" e finish, para identificar se se trata da primeira ronda, ronda intermédia ou última ronda da época respectivamente.
+        Online Game Process Indicator - Atributo usado para determinar a posição relativa da data em relação a duração do jogo online. Toma valores varchar, variando o seu valor entre "before", "during" ou "after", para identificar se a data corresponde a um período de tempo, antes, durante ou depois do período de tempo normal do jogo online. O início costuma registar-se entre os meses de julho e agosto, e o fim entre o final de maio e o mês de junho.
+        Is Winter Transfer Season - Atributo usado para identificar se a data em questão corresponde a uma data durante a qual é permitido fazer compras/vendas de jogadores em volume superior ao normal (6 ao longo do período de transferência em vez do habitual 1 ou 2 por mês). Ocorre durante o mês de fevereiro, tomando valores de tipo boolean para identificar a aplicabilidade da data.
+        
+    Hierarquias:
+        Hierarquia fixa para:
+            Full > Year > Month, Calendar Month > Day
+        Hierarquia fixa para: 
+            Round Number > Round Indicator
+
+
+	
+5.2.2   Tabela Season
+
+Uma vez que o jogo da liga record segue o campeonato da português da 1ª liga de futebol, que funciona por temporada (começando em agosto e terminando em maio), também aqui temos um funcionamento em temporadas, sendo que é no final de cada uma que são verificados os resultados totais obtidos pelas equipas e atribuídos os prémios principais.
+
+    Atributos:
+        Season Key - Chave Primária da tabela season, como tal identifica cada dimensão de forma única, garantido segurança estrutural. Este atributo é to tipo inteiro representando a temporada em questão. Exemplo: 201819.
+        Season Name - Atributo representativo da época em formato varchar. Exemplo "2018/19".
+	Season Start Date - Atributo do tipo datetime indicando a data em que a temporada começa - o que ocorre no dia 1 de julho de cada ano. Exemplo "2018-07-01".
+	Season End Date - Atributo do tipo datetime indicando a data em que a temporada termina - o que ocorre no dia 30 de junho de cada ano. Exemplo "2018-06-30".
+	Season Has Updated Game Version - Atributo do tipo Boolean (true/false) que indica se na temporada em questão é usada uma versão actual do site da liga record ou se ocorre antes da última remodelação. Esta remodelação ocorreu na época 2015/16.
+	Season Has Variable Weekday Publish Date - Atributo do tipo Boolean (true/false) que indica se na temporada em questão a data de publicação de resultados de cada ronda é fixa num dia da semana ou se depende depende da datas datas em que são jogadas as datas da 1ª liga. Antes da temporada 2016/17 (inclusivé), estes dias eram fixos (à quarta-feira), depois passaram a ser variáveis. 
+	Team Player Transfer Allowed Per Month - Atributo do tipo inteiro (1 ou 2) indicando quantas transferências de jogadores (venda de um e compra de outro) numa equipa são permitidas por mês. Até 2016/17 (inclusivé) era permitida apenas uma transferência mensal, depois passou a ser quinzenal.
+
+    Hierarquias:
+        Não tem
+
+5.2.3   Tabela Team
+
+A tabela de dimensões Team está relacionada com a tabela de factos Team_Round.
+
+    Atributos:
+        Team Key - Chave Primária da tabela team, como tal identifica cada dimensão de forma única, garantido segurança estrutural. Este atributo é do tipo inteiro representando a equipa em questão. Exemplo: 5447.
+	Team Original Key - Atributo representativo da chave da equipa no sistema original, em formato int.
+        Team Name - Atributo representativo da equipa em formato varchar. Exemplo "Gama Team".
+	Team Create Date - Atributo do tipo datetime indicando a data em que a equipa foi criada. Exemplo "2017-02-15".
+	Team Origin - Atributo do tipo varchar indicando a origem do código usado para obter a equipa. Exemplo "REVISTA".
+	Team Is Paid - Atributo do tipo Boolean (true/false) que indica se a equipa é paga ou gratuita.
+	Team In League - Atributo do tipo Boolean (true/false) que indica se a equipa, numa certa temporada, participa numa liga privada.
+
+    Hierarquias:
+        Não tem
