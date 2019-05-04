@@ -1,0 +1,9 @@
+user	;	id	nickname	birthdate	address	agegroup	gender	club	region	startdate
+rounds	;	season	order	start_date	end_date	publish_date
+rounds_teams	;	season	id_team	order_round	team_name	team_points_round	team_points_total	team_rank_round	team_rank_total	team_value
+teams	;	season	id	name	createdate	origin	is_paid	round_start	id_user
+user_details_logins	;	season	id_user	round_order	premiumdate	in_league	logins_round	logins_sunday	logins_monday	logins_tuesday	logins_wednesday	logins_thursday	logins_friday	logins_saturday
+codigos_postais	;	cod_distrito	cod_concelho	cod_localidade	nome_localidade	num_cod_postal	ext_cod_postal	desig_postal
+concelhos	;	cod_concelho	nome_concelho	cod_distrito
+distritos	;	cod_distrito	nome_distrito
+holidays	;	day	feriado

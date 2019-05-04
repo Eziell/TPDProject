@@ -3,7 +3,7 @@ from datetime import datetime
 # Extraction
 # Reading Files
 
-def structureReader(path='relationalSchema.csv', enc='cp850'):
+def structureReader(path='TPD-CSV/relationalSchema.csv', enc='cp850'):
     with open(path, 'r', encoding=enc) as f:
         structure = f.readlines()
         structureDict = dict()
@@ -91,7 +91,7 @@ def csvReader(path, struc, ignore=False, enc='cp850', cleanOutput=False):
         
 
 
-#teste = csvReader('TPD-CSV/concorrentes.csv')
+#teste = csvReader('TPD-CSV/user.csv')
 #print(teste[1].keys())
 # Cleanup functions, its aims are:
 #   checking and converting collumn contents
@@ -101,28 +101,16 @@ def csvReader(path, struc, ignore=False, enc='cp850', cleanOutput=False):
 #   organizing data according 
 
 
-# output can be found in relationalSchema.csv
+# output can be found in TPD-CSV/relationalSchema.csv
 # first column corresponds to tabl name,  proceeded by column names.
 # non-default parameters can be specified in the end of the list starting with an '>>' identifier.
-def relationalSchemaConfig(path='relationalSchema.csv'):
+def relationalSchemaConfig(path='TPD-CSV/relationalSchema.csv'):
     config = dict()
-    config['user'] = ['id', 'nickname', 'birthdate', 'address', 'phone', 'id_gender', 'id_club', 'id_region', 'date_start']
-    config['team'] = ['id', 'id_user', 'name', 'code', 'id_origin', 'lastupdate']
-    config['keys'] = ['id', 'name', 'is_paid']
-    config['league'] = ['id', 'name', 'id_owner']
-    config['teamLeaguePrivate'] = ['id_league', 'id_team', 'lastupdate', '>>primaryKey==False']
-    config['round'] = ['id', 'date_end_bets', 'date_publish']
-    config['userLogin'] = ['id', 'id_user', 'timestamp']
-    config['r_club'] = ['id', 'name']
-    config['r_gender'] = ['id', 'name']
-    config['r_player'] = ['id', 'name']
-    config['r_playerposition'] = ['id', 'name']
-    config['r_round'] = ['id', 'order', 'name', 'id_round', 'date_start', 'date_end']
-    config['r_region'] = ['id', 'name']
-    config['cache_player_round'] = ['id_player', 'id_round', 'rank', 'points_round', 'points_total', 'value']
-    config['cache_team_round'] = ['id_team', 'id_round', 'points_round', 'rank_round', 'points_total', 'rank_total', 'value_playing_players', 'value_team_complete']
-    config['cache_player_team_round'] = ['id_team', 'id_player', 'id_round', 'is_playing', 'default_value']
-    config['game'] = ['id', 'id_home_team', 'id_visitor_team', 'goals_home_team', 'goals_visitor_team', 'date_start']
+    config['user'] = ['id', 'nickname', 'birthdate', 'address', 'agegroup', 'gender', 'club', 'region', 'startdate']
+    config['rounds'] = ['season', 'order', 'start_date', 'end_date', 'publish_date']
+    config['rounds_teams'] = ['season', 'id_team', 'order_round', 'team_name', 'team_points_round', 'team_points_total', 'team_rank_round', 'team_rank_total', 'team_value']
+    config['teams'] = ['season', 'id', 'name', 'createdate', 'origin', 'is_paid', 'round_start', 'id_user']
+    config['user_details_logins'] = ['season', 'id_user', 'round_order', 'premiumdate', 'in_league', 'logins_round', 'logins_sunday', 'logins_monday','logins_tuesday', 'logins_wednesday', 'logins_thursday', 'logins_friday', 'logins_saturday']
     config['codigos_postais'] = ['cod_distrito', 'cod_concelho', 'cod_localidade', 'nome_localidade', 'num_cod_postal', 'ext_cod_postal', 'desig_postal']
     config['concelhos'] = ['cod_concelho', 'nome_concelho', 'cod_distrito']
     config['distritos'] = ['cod_distrito', 'nome_distrito']
@@ -184,89 +172,30 @@ def tableCleanup(table, tableType, keys, ignoreDuplicates = True, primaryKey=Tru
                 line['nickname'] = str(line['nickname']).rstrip()
                 line['birthdate'] = datetime.strptime(line['birthdate'].split(' ')[0], dateFormat)
                 line['address'] = str(line['address']).rstrip()
-                line['phone'] = int(line['phone'])
-                line['id_gender'] = int(line['id_gender'])
-                line['id_club'] = int(line['id_club'])
-                line['id_region'] = int(line['id_region'])
-                line['date_start'] = datetime.strptime(line['date_start'].split(' ')[0], dateFormat)
-            elif tableType == 'team':
+                line['agegroup'] = str(line['agegroup']).rstrip()
+                line['gender'] = str(line['id_gender']).rstrip()
+                line['club'] = str(line['id_club']).rstrip()
+                line['region'] = str(line['id_region']).rstrip()
+                line['startdate'] = datetime.strptime(line['date_start'].split(' ')[0], dateFormat)
+            elif tableType == 'rounds':
                 line['id'] = int(line['id'])
                 line['id_user'] = int(line['id_user'])
                 line['name'] = str(line['name']).rstrip()
                 line['code'] = str(line['code']).rstrip()
                 line['id_origin'] = int(line['id_origin'])
                 line['lastupdate'] = datetime.strptime(line['lastupdate'].split(' ')[0], dateFormat)
-            elif tableType == 'teamOrigin':
+            elif tableType == 'rounds_teams':
                 line['id'] = int(line['id'])
                 line['name'] = str(line['name']).rstrip()
                 line['is_paid'] = bool(line['is_paid'])
-            elif tableType == 'league':
+            elif tableType == 'teams':
                 line['id'] = int(line['id'])
                 line['name'] = str(line['name']).rstrip()
                 line['id_owner'] = int(line['id_owner'])
-            elif tableType == 'teamLeaguePrivate':
+            elif tableType == 'user_details_logins':
                 line['id_league'] = int(line['id_league'])
                 line['id_team'] = str(line['id_team']).rstrip()
                 line['lastupdate'] = int(line['lastupdate'])
-            elif tableType == 'round':
-                line['id'] = int(line['id'])
-                line['date_end_bets'] = datetime.strptime(line['date_publish'].split(' ')[0], dateFormat)
-                line['date_publish'] = datetime.strptime(line['date_publish'].split(' ')[0], dateFormat)
-            elif tableType == 'userLogin':
-                line['id'] = int(line['id'])
-                line['id_user'] = int(line['id_user'])
-                line['timestamp'] = datetime.strptime(line['timestamp'].split(' ')[0], dateFormat)
-            elif tableType == 'r_club':
-                line['id'] = int(line['id'])
-                line['name'] = str(line['name'])
-            elif tableType == 'r_gender':
-                line['id'] = int(line['id'])
-                line['name'] = str(line['name'])
-            elif tableType == 'r_player':
-                line['id'] = int(line['id'])
-                line['name'] = str(line['name'])
-            elif tableType == 'r_playerposition':
-                line['id'] = int(line['id'])
-                line['name'] = str(line['name'])
-            elif tableType == 'r_round':
-                line['id'] = int(line['id'])
-                line['order'] = int(line['order'])
-                line['name'] = str(line['name']).rstrip()
-                line['id_round'] = int(line['id_round'])
-                line['date_start'] = datetime.strptime(line['date_start'].split(' ')[0], dateFormat)
-                line['date_end'] = datetime.strptime(line['date_end'].split(' ')[0], dateFormat)
-            elif tableType == 'r_region':
-                line['id'] = str(line['id']).rstrip()
-                line['name'] = str(line['name']).rstrip()
-            elif tableType == 'cache_player_round':
-                line['id_player'] = int(line['id_player'])
-                line['id_round'] = int(line['id_round'])
-                line['rank'] = int(line['rank'])
-                line['points_round'] = int(line['points_round'])
-                line['points_total'] = int(line['points_total'])
-                line['value'] = int(line['value'])
-            elif tableType == 'cache_team_round':
-                line['id_team'] = int(line['id_team'])
-                line['id_round'] = int(line['id_round'])
-                line['points_round'] = int(line['points_round'])
-                line['rank_round'] = int(line['rank_round'])
-                line['points_total'] = int(line['points_total'])
-                line['rank_total'] = int(line['rank_total'])
-                line['value_playing_players'] = int(line['value_playing_players'])
-                line['value_team_complete'] = int(line['value_team_complete'])
-            elif tableType == 'cache_player_team_round':
-                line['id_team'] = int(line['id_team'])
-                line['id_player'] = int(line['id_player'])
-                line['id_round'] = int(line['id_round'])
-                line['is_playing'] = bool(line['is_playing'])
-                line['default_value'] = int(line['default_value'])
-            elif tableType == 'game':
-                line['id'] = int(line['id'])
-                line['id_home_team'] = int(line['id_home_team'])
-                line['id_visitor_team'] = int(line['id_visitor_team'])
-                line['goals_home_team'] = int(line['goals_home_team'])
-                line['goals_visitor_team'] = int(line['goals_visitor_team'])
-                line['date_start'] = datetime.strptime(line['date_start'].split(' ')[0], dateFormat)
             elif tableType == 'codigos_postais':
                 line['cod_distrito'] = int(line['cod_distrito'])
                 line['cod_concelho'] = int(line['cod_concelho'])

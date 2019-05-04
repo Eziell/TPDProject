@@ -1,0 +1,1001 @@
+id	nickname	birthdate	address	agegroup	gender	club	region	startdate
+760460	morggy	1973-01-09 00:00:00.000	Lisboa   , 1100-510 Lisboa - Portugal	45-54	Feminino  	NULL	Portalegre	2012-08-01 22:53:54.947
+760461	paulonunes	1978-07-23 00:00:00.000	, 2810-399 Almada - Portugal	35-44	Masculino 	NULL	Lisboa	2011-07-27 12:07:10.997
+760462	D'anie	1980-01-01 00:00:00.000	 lx - Afeganist�o	35-44	Feminino  	Beira-Mar	Beja	2014-09-08 13:54:39.440
+760464	Rogerajato	1973-10-09 00:00:00.000	Rua 1 de maio , 6, 6230-339 Fundao - Portugal	45-54	Feminino  	Benfica	Castelo Branco	2011-08-31 22:10:04.253
+760465	Renato Ala	1973-01-01 00:00:00.000	, 8800-397 Tavira - Portugal	45-54	Masculino 	Sporting	Faro	2013-09-13 13:36:33.607
+760466	rogers_SLB	1976-11-11 00:00:00.000	pracete antonio gedeao , 15 - 1 Dt, 2635-002 rio de mouro - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-07-31 17:29:15.033
+760469	picaacueca	1991-10-10 00:00:00.000	, 2125-341 Muge - Portugal	25-34	Masculino 	Sporting	Santar�m	2011-08-09 22:23:38.543
+760471	Bsalvas	1976-01-01 00:00:00.000	, 2865-000 Seixal - Portugal	35-44	Masculino 	Benfica	Set�bal	2012-09-03 14:37:05.470
+760472	ZIMBORA ALHANDRA	1976-03-03 00:00:00.000	sitio campina de cima urb campinas park bl B 1 esq letra M B - 1 ESQ, 8100-000 Loul� - Portugal	35-44	Feminino  	Benfica	Faro	2012-09-17 17:23:45.770
+760473	el Silveron	1979-06-06 00:00:00.000	, 1200-807 Lisboa - Portugal	35-44	Masculino 	Sporting	Lisboa	2013-08-19 09:46:41.710
+760475	frances1982	1982-03-03 00:00:00.000	Rua dos Pesadores , 19 - R/C, 3060-691 Tocha - Portugal	35-44	Masculino 	Benfica	Coimbra	2012-09-25 21:04:43.253
+760478	Maior das Ilhas	1989-04-04 00:00:00.000	Rua do Alto da Torre, 42, 9300-026 C�mara de Lobos - Portugal	25-34	Masculino 	Mar�timo	Ilha da Madeira	2011-09-07 23:51:46.253
+760479	FishermanBlues	1972-09-09 00:00:00.000	Urbaniza��o Velha Fonte, 24 - 1 dt�, 2565-256 Torres Vedras - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-07-29 15:23:30.660
+760480	Hali	1987-08-08 00:00:00.000	, 8005-334 Faro - Portugal	25-34	Masculino 	Sporting	Faro	2012-08-06 10:26:16.987
+760484	A. Barrelas	1954-05-05 00:00:00.000	Rua: Roberto Ivens, 2 - 8� Dto, 2910-721 Setubal - Portugal	64	Masculino 	Benfica	Set�bal	2012-08-24 00:32:20.190
+760485	phoenix-beta	1972-05-05 00:00:00.000	, 7800-033 Beja - Portugal	45-54	Masculino 	Sporting	Beja	2013-08-03 00:55:33.723
+760488	AlexFrieza	1982-09-09 00:00:00.000	Caminho padre cateano Soares, 47, 9225-240 Porto da Cruz - Portugal	35-44	Masculino 	Mar�timo	Ilha da Madeira	2014-09-12 15:11:08.037
+760489	J. Diogo da Silva	1954-05-05 00:00:00.000	Rua Carreiro da Fonte , 34 - 1� Esq., 2350-595 Torres Novas - Portugal	64	Masculino 	Sporting	Santar�m	2014-08-04 12:50:34.887
+760492	Stive	1984-07-18 00:00:00.000	, 4870-000 Ribeira de Pena - Portugal	35-44	Masculino 	Benfica	Vila Real	2014-10-17 10:52:28.547
+760493	onnu	1978-08-09 00:00:00.000	Rua Escola de S�, 105, 4410-371 Arcozelo VNG - Portugal	35-44	Masculino 	Sem clube	Porto	2013-08-18 20:43:15.630
+760494	DelDogma	1974-12-12 00:00:00.000	, 7300-019 Portalegre - Portugal	45-54	Masculino 	Sporting	Portalegre	2012-09-24 17:40:55.200
+760496	Metadasorte	1954-07-07 00:00:00.000	Rua Falcao, 646 - 3.2, 4300-178 porto - Portugal	64	Masculino 	Benfica	Porto	2011-07-30 09:37:35.327
+760497	Ric.lobo	1983-08-08 00:00:00.000	Rua Ant�nio Vilar e David Abreu, 5 Frt  - 3, 7800-056 Beja - Portugal	35-44	Masculino 	Sporting	Beja	2014-09-11 10:12:49.527
+760498	SLBTAVIRA	1976-04-29 00:00:00.000	Av zeca\ afonso, 19 - rc eq, 8800-741 tavira - Portugal	35-44	Masculino 	Benfica	Faro	2011-07-29 15:11:13.840
+760499	capslb	1974-03-03 00:00:00.000	, 3530-117 mangualde - Portugal	45-54	Feminino  	Benfica	Viseu	2011-09-22 22:23:51.660
+760503	macsantos24	1995-07-07 00:00:00.000	, 8005-238 Faro - Portugal	15-24	Masculino 	Benfica	Faro	2014-08-19 13:15:06.247
+760505	Magda16	1989-12-12 00:00:00.000	, 2380-220 Bugalhos - Portugal	25-34	Feminino  	Benfica	Santar�m	2011-09-07 08:48:26.830
+760506	redknight	1974-05-05 00:00:00.000	, 2615-032 Alverca - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-07-30 12:02:06.547
+760514	Danidrag�o	1973-11-09 00:00:00.000	Rua Cidade nova, 130 - Rc/dt�, 4480-128 Vila do conde - Portugal	45-54	Masculino 	FC Porto	Porto	2011-07-30 20:14:48.697
+760516	ZEEUUSS	1976-02-02 00:00:00.000	, 8700-240 Olh�o - Portugal	35-44	Masculino 	Sporting	Faro	2014-08-25 15:38:55.410
+760519	Bad Boy 74	1974-12-12 00:00:00.000	rua laura aires, 17 - 1�esq., 2675-564 odivelas - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-01 10:39:50.693
+760520	n.ruivo	1977-01-01 00:00:00.000	trav do chafariz, 26 - 3 d, 2685-035 sacavem - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-10-30 18:43:55.020
+760526	balda	1964-12-12 00:00:00.000	, 6000-136 castelo branco - Portugal	55-64	Masculino 	Sporting	Castelo Branco	2012-08-21 23:27:47.537
+760527	lmmbmagalhaes	1964-08-08 00:00:00.000	Av. Cidade de Zhuhai, 6 - 5� dto, 6000-077 Castelo Branco - Portugal	55-64	Masculino 	Sporting	Castelo Branco	2013-08-23 16:45:10.360
+760529	ramos.davidalexandre	1991-07-07 00:00:00.000	, 2590-421 Sobral M�. Agra�o - Portugal	25-34	Masculino 	Benfica	Lisboa	2015-01-15 17:18:26.080
+760530	viduca	1983-12-12 00:00:00.000	Avenida Maunuel Da Fonseca , 19 esquerdo - 4, 7540-105 Santiago Do Cac�m - Portugal	35-44	Masculino 	Sporting	Set�bal	2014-08-04 18:33:52.853
+760531	Dadinho1975	1975-03-03 00:00:00.000	Rua Jos� Manuel Ribeiro Queimado, 5, 7200-175 Monsaraz - Portugal	45-54	Masculino 	Benfica	�vora	2014-08-25 00:53:21.637
+760532	frar882	1988-06-06 00:00:00.000	Rua das �rvores Lote 232, 232, 1675-098 Pontinha - Portugal	25-34	Masculino 	FC Porto	Lisboa	2013-09-13 00:31:03.600
+760534	NGomes13	1978-12-13 00:00:00.000	, 4900-431 Viana do Castelo - Portugal	35-44	Masculino 	FC Porto	Viana do Castelo	2013-08-17 16:12:02.180
+760537	Berthod	1983-03-03 00:00:00.000	Rua de Angola, 35, 7860-036 Moura - Portugal	35-44	Masculino 	Benfica	Beja	2011-08-04 21:33:38.670
+760541	pcesar	1981-03-03 00:00:00.000	Rua 5 Janeiro, 560 Drt - 2, 3720-304 Oliveira Azemeis - Portugal	35-44	Masculino 	Benfica	Aveiro	2012-01-16 12:53:42.753
+760542	nunomin	1974-04-04 00:00:00.000	, 8400-434 lagoa - Portugal	45-54	Masculino 	Benfica	Faro	2011-09-06 19:12:18.963
+760553	Latas89	1989-10-10 00:00:00.000	, 7150-000 Borba - Portugal	25-34	Masculino 	Sporting	�vora	2011-08-04 13:42:30.730
+760555	duartegonsalves	1983-05-20 00:00:00.000	, 3150-280 sebal - Portugal	35-44	Masculino 	Arouca	Coimbra	2012-12-13 23:07:09.610
+760558	AntonioLuz	1949-03-03 00:00:00.000	Com_dte Ant�nio Feio, 2800-256 Almada	64	Masculino 	Sporting	Set�bal	2011-08-03 14:20:29.403
+760560	huguitas75	1975-08-08 00:00:00.000	, 4485-049 labruge - Portugal	35-44	Masculino 	Sporting	Porto	2011-09-01 19:08:45.763
+760562	Agostinho - Poveiro	1954-06-02 00:00:00.000	Rua dos Bombeiros Volunt�rios, 547 - 2� Esq., 4490-547 P�voa de Varzim - Portugal	64	Masculino 	FC Porto	Porto	2012-08-10 15:42:00.180
+760563	Miguel2EIRNeto	1980-09-09 00:00:00.000	Rua Brigadeiro Alves de Sousa, 159 - 4.� Dto., 4590-321 Freamunde - Portugal	35-44	Masculino 	Benfica	Porto	2013-08-11 11:13:35.600
+760565	ALC	1974-11-28 00:00:00.000	P�. Lu�s de Cam�es, 15 - 3� C, 1200-243 Lisboa - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-23 16:18:17.010
+760566	A_NOBRE	1964-10-10 00:00:00.000	, 6000-040 CASTELO BRANCO - Portugal	55-64	Masculino 	Benfica	Castelo Branco	2011-07-29 10:00:28.220
+760567	sergio_Moura	1983-08-08 00:00:00.000	Urb. M� Partilha, Condom�nio Partilha Sol 2 - 2� direito, 8500-074 Alvor - Portugal	35-44	Masculino 	FC Porto	Faro	2011-08-07 23:19:17.430
+760573	Geninho66	1945-11-11 00:00:00.000	Rua D. Jo�o de Castro , 70 - R/c esq., 1300-194 LISBOA - Portugal	64	Masculino 	Belenenses	Lisboa	2011-08-20 08:25:54.937
+760574	janota	1969-12-12 00:00:00.000	, 2500-294 Caldas da Rainha - Portugal	45-54	Masculino 	Sporting	Leiria	2011-08-03 14:55:07.137
+760576	Doraemon 	1986-08-24 00:00:00.000	, 8800-397 Tavira - Portugal	25-34	Feminino  	Sporting	Faro	2014-08-12 09:55:14.983
+760577	Casilhas79	1979-06-06 00:00:00.000	Rua das Moninhas, 3, 4490-532 P�voa de Varzim - Portugal	35-44	Masculino 	FC Porto	Porto	2014-08-12 12:15:30.023
+760580	Pires_Pedro	1972-07-07 00:00:00.000	rua da amendoeira vivenda s�o fracisco, 28, 2645-244 alcabideche - Portugal	45-54	Masculino 	Estoril	Lisboa	2011-08-12 16:24:14.333
+760585	C.Barreto	1988-12-10 00:00:00.000	Rua do Cruzeiro, 41 - 3� DTO, 1300-162 Lisboa - Portugal	25-34	Masculino 	Sporting	Lisboa	2012-08-16 21:17:52.737
+760590	nikifore	1976-07-07 00:00:00.000	, 2795-500 carnaxide - Portugal	35-44	Masculino 	Sporting	Lisboa	2012-09-05 18:32:33.947
+760593	Moreira1978	1978-02-02 00:00:00.000	Rua da Pedreira, 26 - - -, 3720-296 Oliveira de Azemeis - Portugal	35-44	Masculino 	Benfica	Aveiro	2014-09-22 14:13:25.310
+760595	garcao	1979-02-02 00:00:00.000	rua francisco salgado zenha , 27 - 3� D, 2725-554 tapada merces - Portugal	35-44	Feminino  	FC Porto	Lisboa	2011-07-29 00:48:35.593
+760598	Lourinh�	1969-06-06 00:00:00.000	, 2620-149 Odivelas - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-22 17:33:33.300
+760600	FT69	1969-11-21 00:00:00.000	Rua 18 de Dezembro, 30, 2050-407 Vale do Para�so - Portugal	45-54	Masculino 	Benfica	Lisboa	2012-08-04 03:07:15.020
+760601	Zuna10	1986-03-02 00:00:00.000	, 2860-059 Alhos Vedros - Portugal	25-34	Masculino 	Sporting	Set�bal	2011-07-28 22:56:52.270
+760612	tigscardoso_623	1999-06-23 00:00:00.000	Rua Dr. Abel Varzim, Bloco 28 RC/D Rua Dr. Abel Varzim, Bloco 28 RC/D, 4750-475 Barcelos - Portugal	15-24	Masculino 	FC Porto	Braga	2014-08-11 14:05:11.787
+760615	JCGraca	1971-12-11 00:00:00.000	, 4490-402 P�voa de Varzim - Portugal	45-54	Masculino 	FC Porto	Porto	2011-08-01 18:55:53.503
+760616	johnnyferro	1971-07-07 00:00:00.000	av d. afonso v b.4 r/ch esq, 5300-121 bragan�a - Portugal	45-54	Masculino 	Sporting	Bragan�a	2011-08-12 21:24:46.390
+760617	barbaverde	1970-10-09 00:00:00.000	, 6200-254 Covilh� - Portugal	45-54	Masculino 	Sporting	Castelo Branco	2012-09-13 17:04:29.910
+760619	kuadrado3	1981-11-06 00:00:00.000	Rua Jos� Sebasti�o Cebola , 19, 7005-538 Canaviais - Portugal	35-44	Masculino 	Sporting	�vora	2011-08-12 09:13:25.333
+760620	pilon	1975-05-05 00:00:00.000	Rua Gil Eanes, 26 - rc/dto, 2860-000 Alhos -Vedros - Portugal	45-54	Masculino 	Benfica	Set�bal	2013-09-09 19:26:35.930
+760630	smmribeiro	1985-05-05 00:00:00.000	, 2765-009 estoril - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-08-22 13:47:26.153
+760631	Jo�o Gon�alo Ara�jo de Sousa	1978-04-04 00:00:00.000	Ed. Nathalie-Qta Nova-, 1 Fra��o C - Rch, 3150-225 Condeixa-a-Velha - Portugal	35-44	Masculino 	Benfica	Coimbra	2011-07-30 17:56:47.533
+760634	Alexandre8	1982-04-04 00:00:00.000	Av. Eng. Arantes e Oliveira, 859 - 3-dir, 3700-315 S.J.Madeira - Portugal	35-44	Masculino 	Benfica	Aveiro	2011-08-20 16:20:28.277
+760635	Gon�aloBarjona	1987-09-19 00:00:00.000	, 3280-116 Castanheira de Pera - Portugal	25-34	Masculino 	FC Porto	Coimbra	2011-08-02 13:13:22.280
+760638	Jos� A. Andrade	1976-05-05 00:00:00.000	travessa da vessada, 10, 4755-103 carvalhal - Portugal	35-44	Masculino 	FC Porto	Braga	2011-08-24 17:35:39.810
+760640	CanaryBird	1979-09-09 00:00:00.000	Rua A.D.O. , 40, 3880-000 Ovar - Portugal	35-44	Masculino 	Benfica	Aveiro	2012-09-18 19:11:00.337
+760641	S�rgio Fernandes	1973-12-12 00:00:00.000	R. D. Jo�o de Castro , 9 e - 1, 2860-072 Alhos Vedros - Portugal	45-54	Masculino 	Benfica	Set�bal	2011-08-29 20:31:59.203
+760642	FabioAntao	1990-10-10 00:00:00.000	, 8365-074 Algoz - Portugal	25-34	Masculino 	Sporting	Faro	2014-08-22 16:06:44.550
+760644	rumo_ao_37	1949-10-17 00:00:00.000	, 2765-023 Estoril - Portugal	64	Masculino 	Benfica	Lisboa	2013-09-09 20:38:52.973
+760647	Jonaspistolas35	1982-07-07 00:00:00.000	Travessa Fonte do Choupo n�1A 1� Esquerdo, 1A Travessa Fonte do Choupo n�1A 1� Esquerdo - 1Esq, 2300-523 Tomar - Portugal	35-44	Masculino 	Benfica	Santar�m	2014-08-05 11:57:07.420
+760650	CrazyAlbano	1979-07-07 00:00:00.000	, 4470-000 Maia - Portugal	35-44	Masculino 	FC Porto	Porto	2011-08-16 11:39:38.607
+760651	RUI227	1984-07-07 00:00:00.000	AVENIDA DO LOUREIRO, 65 A - 1 ESQ., 4765-620 del�es - Portugal	35-44	Masculino 	Benfica	Braga	2011-07-28 17:06:50.397
+760654	dasmm1978	1978-08-08 00:00:00.000	Avenida Carlos Oliveira Campos, 243 DIR - RC, 4475-692 Maia - Portugal	35-44	Masculino 	NULL	Porto	2011-07-29 14:47:32.233
+760657	Pipo29	1979-05-05 00:00:00.000	, 2660-281 Sto. Ant. Cavaleiros - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-02 15:37:48.087
+760658	gaber�	1968-01-01 00:00:00.000	RUA MANUEL JOAQUIM DURAO , 10 1�ESQ - 1�, 7570-286 grandola - Portugal	45-54	Masculino 	Sporting	Set�bal	2014-08-05 06:24:07.020
+760663	bcharraz	1993-10-10 00:00:00.000	Rua Simon Bolivar , 1 1 - 1�esquerdo, 7830-361 Serpa - Portugal	25-34	Masculino 	Benfica	Beja	2014-08-20 15:37:53.190
+760664	rodic1	1974-03-07 00:00:00.000	rusa do povo n� 2, 2580-180 Fiandal - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-07-31 01:10:51.853
+760671	Ant�nio Martins....	1974-01-07 00:00:00.000	RUA TOM�Z MENDES DA SILVA PINTO, 12 LOTE - 4�ESQ, 6000-285 CASTELO BRANCO - Portugal	45-54	Masculino 	Benfica	Castelo Branco	2011-07-30 15:24:12.870
+760683	CATRITA	1977-07-01 00:00:00.000	rua prof.ermelinda duarte carvalhao, 124 - 1d, 2380-000 alcanena - Portugal	35-44	Feminino  	Sporting	Santar�m	2011-07-29 11:57:30.077
+760687	Bertus	1977-07-07 00:00:00.000	, 1500-348 Lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-07-30 01:16:56.913
+760688	Lemale	1961-02-02 00:00:00.000	Rua Gaspar Martins , 10, 8005-232 Faro - Portugal	55-64	Masculino 	Sem clube	Faro	2011-07-28 21:17:47.630
+760689	Norby_Zlatan	1983-12-12 00:00:00.000	Rua do Ramalhal, 9, 6160-418 Oleiros - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2014-09-10 13:42:06.810
+760691	carlos.cardoso.12532	1976-04-04 00:00:00.000	rua s�o bento, 155, 1500-000 Lisbon - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-08-29 00:01:47.573
+760696	Anti Toupeiras	1980-09-09 00:00:00.000	Av. Comendador Silva Araujo, 208 E - 4� Esq., 4795-003 Vila das Aves santo Tirso - Portugal	35-44	Masculino 	FC Porto	Porto	2014-08-09 12:03:11.650
+760706	PauloPeixoto	2000-04-04 00:00:00.000	Largo do Munic�pio, Oleiros, 6160-409 Largo do Munic�pio, Oleiros, Castelo Branco - Portugal	15-24	Masculino 	Sporting	Castelo Branco	2014-08-14 21:27:59.257
+760707	Briosa11	1958-09-09 00:00:00.000	Rua 25 Abril, 63, 8600-763 Lagos - Portugal	55-64	Masculino 	Acad�mica	Faro	2011-07-29 17:36:39.700
+760710	Loat	1973-09-09 00:00:00.000	Rua Manuel Carvalho, 119 - Portugal	45-54	Masculino 	Benfica	Braga	2011-09-07 22:18:35.060
+760711	 isi	1970-01-01 00:00:00.000	, 6355-210 Vilar Formoso - Portugal	45-54	Masculino 	Benfica	Guarda	2011-07-29 15:06:03.033
+760716	Jo�oSilva	1950-10-10 00:00:00.000	Rua Cabo Verde, 1 - 3� Dt, 3080-142 Figueira da Foz - Portugal	64	Masculino 	Benfica	Coimbra	2011-09-02 22:04:25.580
+760718	jmarques105	1971-04-10 00:00:00.000	Rua Dr. Jos� Carlos Pereira de Carvalho C - 1� Esq. Tr�s, 3230-203 Miranda do Corvo - Portugal	45-54	Masculino 	FC Porto	Coimbra	2011-08-10 12:27:41.927
+760720	nourinha	1974-08-08 00:00:00.000	, 4405-694 VN Gaia - Portugal	45-54	Masculino 	FC Porto	Porto	2011-08-02 14:12:10.650
+760721	joelsilva73	1973-03-12 00:00:00.000	, 3650-051 Queiriga - Portugal	45-54	Feminino  	Benfica	Viseu	2011-08-13 16:55:29.013
+760722	�guia Vitoriosa	1974-09-09 00:00:00.000	Estrada da Madre Deus, Carrascal de Sintra, 115 - 1, 2710-165 Sintra - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-07-30 01:00:07.833
+760724	Rafa14328	1977-03-03 00:00:00.000	Av. de espanha , 93 - 2�A, 2605-898 casal de cambra - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-10 13:54:36.360
+760725	redrock1992	1992-01-01 00:00:00.000	rua do outeirinho  vila moreira, 170, 2380-650 - Portugal	25-34	Masculino 	Benfica	Santar�m	2014-08-22 18:06:09.223
+760732	elSilvas	1970-03-12 00:00:00.000	, 3885-054 Ovar - Portugal	45-54	Masculino 	Sporting	Aveiro	2011-09-03 14:53:38.470
+760740	ELKITAY14	1998-01-01 00:00:00.000	Rua da Milharada, Edificio Iberopa F - 7�Dto, 2745-822 Massama - Portugal	15-24	Masculino 	Sporting	Lisboa	2013-08-02 18:53:44.120
+760743	glorioso85	1985-07-07 00:00:00.000	, 6005-150 Escalos de Baixo - Portugal	25-34	Masculino 	Benfica	Castelo Branco	2014-08-09 11:57:21.527
+760744	Riccardo_Rodrigues	1981-06-15 00:00:00.000	, 2665-313 Povo da Galega  - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-08-10 18:23:36.760
+760750	Sir Mister Pedro Pranto	1985-05-05 00:00:00.000	Rua do Pombal n� 23, bloco A, 2F, edif�cio fonten�rio, Santa Luzia, 23 A - 2F, 9050-075 Funchal - Portugal	35-44	Masculino 	Mar�timo	Ilha da Madeira	2012-08-20 16:30:05.417
+760753	galocego	1974-03-03 00:00:00.000	Rua do Paul , 86, 4795-672 Negrelos - Portugal	45-54	Masculino 	NULL	Porto	2012-08-08 19:35:53.693
+760754	O Latino	1970-12-12 00:00:00.000	Rua Domingos jardo, 49 - 3 C, 2735-624 Cac�m - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-16 11:53:57.720
+760755	caneta	1987-11-15 00:00:00.000	, 1170-020 Lisboa - Portugal	25-34	Masculino 	Benfica	Lisboa	2011-09-05 13:58:44.800
+760756	manuelmariasilva	1984-06-06 00:00:00.000	, 3720-246 oliveira de azem�is - Portugal	35-44	Masculino 	NULL	Aveiro	2013-09-09 15:15:37.273
+760757	C�ssimo	1987-07-07 00:00:00.000	, 1600-000 Lisboa - Portugal	25-34	Masculino 	Sporting	Lisboa	2011-08-09 22:25:59.277
+760758	aguiapt	1964-11-11 00:00:00.000	Bairro Dr. Nuno Pinheiro Torres Bl. 8 Ent. 385 Casa 21, 21 8 - 1, 4150-542 Porto - Portugal	55-64	Masculino 	Benfica	Porto	2011-07-29 16:28:43.080
+760761	prm10	1981-11-11 00:00:00.000	, 4740-444 Forj�es - Portugal	35-44	Masculino 	Benfica	Braga	2014-09-23 10:10:24.993
+760762	pfrm	2000-04-04 00:00:00.000	, 6000-445 Castelo Branco - Portugal	15-24	Masculino 	Benfica	Castelo Branco	2011-08-11 09:23:56.063
+760764	_JM_	1989-01-01 00:00:00.000	, 1900-222 Lisboa - Portugal	25-34	Masculino 	Benfica	Lisboa	2014-08-16 20:59:29.740
+760771	Vitaminas	1966-07-07 00:00:00.000	Rua Gago Coutinho, 30 - r/c, 7540-190 Santiago do Cac�m - Portugal	45-54	Masculino 	Sporting	Set�bal	2011-08-13 04:38:47.933
+760773	Cordy1977	1977-01-01 00:00:00.000	, 2460-105 Alfeizer�o - Portugal	35-44	Masculino 	Benfica	Leiria	2011-08-04 22:37:44.107
+760778	lfsspeixoto	1984-12-12 00:00:00.000	Rua Jos� Barardo Lote 10 R/C Dto. - R/C Dto, 2540-106 Bombarral - Portugal	35-44	Masculino 	Sporting	Leiria	2015-03-11 15:43:43.850
+760779	Pecoman	1986-11-11 00:00:00.000	, 4500-540 Espinho - Portugal	25-34	Masculino 	FC Porto	Aveiro	2011-08-13 01:29:38.127
+760785	Pedroo93	1993-06-06 00:00:00.000	, 6050-384 Nisa - Portugal	25-34	Masculino 	Benfica	Portalegre	2014-08-25 20:44:35.383
+760790	B.Santos	1977-01-01 00:00:00.000	, 2415-514 marrazes - Portugal	35-44	Masculino 	V. Guimar�es	Leiria	2011-08-19 21:44:08.900
+760796	MigLima82	1982-12-12 00:00:00.000	, 3680-138 Oliveira de frades - Portugal	35-44	Masculino 	FC Porto	Viseu	2011-09-09 18:33:46.250
+760798	Daugusto	1986-04-01 00:00:00.000	Rua Carvalho de Araujo, 27 - 1� esq, 2720-261 Damaia - Amadora - Portugal	25-34	Masculino 	Benfica	Lisboa	2014-09-15 15:42:48.487
+760801	Mister D.Pixote Guttman	1976-10-10 00:00:00.000	Rua Dr Manuel Bentes , 3 - r/c c, 8500-313 Portim�o  - Portugal	35-44	Masculino 	Benfica	Faro	2014-08-30 01:13:04.283
+760803	Tin-Tim	1971-04-04 00:00:00.000	Avenida Inoc�ncia Cairel Sim�o - Edif�cio P�tio da Avenida, 24 E - 2.� E, 2540-003 Bombarral - Portugal	45-54	Masculino 	Benfica	Leiria	2011-07-29 11:27:57.270
+760809	Ricardo_Gil	1975-02-02 00:00:00.000	Rua Herm�nia Silva, 15 - 4.� Esq., 2620-535 Odivelas - Ramada (Jardim da Amoreira) - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-12 23:26:56.090
+760811	Rui_Lopes	1953-07-07 00:00:00.000	Rua Francisco Jos� Palmeiro Bloco C 2 - 5�. Dt�., 6000-230 Castelo Branco - Portugal	64	Masculino 	Benfica	Castelo Branco	2014-09-11 11:39:04.960
+760812	tpestana74@gmail.com	1974-05-05 00:00:00.000	, 2670-678 Bucelas - Portugal	45-54	Masculino 	Sporting	Lisboa	2014-08-30 01:01:18.100
+760814	ri-viegas	1985-05-05 00:00:00.000	, 2810-084 Feij� - Portugal	35-44	Masculino 	Sporting	Set�bal	2014-09-11 21:03:33.930
+760817	johnnymtex	1968-07-07 00:00:00.000	, 8800-000 Tavira - Portugal	45-54	Masculino 	Sporting	Faro	2011-08-06 13:56:43.620
+760819	andre_slb-31	1992-09-09 00:00:00.000	Rua do Torrug�lo, 109, 4795-437 S. Mamede de Negrelos - Portugal	25-34	Masculino 	Benfica	Porto	2011-08-07 14:39:38.777
+760820	crhcomporta	1977-05-05 00:00:00.000	rua do alecrim, 34, 7580-642 comporta - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-08-05 10:50:53.877
+760822	irodri	1980-05-05 00:00:00.000	bairro s�o Sebasti�o rua dos olivais, 9, 5300-040 bragan�a - Portugal	35-44	Masculino 	Benfica	Bragan�a	2013-08-08 21:11:43.400
+760823	springboks	1971-08-08 00:00:00.000	Rua Henrique Manuel Ginja Cardoso 10 - 5F, 2675-217 Odivelas - Portugal	45-54	Masculino 	FC Porto	Lisboa	2011-08-11 14:20:00.460
+760824	Ricardo Santos 	1978-09-25 00:00:00.000	Rua Principal, 31, 3060-430 Murtede - Portugal	35-44	Masculino 	Benfica	Coimbra	2014-08-04 21:42:32.400
+760825	npinto77	1977-07-17 00:00:00.000	Rua Cidade de Barcelos, 137 - 2�Dir, 4490-198 P�voa de Varzim - Portugal	35-44	Masculino 	FC Porto	Porto	2011-08-01 10:15:16.563
+760829	300ccc	1983-09-30 00:00:00.000	Beco Justino Guedes, 26, 2380-030 Alcanena - Portugal	35-44	Masculino 	Benfica	Santar�m	2011-09-11 16:09:25.247
+760831	ameixinhas	1975-10-10 00:00:00.000	Rua do Bou�o n�52, 3670-150 Pa�os deVilharigues - Portugal	35-44	Masculino 	FC Porto	Viseu	2011-09-01 20:11:08.317
+760836	Pedro Vialli	1970-05-09 00:00:00.000	Rua Eduardo O. P. Brito, 13 - 1 Esq, 2330-257 entroncamento - Portugal	45-54	Masculino 	Benfica	Santar�m	2014-09-10 21:37:30.710
+760837	jmmvalente	1969-07-07 00:00:00.000	LARGO DA LAVANDEIRA 26 A 1� ESQ�, OLIVEIRA DO DOURO, 26 largo da lavandeira 26 A 1� esq. - 1, 4430-446 Vila Nova de Gaia - Portugal	45-54	Masculino 	Sporting	Porto	2012-01-31 10:59:53.910
+760841	jffo	1958-12-12 00:00:00.000	, 2835-145 Baixa da Banheira - Portugal	55-64	Masculino 	Benfica	Lisboa	2014-09-02 12:59:59.147
+760843	dark_trip85	1985-11-17 00:00:00.000	, 2890-054 Alcochete - Portugal	25-34	Masculino 	FC Porto	Set�bal	2012-09-08 18:17:14.507
+760844	zeneves - david	1993-11-27 00:00:00.000	Rua MonSenhor Marques dos santos n�24, 24, 2495-194 Vale Tacao - Portugal	25-34	Masculino 	Benfica	Leiria	2013-09-12 14:06:05.640
+760845	TioVasquinho	1973-06-06 00:00:00.000	, 6230-481 Fund�o - Portugal	45-54	Feminino  	Benfica	Castelo Branco	2011-08-12 16:52:53.887
+760848	6Umek6	1985-04-04 00:00:00.000	, 6005-084 Alcains - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2013-09-01 03:39:39.683
+760854	BrunoRodrigo	1981-05-05 00:00:00.000	Rua da Mafarra, 14, 2480-097 pedreiras - Portugal	35-44	Masculino 	Benfica	Leiria	2012-08-25 22:47:13.883
+760856	antoniomanuelteixeira1	1975-06-26 00:00:00.000	, 4200-000 porto - Portugal	35-44	Masculino 	FC Porto	Porto	2011-09-21 13:49:41.950
+760858	ricardinhoteam	1987-02-02 00:00:00.000	, 6050-385 Nisa - Portugal	25-34	Masculino 	Benfica	Portalegre	2011-09-16 15:17:35.687
+760860	mac2009	1968-07-22 00:00:00.000	, 4815-280 moreira de conegos - Portugal	45-54	Masculino 	Benfica	Braga	2011-07-30 23:16:29.960
+760862	ZacariasDiogo	1988-08-08 00:00:00.000	Estrada das Amoreiras, Lote 2, 6050-385 Nisa - Portugal	25-34	Masculino 	Sporting	Portalegre	2014-08-11 15:25:10.540
+760865	SupeRodriguez	1988-03-26 00:00:00.000	Rua Do Outeirinho, 87, 4760-718 Famalic�o - Portugal	25-34	Masculino 	FC Porto	Braga	2011-09-09 14:04:57.773
+760866	afs21	1979-02-02 00:00:00.000	Rua Eng Antonio Dias C Serra,, 50 B - B47, 4785-093 Trofa - Portugal	35-44	Masculino 	Benfica	Porto	2014-09-03 13:11:29.533
+760868	v.baia99	1976-12-12 00:00:00.000	Rua do carrazedo, 393 esquerdo - 3�, 4490-536 povoa de varzim - Portugal	35-44	Masculino 	FC Porto	Porto	2013-09-09 21:44:11.280
+760873	Cravela	1976-06-06 00:00:00.000	Rua Gago Coutinho e Sacadura Cabral, 5 - 2� Esq�, 2955-189 Pinhal Novo - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-08-12 17:18:22.730
+760879	Tofina_team	1983-10-10 00:00:00.000	Urbaniza��o Sitio do barreiro, 6, 6030-116 Sarnadas de R�d�o - Portugal	35-44	Feminino  	Benfica	Castelo Branco	2013-08-08 17:53:58.743
+760881	Cosalo2011	1985-04-04 00:00:00.000	RUA DO BARNAB�, 2 - - 2 DRT, 2580-582 Alenquer - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-07-29 14:00:15.313
+760882	Mister Geninho	1972-12-12 00:00:00.000	Rua Jo�o Abel Manta, 10 - 1� Esq, 2670-528 Loures - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-07-29 10:38:43.787
+760888	vitor_cha	1986-12-12 00:00:00.000	, 2665-223 Malveira - Portugal	25-34	Masculino 	Benfica	Lisboa	2012-08-21 21:07:44.317
+760894	Chambix	1973-06-06 00:00:00.000	urbaniza��o alcobia, lote 11 - 2 D�, 6100-201 cernache do bonjardim - Portugal	45-54	Masculino 	Sporting	Castelo Branco	2011-08-03 15:36:56.800
+760895	MestreDuarte	1970-05-05 00:00:00.000	Rua Professor Gomes Teixeira, 19 - 2 D, 1350-264 Lisboa - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-01 21:02:43.197
+760900	simaorouxinol30	2000-10-10 00:00:00.000	 - Portugal	15-24	Masculino 	Benfica	Santar�m	2014-11-02 14:38:28.970
+760902	VMGuerra	1975-07-07 00:00:00.000	, 2675-104 Estoril - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-29 17:59:07.560
+760909	Zoran Filipovic	1977-12-04 00:00:00.000	Av. Fernandes Lavrador, 238 - 1Esq, 3830-748 Praia da Barra - Portugal	35-44	Masculino 	Beira-Mar	Aveiro	2013-09-13 09:45:48.663
+760914	silverblue	1971-04-19 00:00:00.000	Rua do Bairral, 43, 4560-017 Abragao-Penafiel - Portugal	45-54	Masculino 	NULL	Porto	2012-08-13 10:48:35.677
+760915	RCURADO	1977-05-05 00:00:00.000	Rua Dr Candido Guerreiro, Edif Tridente A - 2� Esq, 8000-321 Faro - Portugal	35-44	Masculino 	Benfica	Faro	2011-08-11 21:54:52.707
+760916	joaquim.moleta	1970-01-01 00:00:00.000	bairro argeis 2 - 2rtg, 2970-644 Sesimbra - Portugal	45-54	Masculino 	Benfica	Set�bal	2014-09-11 17:20:50.537
+760922	ROCOPIEDADE	1977-06-06 00:00:00.000	Rua do Brasil, 5, 7370-050 Campo Maior - Portugal	35-44	Masculino 	Benfica	Portalegre	2013-08-15 13:07:36.703
+760924	Miguel Carlos Ramalho	1948-03-07 00:00:00.000	Rua Dr. Ant�nio Jos� de Almeida, 29 - r/ch esq, 2830-341 barreiro - Portugal	64	Masculino 	Benfica	Set�bal	2011-08-05 15:55:12.840
+760928	MISTERMARCO	1973-05-05 00:00:00.000	Rua D. Dinis, 14 Lote1, 2380-103 ALCANENA - Portugal	45-54	Masculino 	Benfica	Santar�m	2011-09-09 15:16:41.717
+760929	djtozo	1977-02-02 00:00:00.000	, 6000-000 castelo branco - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2013-09-09 16:05:32.183
+760936	jose2905	1959-05-29 00:00:00.000	rua da freiria , 64, 4740-437 forj�es - Portugal	55-64	Masculino 	Sporting	Braga	2011-08-01 17:04:31.550
+760943	Nuno.Simoes	1978-05-20 00:00:00.000	, 2790-226 Carnaxide - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-08-30 14:08:47.110
+760947	aljezurense	1962-07-07 00:00:00.000	Rua Monsenhor Manuel Francisco Pardal, Bloco 6 r/�-esq. 6 - r7c-esq., 8670-867 Aljezur - Portugal	55-64	Masculino 	Belenenses	Faro	2015-01-08 19:47:47.597
+760948	pedromiguel2	1980-10-10 00:00:00.000	, 7005-000 �vora - Portugal	35-44	Masculino 	Sporting	Leiria	2012-09-28 12:03:43.793
+760951	L.Pereira	1976-05-05 00:00:00.000	Rua do Ponsul , 9 - r/c, 6000-370 castelo branco - Portugal	35-44	Masculino 	FC Porto	Castelo Branco	2011-08-21 20:40:36.993
+760955	tangerinapower	1978-12-12 00:00:00.000	casal padre ant�nio, 16, 2460-000 Alfeizer�o - Portugal	35-44	Masculino 	Benfica	Leiria	2011-08-22 23:45:05.597
+760956	jcastro	1983-07-07 00:00:00.000	Rua do Barranco, 5, 7830-642 Vila Verde de Ficalho - Portugal	35-44	Masculino 	Benfica	Beja	2011-08-01 21:52:46.333
+760959	N.Oliveira	1974-01-01 00:00:00.000	, 2560-150 Torres Vedras - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-13 14:19:18.913
+760961	lccaseiro58	1992-11-11 00:00:00.000	, 5340-190 lombo - Portugal	25-34	Masculino 	Benfica	Bragan�a	2011-08-10 09:04:44.940
+760964	DeMe	1987-02-02 00:00:00.000	Rua do matadouro , 29, 7960-263 vidigueira - Portugal	25-34	Masculino 	Benfica	Beja	2012-09-05 00:05:18.320
+760965	fabiomaia1986	1986-03-05 00:00:00.000	Rua da Fonte Nova, 46, 6050-051 Alpalh�o - Portugal	25-34	Masculino 	Benfica	Portalegre	2011-08-06 09:02:49.117
+760967	Lobo4	1994-12-12 00:00:00.000	, 7960-304 Vidigueira - Portugal	25-34	Masculino 	Benfica	Beja	2014-08-10 13:53:45.773
+760970	chicorr	1976-11-11 00:00:00.000	R. Ant�nio Vieira Pinto, 23 - R/C ESQ, 3870-127 Monte - Portugal	35-44	Masculino 	Benfica	Aveiro	2011-09-04 19:09:20.987
+760973	Neto	1991-08-14 00:00:00.000	Rua das Figueiras , 5 esquerdo - 1, 2000-222 Santar�m - Portugal	25-34	Masculino 	Sporting	Santar�m	2013-09-03 19:39:24.290
+760974	Jaimex	1968-07-07 00:00:00.000	Rua Nicolau Corlho, 15, 2785-633 S�o Domingos de Rana - Cascais - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-07-29 17:01:26.793
+760976	Pedro&amp;Tom�s	1980-08-14 00:00:00.000	, 4810-896 Guimar�es - Portugal	35-44	Feminino  	Benfica	Braga	2011-08-10 19:15:34.333
+760978	duncam	1974-01-01 00:00:00.000	Largo Lu�s de Cam�es - Salvador, 3, 4870-153 Ribeira de Pena - Portugal	45-54	Masculino 	FC Porto	Vila Real	2011-08-19 16:56:45.400
+760980	benficaol�	1964-09-03 00:00:00.000	caminho, 9, 4870-111 Ribeira de Pena - Portugal	55-64	Masculino 	Benfica	Vila Real	2013-09-04 21:28:17.633
+760981	QUIMJ	1963-04-05 00:00:00.000	Av. do Miradouro, 25 - 7�f, 2745-305 QUELUZ - Portugal	55-64	Masculino 	FC Porto	Lisboa	2012-09-13 08:55:03.917
+760984	andresoares99	1985-04-26 00:00:00.000	rua doutor silva lima , 44 a3 - 3dto, 3720-298 oliveira de azemeis - Portugal	35-44	Masculino 	FC Porto	Aveiro	2011-07-29 19:02:01.047
+760986	Osga2	1952-09-09 00:00:00.000	Rua Bartolomeu Dias, 170 - 3� Dto, 2785-355 S. domingos de Rana - Portugal	64	Masculino 	Benfica	Lisboa	2014-09-10 11:38:42.740
+760988	morais.rp	1975-11-04 00:00:00.000	, 4870-104 r pena - Portugal	35-44	Masculino 	Benfica	Vila Real	2011-08-26 15:20:27.930
+760994	Papa Francisco	1983-07-07 00:00:00.000	Praceta Santa Eul�lia, 13 - 1� esq., 4590-530 Pa�os de Ferreira - Portugal	35-44	Masculino 	P. Ferreira	Porto	2013-09-10 17:09:36.803
+760995	Z�Braz�o	1983-02-02 00:00:00.000	, 4615-685 Lixa - Portugal	35-44	Masculino 	Benfica	Portalegre	2011-08-27 23:05:38.347
+761000	MERCKX	1961-10-10 00:00:00.000	Rua do Tr�mbolh�o, 22, 7900-258 FIGUEIRA DOS CAVALEIROS - Portugal	55-64	Masculino 	Sporting	Beja	2011-08-10 09:52:25.790
+761001	tiagomachado94	1994-03-21 00:00:00.000	Travessa da Ponte Nova, Pousada de Saramagos, 95, 4770-414 Famalic�o - Portugal	25-34	Masculino 	Benfica	Braga	2014-08-18 23:13:31.567
+761004	hjmp92	1992-09-05 00:00:00.000	Rua Celestino Marques da Silva, 140, 3720-559 Oliveira de Azemeis - Portugal	25-34	Masculino 	Sporting	Aveiro	2013-08-01 22:39:15.873
+761005	baltarejozito	1993-07-14 00:00:00.000	 - Portugal	25-34	Masculino 	Benfica	Aveiro	2015-04-26 23:47:50.633
+761007	Luis_Fred_Rodrigues	1983-05-05 00:00:00.000	, 2650-419 Brandoa - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-08-20 15:19:05.950
+761009	margaridatavares	1984-07-07 00:00:00.000	loteamento das arroteias, lote 6, 3030-361 coimbra - Portugal	35-44	Feminino  	FC Porto	Coimbra	2012-09-16 14:43:02.430
+761013	DJCG94	1994-09-09 00:00:00.000	, 7005-126 Azaruja - Portugal	25-34	Masculino 	Sporting	�vora	2014-08-04 23:29:10.473
+761015	DS13	1978-12-12 00:00:00.000	Urbaniza��o quinta do sol, 96, 2580-366 Alenquer - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-19 19:54:09.360
+761018	WhiteLion	1966-08-08 00:00:00.000	, 2615-000 Alverca - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-08-02 13:59:30.937
+761020	MigTikal	1974-11-11 00:00:00.000	Rua Dom Fuas Roupinho, 1 E - 1, 1900-191 Lisboa - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-09-12 19:56:35.703
+761021	Arcadia	1967-01-25 00:00:00.000	, 8365-070 Algoz - Portugal	45-54	Masculino 	Benfica	Faro	2011-08-22 12:45:57.337
+761022	RogerioMarques	1989-10-10 00:00:00.000	Caminho das Enguias, 6060-260 Ladoeiro - Portugal	25-34	Masculino 	Benfica	Castelo Branco	2013-09-04 20:52:58.407
+761023	Jo�o Claudino	1973-10-04 00:00:00.000	Rua Portugal (Casal do Rato), 1, 1675-319 Pontinha - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-09-06 22:19:06.083
+761024	MFLS07	1993-08-08 00:00:00.000	, 3150-000 Casevel - Portugal	25-34	Masculino 	Sporting	Coimbra	2011-07-29 19:40:09.440
+761028	FSousa87	1987-03-03 00:00:00.000	Rua de Entre Pontes, 86 - - -, 3730-054 Vale de Cambra - Portugal	25-34	Masculino 	Benfica	Aveiro	2014-08-08 03:01:35.943
+761029	calita131	1966-09-02 00:00:00.000	Rua Engenheiro �cnico Agr�rio Jos� Francisco Massapina Junior , 18, 8800-744 tavira - Portugal	45-54	Masculino 	Sporting	Faro	2011-08-01 05:42:06.893
+761033	crneves90	1990-06-06 00:00:00.000	Bairro do Prazo , 19 - 2�, 3300-017 Arganil - Portugal	25-34	Masculino 	Sporting	Coimbra	2013-09-18 00:36:50.210
+761034	CarPin-111	1976-02-09 00:00:00.000	Travessa do Code�al , 27 - 1, 4815-225 Lordelo - Guimar�es   - Portugal	35-44	Masculino 	Benfica	Braga	2011-08-04 19:50:42.323
+761036	Jcarreira85	1985-03-13 00:00:00.000	Rua Carlos da Luz , 21, 2350-377 Riachos - Portugal	35-44	Masculino 	Sporting	Santar�m	2013-09-08 09:26:54.497
+761042	Ricky_Guerreiro	1972-08-14 00:00:00.000	, 2660-120 Santo Ant�o do Tojal - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-08-08 14:32:56.490
+761043	Mykinho	1976-07-07 00:00:00.000	, 2855-800 sobreda - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-08-01 14:43:22.857
+761045	pedroamaral616	1984-06-06 00:00:00.000	, 3505-000 Viseu - Portugal	35-44	Masculino 	NULL	Viseu	2011-08-17 21:10:31.280
+761046	JVenda	1978-09-09 00:00:00.000	, 2670-000 Loures - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-09-05 14:08:52.033
+761049	costafz	1978-02-02 00:00:00.000	rua antonio da silveira , 26 - rc/dto, 2860-043 alhos vedros - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-09-29 17:05:24.537
+761054	paquito33	1976-10-10 00:00:00.000	Rua Manuel Teixeira Gomes , 7 D - 3�, 2685-889 Sacav�m - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-24 12:06:48.180
+761055	salsamarques	1979-07-07 00:00:00.000	rua augusto gil , 1009 - 1., 2650-374 amadora - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-26 00:54:14.600
+761056	pedropacheco	1988-08-08 00:00:00.000	Rua de S�o Sebasti�o, 5 Dir. - 4, 7780-286 Castro Verde - Portugal	25-34	Masculino 	Benfica	Beja	2011-08-04 09:02:01.320
+761058	podgorica	1964-03-03 00:00:00.000	Rua da Arroteia, 457 - Modivas - Vila do Conde, 457, 4485-575 Modivas - Portugal	55-64	Masculino 	Sporting	Porto	2011-07-30 11:51:13.413
+761062	FC Augustus	1986-09-09 00:00:00.000	, 3830-108 �lhavo - Portugal	25-34	Masculino 	Benfica	Aveiro	2011-07-29 16:23:47.077
+761064	FlipSantos79	1979-02-02 00:00:00.000	, 2735-088 Agualva - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-08-21 15:20:55.420
+761066	HOG	1980-03-06 00:00:00.000	Rua Bernardo Santareno, 6 - 1� dt, 7800-044 Beja - Portugal	35-44	Masculino 	Benfica	Beja	2011-08-16 14:31:21.227
+761067	chateam	1970-09-09 00:00:00.000	Travessa das Escadinhas Canados, 3, 2580-172 meca - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-07-30 19:41:30.780
+761068	Zeca L�o	1954-08-23 00:00:00.000	, 2580-055 Abrigada - Portugal	64	Feminino  	Benfica	Lisboa	2011-07-29 19:36:24.530
+761073	alex_kidd	1986-01-01 00:00:00.000	, 2675-496 Odivelas - Portugal	25-34	Masculino 	Sporting	Lisboa	2011-07-31 11:10:00.193
+761074	nmbfs	1970-11-11 00:00:00.000	rua Anselmo Braancamp Freire n� 21-B Fanqueiro, 2670-366 Fanqueiro Loures - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-08-21 13:16:24.910
+761076	kiqo	1988-09-20 00:00:00.000	, 4200-070 Porto - Portugal	25-34	Feminino  	Benfica	Porto	2012-09-21 16:14:05.060
+761078	torrix	1975-06-10 00:00:00.000	, 4465-155 matosinhos - Portugal	35-44	Masculino 	NULL	Porto	2011-08-09 20:22:26.070
+761081	geres21	1983-11-11 00:00:00.000	, 4845-061 Ger�s - Portugal	35-44	Masculino 	FC Porto	Braga	2014-08-20 14:21:22.380
+761085	Azia2006	1974-12-12 00:00:00.000	Alpouvar cx pstal 211z - ferreiras, 8200-552 Albufeira - Portugal	45-54	Masculino 	Sporting	Faro	2011-08-18 19:38:24.397
+761095	helderpaivinha	1979-05-30 00:00:00.000	Rua adriano correia de oliveira, 153 F - 3, 3880-316 ovar - Portugal	35-44	Masculino 	Benfica	Aveiro	2011-08-12 19:01:02.783
+761096	Jo�o Carvalho	1980-11-11 00:00:00.000	, 8005-000 Faro - Portugal	35-44	Masculino 	Benfica	Faro	2013-09-13 15:20:56.087
+761099	JoaoF71	1986-05-05 00:00:00.000	, 4715-404 Braga - Portugal	25-34	Masculino 	FC Porto	Braga	2011-08-15 19:15:20.723
+761112	dave_br	1979-07-07 00:00:00.000	 - Brasil	35-44	Masculino 	Benfica	Set�bal	2013-08-27 17:55:31.953
+761114	ryllex	1987-11-11 00:00:00.000	Alameda Doutor Barbeito de Sousa, 33 - 2�DTO, 4400-619 Gaia - Portugal	25-34	Masculino 	Benfica	Porto	2014-08-31 16:18:17.907
+761116	KNVB	1987-10-10 00:00:00.000	, 4350-000 Porto - Portugal	25-34	Feminino  	FC Porto	Porto	2012-08-26 21:15:26.633
+761121	recordslb	1988-03-03 00:00:00.000	, 5300-811 rebord�os- bragan�a - Portugal	25-34	Masculino 	Benfica	Bragan�a	2011-08-29 15:13:45.750
+761125	saricles	1976-09-09 00:00:00.000	Rua Capit�o Manuel Tavares, 168, 3885-232 Cortega�a - Portugal	35-44	Masculino 	FC Porto	Aveiro	2011-09-02 10:38:14.780
+761128	JASC1960	1960-12-03 00:00:00.000	Rua da Boavista, 199, 199, 4050-107 Porto - Portugal	55-64	Masculino 	Benfica	Porto	2013-09-08 21:53:31.997
+761130	Matreno	1985-03-03 00:00:00.000	Rua Adelaide Cabete, 17 - 1o Drt, 2330-309 Entroncamento - Portugal	35-44	Masculino 	Benfica	Santar�m	2012-09-04 17:51:47.303
+761131	Bicagolo	1988-04-04 00:00:00.000	Rua dos Combatentes do Ex. Ultramar, 45, 3300-122 Arganil - Portugal	25-34	Masculino 	Benfica	Coimbra	2011-08-30 23:22:18.730
+761132	Diogoade	1999-10-10 00:00:00.000	Av. S�o Martinho-lugar da igreja 2, 4740-471 Esposende - Portugal	15-24	Masculino 	Benfica	Braga	2011-08-01 19:29:51.410
+761140	maujfoi	1986-04-05 00:00:00.000	 - Portugal	25-34	Masculino 	Benfica	Braga	2014-08-25 22:49:51.683
+761148	joao.peixoto	1987-06-06 00:00:00.000	Rua Ernesto Carvalho, 142 - 6�, 4760-143 Vila Nova de Famalic�o - Portugal	25-34	Masculino 	Benfica	Braga	2011-08-29 16:27:33.027
+761151	Paulo Cafa	1971-01-01 00:00:00.000	Bairro Novo, 19, 3090-457 Lavos - Portugal	45-54	Masculino 	Benfica	Coimbra	2014-08-16 17:50:15.510
+761157	Taborda23	1950-08-08 00:00:00.000	Av. da Carapalha, , 26 - 2.� Esq., 6000-320 castelo branco - Portugal	64	Masculino 	Sporting	Castelo Branco	2011-07-30 16:59:37.140
+761158	Mister Trapattoni	1978-06-06 00:00:00.000	, 2605-747 Casal de Cambra - Portugal	35-44	Feminino  	Benfica	Lisboa	2013-09-09 16:02:30.307
+761160	Trokka	1973-05-05 00:00:00.000	Praceta F�  , 131 1� - 1� esq, 4430-127 Gaia - Portugal	45-54	Masculino 	FC Porto	Porto	2014-09-06 10:20:39.200
+761164	zeluis10	2000-04-06 00:00:00.000	, 2495-193 Vale Sumo - Portugal	15-24	Masculino 	Benfica	Leiria	2014-08-04 14:16:36.400
+761168	jpfonseka	1985-01-16 00:00:00.000	Bairro Zeca Afonso, Lote 1, 7555-105 Cercal do Alentejo - Portugal	35-44	Masculino 	Benfica	Set�bal	2014-08-13 17:58:16.360
+761177	joseluisbarroscosta	1982-08-08 00:00:00.000	impasse cidade sao luis do maranhao, 11 - 1b, 2635-000 sao marcos - Portugal	35-44	Masculino 	Sporting	Lisboa	2011-08-07 17:30:06.303
+761180	mineiro82	1982-06-29 00:00:00.000	Caminho da Andrela, 73, 4925-485 Montaria - Portugal	35-44	Masculino 	Benfica	Viana do Castelo	2012-09-18 23:15:39.587
+761187	Roi	1983-04-04 00:00:00.000	Urbaniza��o Horta do Rossio, 6, 7150-715 Borba - Portugal	35-44	Masculino 	Benfica	�vora	2011-08-01 14:37:03.740
+761192	SLBMARRUAS	1996-06-06 00:00:00.000	, 2350-508 Torres Novas - Portugal	15-24	Masculino 	Benfica	Santar�m	2013-09-01 21:16:09.553
+761195	miguelfarinha8	1978-06-06 00:00:00.000	Rua �ngelo Pedro farinha, 18 - 2�esq., 6100-654 sert� - Portugal	35-44	Feminino  	Benfica	Castelo Branco	2011-08-06 16:38:03.840
+761196	DragonHunter	1966-01-01 00:00:00.000	Praceta de Mo�ambique, 55 - 3Dto, 4445-513 Ermesinde - Portugal	45-54	Masculino 	Benfica	Porto	2011-09-07 11:53:21.267
+761203	*PUNISHER*	1990-06-06 00:00:00.000	Rua Doutor manuel freire geraldes , 84, 7565-227 Ermidas Sado - Portugal	25-34	Masculino 	Benfica	Set�bal	2014-08-29 16:38:39.040
+761204	suinos	1956-06-15 00:00:00.000	Praceta manuel Martins Duarte, 1 - 3� dt�, 2625-203 Povoa santa Iria - Portugal	55-64	Masculino 	Sporting	Lisboa	2013-11-19 10:24:55.473
+761209	b�u	1970-07-07 00:00:00.000	padre Bento Pereira, 12, 7150-139 Borba - Portugal	45-54	Feminino  	Sporting	�vora	2011-08-17 10:58:45.400
+761210	Mataa	1979-03-03 00:00:00.000	Estrada Nacional 13, Marinhas , Esposende, 4740-575 Esposende - Portugal	35-44	Masculino 	Sp. Braga	Braga	2011-08-24 11:46:49.893
+761211	hugo_mateus	1978-03-09 00:00:00.000	Rua Vale do Cano, 9, 2350-471 Torres Novas - Portugal	35-44	Masculino 	Benfica	Santar�m	2011-08-02 00:21:12.810
+761225	Nuno_12	1993-02-14 00:00:00.000	rua casal do mato , 29, 3140-082 carapinheira - Portugal	25-34	Masculino 	Sporting	Coimbra	2011-08-05 14:59:26.000
+761233	Alexandre_Pires	1914-01-01 00:00:00.000	 - Afeganist�o	64	Masculino 	Sporting	Bragan�a	2014-08-18 20:51:32.490
+761234	Rpenas	1977-03-28 00:00:00.000	, 7520-268 sines - Portugal	35-44	Masculino 	Sporting	Set�bal	2011-09-05 20:38:39.707
+761237	s.patricio	1982-12-12 00:00:00.000	rua principal pampilhal, 6100-297 cernache do bonjardim - Portugal	35-44	Masculino 	Sem clube	Castelo Branco	2012-09-19 20:47:17.483
+761239	chapabond	1970-10-10 00:00:00.000	Rua Bairro dos Barreiros , 22 - R/CH FTE, 3130-080 Granja do Ulmeiro - Portugal	45-54	Masculino 	Benfica	Coimbra	2011-07-29 22:36:28.347
+761240	MiGoMiGo	1977-07-07 00:00:00.000	Rua Almirante Candido dos Reis, 3 RC - Dto, 7800-445 Beja - Portugal	35-44	Masculino 	Benfica	Beja	2014-08-07 22:09:54.970
+761241	KeZ	1985-05-05 00:00:00.000	, 2745-183 Queluz - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-08-14 15:30:07.983
+761244	na_cof	1972-10-06 00:00:00.000	setubal, 2900-692 Set�bal - Portugal	45-54	Masculino 	V. Set�bal	Set�bal	2014-08-04 12:24:14.953
+761246	oliveira1983	1983-10-10 00:00:00.000	rua dos argonautas, 3.01.03 B - 4A, 2900-013 lisboa - Portugal	35-44	Masculino 	Sporting	Lisboa	2012-08-10 19:18:14.420
+761251	strika	1972-08-14 00:00:00.000	Rua S�o Pedro , 30, 7600-091 Aljustrel  - Portugal	45-54	Masculino 	Sporting	Beja	2013-08-07 21:36:29.493
+761252	Henrique_Neto	1969-06-06 00:00:00.000	Estrada Velha de Abraveses, 269 - 1.�, 3515-115 VISEU - Portugal	45-54	Masculino 	NULL	Viseu	2012-08-23 12:38:18.087
+761254	DavidRicotino	1988-07-07 00:00:00.000	Rua de Oliven�a, 1, 7370-108 Campo Maior - Portugal	25-34	Masculino 	Benfica	Portalegre	2012-09-20 18:34:34.343
+761257	os7	1973-07-07 00:00:00.000	, 4755-034 Alvelos - Portugal	45-54	Masculino 	FC Porto	Braga	2011-09-06 22:24:31.387
+761258	JOSE PARRO	1957-03-01 00:00:00.000	qta da pipa de cima, lote 5, 6000-000 castelo branco - Portugal	55-64	Masculino 	Benfica	Castelo Branco	2011-07-29 14:12:58.000
+761263	Jose M Rebola	1951-05-05 00:00:00.000	Quinta do Reguengo, S/N, 7100-069 ESTREMOZ - Portugal	64	Masculino 	Sporting	�vora	2011-09-07 22:13:38.080
+761265	taquara1904	1986-10-25 00:00:00.000	, 8500-511 Portimao - Portugal	25-34	Masculino 	Benfica	Faro	2011-07-30 07:46:57.027
+761270	Paulo Pires	1983-10-10 00:00:00.000	, 8800-000 Santa Luzia - Portugal	35-44	Feminino  	Benfica	Faro	2011-09-07 23:19:03.440
+761272	Afonsilhas	1984-10-10 00:00:00.000	, 2860-086 Alhos Vedros - Portugal	35-44	Feminino  	Benfica	Set�bal	2011-08-04 07:02:04.033
+761275	Larari	1984-11-11 00:00:00.000	Praceta Brunilde J�dice , 3 C - R/c, 2620-504 Ramada-Odivelas  - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-09-03 17:20:16.533
+761279	VeraPsc	1980-09-09 00:00:00.000	Bairro dos Pescadores, 18, 8500-021 Alvor  - Portugal	35-44	Feminino  	Portimonense	Faro	2011-08-09 12:01:59.153
+761297	Lagarto  RP	1981-04-19 00:00:00.000	Rua Ary dos santos , 18 D - 4, 2810-433 Almada - Portugal	35-44	Masculino 	Sporting	Set�bal	2011-09-01 18:18:38.523
+761300	jofeka1981	1981-02-22 00:00:00.000	Rua s�o Cristov�o  , 63, 4805-036 Brito - Portugal	35-44	Masculino 	V. Guimar�es	Braga	2011-07-29 23:30:11.437
+761302	Spynt	1977-02-02 00:00:00.000	, 4740-522 esposende - Portugal	35-44	Masculino 	Benfica	Braga	2013-09-11 20:45:05.057
+761307	Pinxante	1981-05-05 00:00:00.000	, 4470-121 Maia - Portugal	35-44	Masculino 	FC Porto	Porto	2011-08-16 15:26:51.790
+761311	LGV	1946-07-25 00:00:00.000	Rua Maria Veleda, torre 2    - 8.� D, 1500-441 Lisboa - Portugal	64	Masculino 	Benfica	Lisboa	2011-08-05 19:33:11.457
+761312	Lourovic	1978-11-10 00:00:00.000	Rua Marques de Pombal, 128 - 3� Esq, 2735-313 Cac�m - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-08-09 11:56:46.950
+761313	dgsousa	1999-03-03 00:00:00.000	Praceta de Mo�ambique, 55 - 3Dto, 4445-513 Ermesinde - Portugal	15-24	Masculino 	Benfica	Porto	2014-08-05 18:51:32.980
+761314	carqueijo.manuel	1986-02-08 00:00:00.000	Rua 5 de Agosto, 37, 4740-577 Marinhas - Portugal	25-34	Masculino 	Sporting	Braga	2014-09-12 18:28:01.447
+761315	pejofece	1977-07-07 00:00:00.000	, 4475-198 Maia - Portugal	35-44	Masculino 	FC Porto	Porto	2011-08-16 17:27:46.193
+761317	brisk_man	1986-11-11 00:00:00.000	, 3510-085 Viseu - Portugal	25-34	Masculino 	FC Porto	Viseu	2011-08-19 19:43:23.250
+761322	Mister_B�rbara	1986-08-08 00:00:00.000	, 6300-000 Guarda - Portugal	25-34	Masculino 	Benfica	Guarda	2013-08-21 15:21:37.990
+761327	canario	1985-06-06 00:00:00.000	rua Alexandre Braga , 28 - Cv -1 dto, 7800-524 Beja - Portugal	25-34	Masculino 	Benfica	Beja	2011-08-22 18:37:24.207
+761328	CUST�DIO ADANJO	1972-09-09 00:00:00.000	, 8000-077 FARO - Portugal	45-54	Masculino 	Sporting	Faro	2011-08-08 21:25:23.893
+761337	chicocuetara	1972-01-01 00:00:00.000	rua dos castenheiros, 1113, 3885-555 esmoriz - Portugal	45-54	Masculino 	Benfica	Aveiro	2012-08-06 17:38:34.700
+761341	nadador2011	1986-02-25 00:00:00.000	, 7645-246 vila nova de milfontes - Portugal	25-34	Masculino 	Benfica	Beja	2011-09-12 14:56:34.927
+761346	josecsp	1972-10-10 00:00:00.000	rua 5 de outubro, 74, 4765-323 oliveira s maria - Portugal	45-54	Masculino 	Benfica	Braga	2011-08-03 17:29:07.880
+761351	bpereir	1983-07-24 00:00:00.000	Trav. do Giestal, 6 - 4esq, 1300-238 Lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-08-04 13:06:30.773
+761353	vazmateus	1966-12-12 00:00:00.000	, 6000-181 castelo branco - Portugal	45-54	Masculino 	Sporting	Castelo Branco	2011-08-12 18:54:27.727
+761356	Patilhas	1973-09-09 00:00:00.000	Ponte de S�tam, 3330-207 G�is - Portugal	45-54	Masculino 	Benfica	Coimbra	2011-08-23 23:34:58.240
+761357	Chino9999	1982-07-07 00:00:00.000	Avenida Brigadeiro Figueiredo Sarmento, 17 - 3 tras, 5300-302 Bragan�a - Portugal	35-44	Masculino 	Benfica	Bragan�a	2011-08-26 17:25:28.700
+761358	Gorditos	1990-02-22 00:00:00.000	, 7960-242 vidigueira - Portugal	25-34	Masculino 	Benfica	Beja	2012-09-12 17:35:10.797
+761366	AdelinoMateus	1950-03-03 00:00:00.000	, 6000-208 CASTELO BRANCO - Portugal	64	Masculino 	Sporting	Castelo Branco	2012-08-28 16:01:02.813
+761369	pronta22	1976-12-22 00:00:00.000	av 25 de abril, 28, 7150-109 Borba - Portugal	35-44	Masculino 	Benfica	�vora	2012-08-13 18:58:30.497
+761371	M&amp;M�s	1969-10-10 00:00:00.000	Estrada de Benfica, 512 2� - Dto, 1500-199 Lisboa - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-03 12:17:21.860
+761377	MisterTiagoCorreia	1997-07-27 00:00:00.000	, 3720-549 S.Martinho da G�ndara - Portugal	15-24	Masculino 	Sporting	Aveiro	2012-08-04 16:24:59.130
+761387	FilipePorfirio	1984-05-05 00:00:00.000	Rua Dr� Joao Lucio Bloco B 3�, Bairro Pontal B, 8500-756 Portim�o - Portugal	35-44	Masculino 	Benfica	Faro	2011-08-23 21:41:49.893
+761389	j0j020	1985-04-21 00:00:00.000	, 7100-151 Estremoz - Portugal	35-44	Masculino 	Benfica	�vora	2012-09-04 14:16:07.980
+761394	Puli	1988-04-04 00:00:00.000	Rua Mouquinho, 1071, 3880-000 Ovar - Portugal	25-34	Masculino 	FC Porto	Aveiro	2011-07-30 11:30:33.690
+761397	LACRAU TEAM	1965-11-11 00:00:00.000	, 1700-262 LISBOA - Portugal	45-54	Masculino 	FC Porto	Lisboa	2011-09-04 19:16:17.800
+761398	Jos�MDValente	1969-05-24 00:00:00.000	Rua Nuno Gregorio Lt. 52, 2830-211 Barreiro - Portugal	45-54	Masculino 	Sem clube	Set�bal	2011-09-08 16:03:26.127
+761400	pedro mota.	1977-07-07 00:00:00.000	travessa dos casais, 430, 4800-230 guimaraes - Portugal	35-44	Masculino 	V. Guimar�es	Braga	2012-09-10 18:45:11.373
+761406	mrcptc	1984-08-08 00:00:00.000	, 1675-042 Pontinha - Portugal	35-44	Masculino 	Benfica	Lisboa	2013-09-03 17:53:24.567
+761408	Kikau	1978-08-08 00:00:00.000	Avenida Miguel Torga, 8 - 6E, 2675-678 Odivelas - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-09-06 11:48:53.177
+761409	carlos serra 1	1975-03-03 00:00:00.000	Rua Escritor Aquilino Ribeiro , 9 - 2 drt, 7800-060 Beja - Portugal	45-54	Masculino 	FC Porto	Beja	2012-08-03 22:41:30.180
+761420	Gnitrops76	1976-02-02 00:00:00.000	, 8005-264 Faro - Portugal	35-44	Masculino 	Sporting	Faro	2012-09-08 20:51:19.700
+761428	Mr.13	1985-11-21 00:00:00.000	, 8800-442 tavira - Portugal	25-34	Masculino 	FC Porto	Faro	2013-09-21 11:22:17.587
+761432	SportZende	1971-07-07 00:00:00.000	rua jose vieira, 15, 4740-265 Esposende - Portugal	45-54	Masculino 	FC Porto	Braga	2011-08-03 11:13:10.087
+761437	nunocostadias	1986-10-10 00:00:00.000	Travessa do Ch�o Novo - Porto de Vacas, 3320-108 Janeiro de Baixo - Portugal	25-34	Masculino 	Sporting	Coimbra	2011-09-07 14:03:06.570
+761439	Einaei	1988-06-06 00:00:00.000	Rua Dam�o, 41 3 - Esq, 2860-000 Alhos Vedros - Portugal	25-34	Feminino  	Sporting	Set�bal	2011-07-30 12:52:52.737
+761441	tmsousa	2001-01-01 00:00:00.000	Praceta de Mo�ambique, 55 - 3Dto, 4445-513 Ermesinde - Portugal	15-24	Masculino 	Benfica	Porto	2014-08-05 18:42:21.333
+761447	JO�O PI�ARRA 	1983-10-10 00:00:00.000	rua do vale , 24 3 - dto, 7800-490 Beja - Portugal	35-44	Masculino 	Benfica	Beja	2014-08-20 18:15:53.180
+761448	jmp.	1949-04-04 00:00:00.000	urb.ortigosa 1 - r{esq, 5100-183 lamego - Portugal	64	Masculino 	Benfica	Viseu	2014-08-06 23:29:04.407
+761454	Edu Barreto	1991-10-10 00:00:00.000	, 4715-191 Braga - Portugal	25-34	Masculino 	Benfica	Braga	2011-09-02 02:54:40.157
+761462	Fran999	1978-02-07 00:00:00.000	, 8800-550 Santa Luzia - Portugal	35-44	Masculino 	Benfica	Faro	2011-08-29 18:33:02.543
+761464	Gux23	1987-04-04 00:00:00.000	Quinta das Garrazelhas, S/N, 3320-222 Pampilhosa da Serra - Portugal	25-34	Masculino 	Acad�mica	Coimbra	2013-08-12 00:07:32.433
+761467	Kun32	1991-06-06 00:00:00.000	Noguerinha, 8, 5340-290 Macedo de Cavaleiros - Portugal	25-34	Masculino 	FC Porto	Bragan�a	2011-08-28 09:18:56.023
+761474	fernandopatcarvalho	1978-03-03 00:00:00.000	Av. Almirante Afonso Cerqueira, 35, 3510-023 Viseu - Portugal	35-44	Masculino 	Benfica	Viseu	2014-09-08 18:24:22.703
+761476	TiraVira	1973-02-02 00:00:00.000	, 8400-651 Parchal - Portugal	45-54	Masculino 	Benfica	Faro	2011-08-02 13:10:48.660
+761481	Tito81	1981-10-02 00:00:00.000	Travessa da varge, 145, 3885-169 Arada - Portugal	35-44	Masculino 	FC Porto	Aveiro	2011-08-08 19:46:08.540
+761488	Lanterna_Vermelha	1970-11-11 00:00:00.000	, 2825-480 Costa da Caparica - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-29 13:38:17.713
+761490	farturasteam	1981-05-05 00:00:00.000	Rua Am�rico da Silva Marinho, 7 - 6� Frt, 2835-312 Barreiro - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-09-07 10:42:02.890
+761492	Demolisher	1968-06-06 00:00:00.000	Rua de Cavaleiros, Mangas � Ponte de Cavaleiros, 115 Lote 3, 3720-516 Santiago Riba-Ul - Portugal	45-54	Masculino 	Benfica	Aveiro	2011-07-29 14:15:21.540
+761494	Rukkanor	1980-05-05 00:00:00.000	, 7300-073 Portalegre - Portugal	35-44	Masculino 	Benfica	Portalegre	2014-09-01 17:59:48.823
+761495	benfas2014	1973-04-04 00:00:00.000	Avenida Humberto Delgado , lote 17 - 2�fte, 2975-311 Quinta do Conde 2 - Portugal	45-54	Masculino 	Benfica	Set�bal	2011-08-23 20:02:28.647
+761496	Bebiano Gomes	1991-11-24 00:00:00.000	, 4150-416 Porto - Portugal	25-34	Masculino 	FC Porto	Porto	2012-08-15 00:03:59.693
+761499	Joao2428	1974-08-08 00:00:00.000	, 4455-112 Matosinhos - Portugal	45-54	Masculino 	FC Porto	Porto	2011-09-04 10:41:28.307
+761502	GasparBatista	1971-08-08 00:00:00.000	Rua do Sacramento, 6 - 3�E, 2670-372 Loures - Portugal	45-54	Masculino 	Sporting	Lisboa	2014-08-10 12:31:54.790
+761517	Gingo	1980-10-10 00:00:00.000	Urbaniza��o Quinta de Betunes, Lote 2 - 2 Direito, 8100-616 Loul� - Portugal	35-44	Masculino 	Benfica	Faro	2013-09-05 15:34:02.170
+761522	F_Barbosa	1982-11-11 00:00:00.000	Rua Arcanjo-Lar 65, 65, 9500-162 Ponta Delgada - Portugal	35-44	Feminino  	Sporting	Ilha de S�o Miguel	2011-08-23 13:35:56.390
+761525	jmlslb	1962-08-08 00:00:00.000	Estrada da Atrozela, 170, 2645-028 Alcabideche - Portugal	55-64	Masculino 	Benfica	Lisboa	2011-09-09 18:51:02.113
+761526	Marcos.Barreto	1986-04-04 00:00:00.000	, 4820-166 Fafe - Portugal	25-34	Masculino 	Benfica	Braga	2012-08-23 17:02:02.000
+761527	Ricky_Lemos	1970-01-26 00:00:00.000	, 2820-669 Charneca da Caparica - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-08-09 20:57:49.930
+761536	Font�stico	1977-09-09 00:00:00.000	Rua do Outeiro 2883 3.C, 4760-317 vila nova famalicao - Portugal	35-44	Masculino 	FC Porto	Braga	2011-08-02 22:49:04.870
+761543	Disteel	1978-10-17 00:00:00.000	, 3885-407 Esmoriz - Portugal	35-44	Masculino 	FC Porto	Aveiro	2011-08-10 12:23:29.803
+761545	AFerro83	1983-12-12 00:00:00.000	, 2625-000 Vialonga - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-08-23 12:44:40.750
+761548	pesdefogo	1983-11-11 00:00:00.000	rua das flores, 97, 4485-711 vila do conde - Portugal	35-44	Masculino 	Benfica	Porto	2011-08-10 21:47:15.350
+761551	inadaptado74	1974-09-09 00:00:00.000	, 4465-698 le�a do balio - Portugal	45-54	Masculino 	Benfica	Porto	2011-07-30 18:46:44.533
+761557	Isas	1986-11-11 00:00:00.000	, 2080-385 Benfica do Ribatejo - Portugal	25-34	Masculino 	Benfica	Santar�m	2013-09-16 12:10:57.100
+761561	Laureano C. Sousa	1977-09-09 00:00:00.000	Travessa da rocha do gato , 2, 9100-051 Santa cruz - Portugal	35-44	Masculino 	FC Porto	Ilha da Madeira	2012-08-31 20:26:25.250
+761566	MisterBrunoMartins	1985-01-01 00:00:00.000	Rua da Cerca, 1041, 4770-309 Landim, Vila Nova de Famalic�o - Portugal	35-44	Masculino 	Benfica	Braga	2014-08-21 17:07:38.950
+761568	 CARLOS DIAS	1966-02-02 00:00:00.000	Rua Teodora Maria de Oliveira, 10 - 1� esquerdo, 2680-602 Camarate - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-09-03 21:25:11.170
+761569	Xiorcas	1967-01-01 00:00:00.000	Rua de S. Jo�o, 214, 4575-630 Rio Mau PNF - Portugal	45-54	Masculino 	Sporting	Porto	2011-08-23 11:30:17.380
+761571	Lu�sPintoSilva	1988-11-16 00:00:00.000	, 4590-117 Pa�os de Ferreira - Portugal	25-34	Feminino  	P. Ferreira	Porto	2011-08-01 01:51:29.290
+761573	leo8	1985-09-09 00:00:00.000	pra�a ibn ammar edificio eden lote 13/14 2�A, 8150-111 s�o de alportel - Portugal	25-34	Masculino 	Benfica	Faro	2014-08-14 21:41:12.747
+761576	.Nuno.	1982-10-10 00:00:00.000	Av. Cottinelli Telmo, 6 - 6 dto, 2700-781 Amadora - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-08-24 11:52:33.477
+761579	lameiras282	1984-03-03 00:00:00.000	rua marcial Humberto delgado edif�cio das lameiras, 282 - 4, 4760-012 vila nova de Famalic�o - Portugal	35-44	Masculino 	Benfica	Braga	2011-12-31 09:46:27.097
+761582	Sergio.Santos	1986-02-02 00:00:00.000	Avenida Bombeiros Voluntarios do Porto, 70, 3880-352 Furadouro - Portugal	25-34	Masculino 	Sporting	Aveiro	2011-07-31 21:39:23.263
+761583	Lopes23	1986-05-05 00:00:00.000	Rua Doutor Guilherme Centazzi, 18 - 4� Dto, 8000-321 faro - Portugal	25-34	Masculino 	Benfica	Faro	2013-08-28 18:51:19.320
+761587	patrickppm	1982-08-07 00:00:00.000	, 2600-849 S�o Jo�o dos montes - Portugal	35-44	Masculino 	Benfica	Lisboa	2013-08-14 11:04:52.943
+761590	joaquimflores	1958-10-10 00:00:00.000	Av. Dr. Carlos Pinto Ferreira, 238 - 1�, 4480-665 VILA DO CONDE - Portugal	55-64	Masculino 	Rio Ave	Porto	2011-08-11 11:08:25.900
+761591	NTPeixoto	1984-05-05 00:00:00.000	Rua Poder Local, 357 - r/c drt, 3700-225 S�o Jo�o da Madeira - Portugal	35-44	Masculino 	Sporting	Aveiro	2014-08-04 18:57:57.970
+761596	nando68	1968-07-13 00:00:00.000	, 2855-263 corroios - Portugal	45-54	Masculino 	Benfica	Set�bal	2011-07-29 21:56:44.237
+761597	S.L.Braz�o	1975-11-13 00:00:00.000	Pcta. Barahona Fernandes, 3 - 5� fte, 2670-525 Loures - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-07-29 20:04:22.890
+761599	helderguarda	1977-03-03 00:00:00.000	torre cci 1403- comporta, 2725-304 Sintra - Portugal	35-44	Masculino 	Benfica	Set�bal	2013-09-16 11:24:22.307
+761601	sekadegas	1974-06-06 00:00:00.000	Avenida da Nazar�, 45 B - R/C Esq., 2450-303 Valado dos Frades - Portugal	45-54	Masculino 	Sporting	Leiria	2011-08-17 18:27:39.017
+761603	Super Ab�bora	1954-08-08 00:00:00.000	, 2580-055 Abrigada - Portugal	64	Masculino 	Benfica	Lisboa	2012-07-25 19:09:04.360
+761607	faiancapato	1979-03-03 00:00:00.000	, 4870-150 Ribeira de Pena - Portugal	35-44	Masculino 	V. Guimar�es	Vila Real	2012-12-27 11:21:10.560
+761610	Desnafa	1987-01-29 00:00:00.000	Rua Aldeia Nova , 70, 4585-346 Rebordosa - Portugal	25-34	Masculino 	FC Porto	Porto	2012-09-20 04:30:47.067
+761612	Nunomh	1980-04-04 00:00:00.000	murray street salford manchester, 30 - Reino Unido	35-44	Masculino 	Sporting	Lisboa	2011-09-04 17:06:24.217
+761620	T�Manel	1972-07-07 00:00:00.000	Rua Alto do Cano, 4, 8800-406 Tavira - Portugal	45-54	Masculino 	Benfica	Faro	2011-08-01 22:06:51.730
+761622	mlanders	1985-05-05 00:00:00.000	Rua das Escolas, Lapas, 20, 2350-116 Torres Novas - Portugal	35-44	Masculino 	Benfica	Santar�m	2011-08-03 20:51:38.717
+761633	BrunoBujasFernandes	1995-05-17 00:00:00.000	, 2400-823 Azoia - Portugal	25-34	Masculino 	Sporting	Leiria	2011-08-07 20:16:07.560
+761634	JCML1981	1981-11-18 00:00:00.000	Rua Vasco da Gama, 12 - 1, 2700-832 Amadora - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-09-16 21:37:49.973
+761640	angelini666	1986-02-02 00:00:00.000	, 8500-781 portimao - Portugal	25-34	Masculino 	Benfica	Faro	2014-08-09 20:43:16.170
+761641	Montoya68	1968-05-18 00:00:00.000	Rua Estamparia de Lavadores, 836, 4400-452 Canidelo - V N Gaia - Portugal	45-54	Masculino 	Benfica	Porto	2011-07-29 17:02:48.270
+761644	Cacauete	1993-06-06 00:00:00.000	Rua Dr. Manuel Fialho Correia, 14, 7200-297 Reguengos de Monsaraz - Portugal	25-34	Masculino 	Sporting	�vora	2011-09-02 17:14:07.690
+761651	kiko77	1977-08-08 00:00:00.000	, 2835-010 vale amoreira - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-07-31 17:19:22.940
+761654	valimamade	1970-08-08 00:00:00.000	, 4715-319 Braga - Portugal	45-54	Masculino 	Benfica	Braga	2011-08-07 14:32:21.353
+761657	TMouchinho	1993-01-01 00:00:00.000	Rua do Chabouco, 16, 7960-173 Selmes - Portugal	25-34	Masculino 	Sporting	Beja	2013-08-13 23:53:22.313
+761660	Seomissiul14	1971-08-11 00:00:00.000	, 2430-181 Marinha grande - Portugal	45-54	Masculino 	Benfica	Leiria	2012-09-09 18:10:17.030
+761661	Brunodnsilveira	1993-05-05 00:00:00.000	, 6200-405 Covilh� - Portugal	25-34	Masculino 	NULL	Castelo Branco	2011-08-10 20:31:09.827
+761665	smurfie	1976-04-04 00:00:00.000	Avenida Alexandre Herculano 45  2 D, 45 - 2 D, 2955-112 Pinhal Novo - Portugal	35-44	Masculino 	Sporting	Set�bal	2011-09-02 16:48:12.103
+761669	Hmarujo	1979-08-08 00:00:00.000	Rua Maria da Fonte, 100, 4440-381 Sobrado - Portugal	35-44	Masculino 	Benfica	Porto	2011-08-18 17:51:37.697
+761676	Osdiabosdepeniche	1945-10-10 00:00:00.000	Rua Armando Sampaio Sena, 13 - 1� dto, 2520-200 Peniche - Portugal	64	Masculino 	Benfica	Leiria	2011-08-19 22:58:17.627
+761683	PedroBarril	1985-06-22 00:00:00.000	Rua Dr Viriato Gouveia n 9, 11 - 1� dto, 3450-234 Mort�gua - Portugal	25-34	Masculino 	Benfica	Viseu	2011-09-01 22:23:42.507
+761688	Cbraz	1982-07-07 00:00:00.000	Chemin de Champrilly, 10 - 4 - Sui�a	35-44	Feminino  	Benfica	Bragan�a	2011-08-06 22:31:05.427
+761689	RuiFSC	1983-09-09 00:00:00.000	, 4750-000 Barcelos - Portugal	35-44	Masculino 	Gil Vicente	Braga	2011-08-29 16:25:25.183
+761695	Just. Sim@o	1970-04-04 00:00:00.000	, 4470-024 Maia - Portugal	45-54	Masculino 	FC Porto	Porto	2011-08-01 00:58:37.740
+761696	SCBustelo	1962-06-06 00:00:00.000	Beco da Charc�, 31, 3720-608 Oliveira de Azem�is - Portugal	55-64	Masculino 	Benfica	Aveiro	2011-08-01 16:27:24.230
+761698	RN17	1989-08-08 00:00:00.000	rua profirio rodrigues , 8 esquerdo - 1, 2330-064 entroncamento - Portugal	25-34	Masculino 	Benfica	Santar�m	2012-08-21 04:33:30.853
+761703	Ab�lioLu�s	1966-05-05 00:00:00.000	Rua 25 de Abril - Barril, 9, 3450-113 Mort�gua - Portugal	45-54	Masculino 	Benfica	Viseu	2011-09-01 19:30:03.853
+761717	Da_flock	1984-08-31 00:00:00.000	, 2350-848 entroncamento - Portugal	35-44	Masculino 	Benfica	Santar�m	2012-09-05 21:04:56.000
+761721	Zapporsson	1981-07-07 00:00:00.000	, 2790-000 Carnaxide - Portugal	35-44	Feminino  	Benfica	Lisboa	2013-09-07 10:43:44.093
+761722	koperoto	1993-10-10 00:00:00.000	rua de sabariz, 649, 4935-875 vila fria - Portugal	25-34	Masculino 	FC Porto	Viana do Castelo	2014-08-19 16:32:15.587
+761725	franciscodias31	1977-03-31 00:00:00.000	, 4740-474 Gandra - Portugal	35-44	Masculino 	FC Porto	Braga	2011-08-06 14:02:59.993
+761726	Gambilha	1977-04-15 00:00:00.000	, 7520-313 SINES - Portugal	35-44	Masculino 	Sporting	Set�bal	2011-09-03 18:29:46.143
+761727	Le�oDaFozDoArelho	1946-07-13 00:00:00.000	, 2500-467 foz do arelho - Portugal	64	Masculino 	Sporting	Leiria	2014-08-11 23:33:48.633
+761734	FC palmilha	1976-09-09 00:00:00.000	rua Gaspar corte real , 7 - 2esquerdo , 8800-601 Tavira  - Portugal	35-44	Masculino 	Benfica	Faro	2011-09-08 15:32:01.973
+761744	nelsonj82	1982-04-29 00:00:00.000	, 2700-769 amadora - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-09-17 23:53:02.727
+761751	drag74	1974-10-10 00:00:00.000	rua �lvaro Guerra, 2 - 2d, 2625-268 P�voa de santa iria - Portugal	45-54	Masculino 	FC Porto	Lisboa	2014-08-29 17:14:39.453
+761766	O C�u como o limite	1967-11-11 00:00:00.000	Rua Diogo de Arruda, 10 - 3�E, 2300-483 Tomar - Portugal	45-54	Masculino 	Sporting	Santar�m	2011-08-06 22:30:56.093
+761769	cordeirofc	1991-06-06 00:00:00.000	rua quinta dos bonecos , 13 - 3esq, 2900-578 Setubal - Portugal	25-34	Feminino  	V. Set�bal	Set�bal	2013-09-12 19:12:46.690
+761776	cancela1	1986-05-29 00:00:00.000	, 4925-481 viana do castelo - Portugal	25-34	Masculino 	Benfica	Viana do Castelo	2011-08-30 18:44:52.100
+761777	Caesar Santos	1979-06-06 00:00:00.000	Praceta do Montinho , Lote 4 - R/C Direito, 6000-122 Castelo Branco - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2014-08-24 18:34:47.640
+761783	Serrano_v	1975-06-06 00:00:00.000	Rua Imperio Portugues, 31, 2460-158 Alfeizerao - Portugal	35-44	Masculino 	Benfica	Leiria	2012-09-20 21:46:33.863
+761787	jo@ocost@	1985-07-07 00:00:00.000	Rua Castelo Branco, 357, 4400-405 Canidelo VNG - Portugal	25-34	Masculino 	FC Porto	Porto	2013-08-01 22:22:10.893
+761788	carvalhex	1973-09-27 00:00:00.000	, 2735-457 Agualva - Cac�m - Portugal	45-54	Masculino 	Sporting	Lisboa	2012-09-07 10:56:09.930
+761790	Tovina	1947-06-06 00:00:00.000	Rua Principal   -  Vale Domingos, 649, 3750-321 �gueda - Portugal	64	Masculino 	Sporting	Aveiro	2011-09-04 19:52:50.927
+761793	sportNN	1981-04-04 00:00:00.000	Seixal, 0 0 - 0, 2840-000 Seixal - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-08-01 15:31:44.987
+761794	jamanta SLB FC	1980-07-07 00:00:00.000	rua padre antonio martis pereira, 34 - 3 esquerdo, 2495-453 fatima - Portugal	35-44	Masculino 	Benfica	Santar�m	2013-08-14 18:10:15.083
+761796	bjob	1978-04-20 00:00:00.000	Avenida Ant�nio Lopes Pereira, 16 - 1�Direito, 3505-543 VISEU - Portugal	35-44	Masculino 	Benfica	Viseu	2011-09-05 19:58:31.883
+761800	reisaboim	1975-12-12 00:00:00.000	, 2675-645 lisboa - Portugal	35-44	Feminino  	Sporting	Lisboa	2011-09-08 16:58:33.653
+761806	eles nem respiram	1980-05-05 00:00:00.000	rua do  alportel 241b 6 ag, 8000-000 292 - Portugal	35-44	Masculino 	Benfica	Faro	2012-09-13 20:06:16.280
+761811	fabios30	1990-03-03 00:00:00.000	, 6000-140 Castelo Branco - Portugal	25-34	Masculino 	Sporting	Castelo Branco	2013-11-11 23:01:34.940
+761814	afonsodiana11	1986-07-07 00:00:00.000	, 2300-495 tomar - Portugal	25-34	Masculino 	Benfica	Santar�m	2014-08-04 12:58:19.500
+761815	ruyalex	1984-05-05 00:00:00.000	Rua D. Afonso Henriques, 787 - 4, 3700-027 S. Jo�o da Madeira - Portugal	35-44	Masculino 	FC Porto	Aveiro	2011-07-31 23:47:00.103
+761819	Orb82	1982-02-02 00:00:00.000	, 1200-426 Lisboa - Portugal	35-44	Masculino 	Sporting	Lisboa	2011-08-31 20:47:50.777
+761820	rjcvieira	1986-08-08 00:00:00.000	, 2345-242 Test - Portugal	25-34	Masculino 	Benfica	Lisboa	2013-09-12 17:10:12.410
+761821	Rickhard	1977-08-08 00:00:00.000	Travessa Concei��o da Gl�ria, 7 B - apartamento 56, 1250-083 Lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-19 04:52:29.177
+761824	Salrio	1977-06-06 00:00:00.000	, 3865-279 Salreu - Portugal	35-44	Masculino 	Sporting	Aveiro	2013-08-08 14:57:17.500
+761834	TiagoSoeiro	1985-05-25 00:00:00.000	, 2745-239 Monte Abra�o - Portugal	35-44	Masculino 	Sporting	Lisboa	2011-08-10 16:21:03.413
+761836	Fabinho	1986-10-10 00:00:00.000	, 8000-000 Faro - Portugal	25-34	Masculino 	Benfica	Faro	2011-08-26 17:21:13.957
+761837	Borges_Antonio	1957-01-01 00:00:00.000	Rua General  Humberto Delgado, 181 C - 2� Esq, 4450-701 Le�a da Palmeira - Portugal	55-64	Masculino 	Sem clube	Porto	2013-03-02 00:28:43.017
+761842	DRAGONBAL P.SANTOS	1969-05-05 00:00:00.000	rua roberto ivens, 4 - r/c esquerdo, 2910-721 setubal - Portugal	45-54	Masculino 	V. Set�bal	Set�bal	2013-08-22 21:49:50.500
+761844	Pirmino	1986-05-05 00:00:00.000	, 3020-000 COIMBRA - Portugal	25-34	Masculino 	Benfica	Coimbra	2012-09-03 01:07:12.213
+761845	ruimferreira	1964-07-14 00:00:00.000	, 3100-456 pombal - Portugal	55-64	Masculino 	Sporting	Leiria	2011-08-16 16:11:22.727
+761846	64086048960489s04d8960fsdf	1983-12-12 00:00:00.000	Rua Jos� Tanganho, 22 - 3� Dto, 2500-855 Caldas da Rainha - Portugal	35-44	Masculino 	Benfica	Leiria	2013-09-09 22:08:57.423
+761855	jecpinto	1976-07-07 00:00:00.000	rua da escola , 284 - 1�, 2755-040 Alcabideche - Portugal	35-44	Masculino 	Benfica	Lisboa	2013-08-24 13:06:09.937
+761860	Pedro Ferreira	1970-08-08 00:00:00.000	Rua do Brasil, 681 - 1�, 3700-068 S Joao da Madeira - Portugal	45-54	Masculino 	FC Porto	Aveiro	2011-08-17 08:56:10.997
+761870	moura44	1962-03-03 00:00:00.000	rua sebastiao jesus palma, 82, 7800-070 beja - Portugal	55-64	Masculino 	Benfica	Beja	2011-08-13 11:21:12.050
+761871	rodrigues_andre	1911-08-08 00:00:00.000	Rua Dr. Fernando Ara�jo de Barros, 297 - 3-31, 4475-076 Cast�lo da Maia - Maia - Portugal	64	Masculino 	FC Porto	Porto	2011-08-03 09:18:14.010
+761872	SCPSIEMPRE	1979-12-12 00:00:00.000	TRAVESSA DA FONTE SANTA, 4, 2430-748 VIEIRA DE LEIRIA - Portugal	35-44	Masculino 	Sporting	Leiria	2012-08-05 23:11:02.663
+761876	ACRLAGOA	1982-04-04 00:00:00.000	, 5340-000 macedo de cavaleiros - Portugal	35-44	Feminino  	Benfica	Bragan�a	2013-09-02 22:20:44.020
+761883	Brakk	1984-07-30 00:00:00.000	Rua 20 de Junho de 1991, 14, 2330-233 Entroncamento - Portugal	35-44	Masculino 	FC Porto	Santar�m	2011-09-07 14:50:28.930
+761884	jogarcia05	1967-02-02 00:00:00.000	Rua Dr Francisco Ribeiro Spinola, 5 - 2� Dt�, 2745-872 Massam� - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-09-07 19:03:17.937
+761888	brunomap	1983-03-11 00:00:00.000	Estrada do Viveiro, 183 - R/C, 4925-474 Montaria - Portugal	35-44	Masculino 	Benfica	Viana do Castelo	2011-08-11 23:09:37.927
+761894	JORMARIB	1956-04-04 00:00:00.000	, 2660-324 SANTO ANTONIO DOS CAVALEIROS  - Portugal	55-64	Masculino 	Benfica	Lisboa	2011-09-09 09:43:51.743
+761896	V�tor_Marqu�s1980	1980-05-05 00:00:00.000	Rua Saint Anna Dionisio, Lote A2, c�lula 1 - 2�B, 2650-045 Amadora - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-04 16:54:54.687
+761897	arjobeca	1950-10-10 00:00:00.000	Praceta do Comercio, 11 - 3, 2610-042 Amadora - Portugal	64	Masculino 	NULL	Lisboa	2013-08-01 11:44:21.817
+761899	SantosWP	1992-03-03 00:00:00.000	Rua Aldeia Nova - Meixomil, 48 - 1, 4595-201 Meixomil - Portugal	25-34	Masculino 	FC Porto	Porto	2012-08-29 14:49:01.947
+761905	cr21	1970-09-09 00:00:00.000	, 9000-000 funchal - Portugal	45-54	Masculino 	Benfica	Ilha da Madeira	2011-08-29 20:29:56.337
+761909	Anicetoduarte	1957-08-08 00:00:00.000	Rua Gon�alo Mendes da Maia, 14 Drt - 1, 2005-161 Santar�m - Portugal	55-64	Masculino 	Sporting	Santar�m	2011-09-03 11:52:41.750
+761910	kimberg	1976-01-01 00:00:00.000	, 7900-641 Ferreira do Alentejo  - Portugal	35-44	Masculino 	Sporting	Beja	2011-08-07 16:59:27.410
+761913	JoaoL.	1983-01-01 00:00:00.000	Leiria, 18, 2400-013 Leiria - Portugal	35-44	Masculino 	Sporting	Leiria	2011-09-03 18:24:00.710
+761915	Splash10	2000-06-29 00:00:00.000	, 3780-453 Mogofores - Portugal	15-24	Masculino 	FC Porto	Aveiro	2015-03-07 11:20:07.510
+761916	luis_coelho30	1989-07-28 00:00:00.000	Rua Elias Garcia N�127 1� ESQ., 2330-151 Entroncamento - Portugal	25-34	Masculino 	Benfica	Santar�m	2012-09-05 16:28:41.343
+761923	nmrc	1978-04-04 00:00:00.000	, 2650-129 amadora - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-09-05 10:10:40.170
+761928	Carlos Dinis	1952-10-10 00:00:00.000	, 2780-310 Oeiras - Portugal	64	Masculino 	Sporting	Lisboa	2012-08-09 11:17:02.393
+761935	SLRios	1995-11-11 00:00:00.000	Rua do Campinho, 362, 3720-474 Pinheiro da Bemposta  - Portugal	15-24	Masculino 	Benfica	Aveiro	2014-09-02 16:23:17.310
+761936	GLADIATOR	1979-10-24 00:00:00.000	RUA JOSE RIBEIRO DA SILVA, 41 HAB 3.3 - 3�, 4435-503 RIO TINTO - Portugal	35-44	Masculino 	FC Porto	Porto	2011-07-31 15:31:24.513
+761939	Brokedfin	1987-08-08 00:00:00.000	Rua do Monte, 35, 3885-289 Cortega�a - Portugal	25-34	Masculino 	FC Porto	Aveiro	2013-08-24 16:26:18.397
+761953	goncalo9	1977-12-12 00:00:00.000	Rua 25 de Abril , 6, 3450-113 Mort�gua - Portugal	35-44	Masculino 	Benfica	Viseu	2011-09-02 11:08:56.877
+761958	TopMoulInex	1991-03-03 00:00:00.000	, 2330-227 Entroncamento - Portugal	25-34	Masculino 	Benfica	Santar�m	2011-09-23 01:28:05.650
+761959	CelsoFreitas	1978-11-11 00:00:00.000	Rua A das Portelas, 38, 4795-421 s�o mamede de negrelos - Portugal	35-44	Masculino 	Sporting	Porto	2014-09-10 18:04:10.170
+761970	1Guitarrista	1982-09-09 00:00:00.000	Rua Drummond de Andrade , 20 Lote - 3, 8500-610 Portim�o  - Portugal	35-44	Masculino 	Benfica	Faro	2011-09-09 12:23:10.270
+761972	Zanzo;)	1979-11-27 00:00:00.000	Avenida Agostinho Neto, 19 frente - 2, 2745-233 Queluz - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-26 20:00:32.757
+761973	BaGiGaS	1990-11-11 00:00:00.000	Rua da Escola, 11, 7000-202 S. Sebasti�o da Giesteira - Portugal	25-34	Masculino 	Sporting	�vora	2013-08-28 13:15:59.267
+761977	rpbonito	1975-02-02 00:00:00.000	Belas, 2605-225 Belas - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-08-24 19:36:35.740
+761979	MESTRE DA TATICA	1972-03-03 00:00:00.000	, 2330-212 Entroncamento - Portugal	45-54	Masculino 	Sporting	Santar�m	2014-08-06 23:18:48.137
+761984	_SYLVA_	1989-03-03 00:00:00.000	, 4640-475 BAI�O - Portugal	25-34	Masculino 	Sporting	Porto	2012-08-19 02:27:43.263
+761989	berns23	1970-05-23 00:00:00.000	nao sei, 4510-553 Fanzeres - Portugal	45-54	Masculino 	Benfica	Porto	2011-08-10 23:54:48.693
+761995	josecarlos.sousa.106	1970-04-04 00:00:00.000	Praceta Estado da Baia, 4 - 9 C, 2735-596 S�o Marcos - Portugal	45-54	Masculino 	Sporting	Lisboa	2014-08-17 22:22:29.730
+762004	MisterLeite	1973-10-10 00:00:00.000	Rua Jose Camarinha Barrote , 202 - 2� Esq, 4410-402 Arcozelo - Portugal	45-54	Masculino 	FC Porto	Porto	2011-08-19 00:03:29.657
+762008	hclaro	1977-09-09 00:00:00.000	Rua da Estrada Velho, 182 C - R/C, 4440-554 Valongo - Portugal	35-44	Feminino  	Benfica	Porto	2011-08-01 19:17:29.003
+762011	Ant�nio Cordeiro	1965-09-09 00:00:00.000	, 2460-098 S�o Martinho do porto - Portugal	45-54	Feminino  	Belenenses	Leiria	2011-08-14 13:08:40.487
+762016	icemetal	1969-03-03 00:00:00.000	, 2670-554 loures - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-07 19:54:53.923
+762017	Ricardo TT Nunes	1980-08-08 00:00:00.000	Vereda do Po�o do Morgado, 22, 9020-318 Funchal - Portugal	35-44	Masculino 	Benfica	Ilha da Madeira	2014-08-05 20:32:22.270
+762020	danielmassanosantos	1990-02-02 00:00:00.000	Bairro do Alardo A2 - 1�, 6260-023 Manteigas - Portugal	25-34	Masculino 	Benfica	Guarda	2014-09-10 10:32:18.883
+762021	IvoNogueira	1986-04-26 00:00:00.000	Almirante gago coutinho, 113 frente - 2�, 2620-371 odivelas - Portugal	25-34	Feminino  	Benfica	Leiria	2011-08-10 23:22:15.550
+762026	JPAIXAO18	1992-11-01 00:00:00.000	, 8500-554 Portim�o - Portugal	25-34	Masculino 	Sporting	Faro	2011-08-22 14:10:42.523
+762031	sportcopos	1976-05-05 00:00:00.000	Monte do corvo , 7900-093 Alfundao  - Portugal	35-44	Masculino 	Benfica	Beja	2013-08-15 14:16:04.810
+762032	lobo18	1994-01-18 00:00:00.000	Monte do Castelao amoreiras gare, 7630-514 Amoreiras-Gare - Portugal	25-34	Masculino 	Sporting	Beja	2011-08-01 17:33:44.093
+762033	carioca10	1974-11-11 00:00:00.000	Rua Jos� Vieira Molazinha, n� 383, Pragosa, 383, 2480-167 Porto de M�s - Portugal	45-54	Masculino 	Benfica	Leiria	2014-08-25 15:27:51.720
+762048	cubano	1976-07-24 00:00:00.000	Rua 5 Outubro, 41 A - 1 dt, 7050-355 montemor-o-novo - Portugal	35-44	Masculino 	Benfica	�vora	2011-09-06 17:22:02.800
+762049	Navex	1972-02-24 00:00:00.000	rua dos ex votos, 275 - 2 F, 2870-723 Atalaia - Portugal	45-54	Masculino 	Benfica	Set�bal	2011-08-11 23:49:34.770
+762053	Sir Mica	1983-08-08 00:00:00.000	, 2005-357 Santar�m - Portugal	35-44	Masculino 	Sporting	Santar�m	2012-08-17 11:49:55.297
+762056	dewilde	1980-01-01 00:00:00.000	Urb. Quinta da ouriva, Lote2 1 - 1 der, 8500-000 Portimao - Portugal	35-44	Masculino 	Sporting	Faro	2011-08-22 15:05:50.760
+762057	FilipeMilit�o	1993-09-09 00:00:00.000	, 7370-027 Campo Maior - Portugal	25-34	Masculino 	Benfica	Portalegre	2014-09-01 21:42:09.263
+762059	jaburu	1978-04-04 00:00:00.000	Rua d. afonso henriques n� 787 fontainhas, 787, 3700-027 S�o Jo�o da Madeira - Portugal	35-44	Masculino 	FC Porto	Aveiro	2011-08-02 23:51:04.823
+762060	joserenata	1978-04-04 00:00:00.000	Rua Fernando Pessoa, 465 22 - 1, 4810-176 Guimar�es - Portugal	35-44	Masculino 	V. Guimar�es	Braga	2014-08-05 11:21:12.440
+762062	bakinho	1978-06-28 00:00:00.000	, 2745-059 Queluz - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-08 12:03:34.817
+762070	 RAMADAS TEAM	1978-03-08 00:00:00.000	rua engenheiro jose ribeiro vieira 3 - 2, 2410-503 Cortes - Portugal	35-44	Masculino 	Benfica	Leiria	2014-09-17 20:37:55.320
+762075	CalhauSlb	1980-08-08 00:00:00.000	rua jose pacheco, n 14 bloco d - 1 esq, 7520-312 sines - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-08-10 18:15:57.677
+762077	PEPEBARBOSA	1977-04-04 00:00:00.000	PTA ANTONIO ANDRADE , 14 - 3 DTO, 2855-579 CORROIOS - Portugal	35-44	Masculino 	Sporting	Set�bal	2014-08-06 10:59:26.270
+762080	marreta_17	1975-08-17 00:00:00.000	, 2430-186 Marinha Grande - Portugal	35-44	Masculino 	Benfica	Leiria	2011-07-29 22:47:15.987
+762085	Di Santos	1984-02-16 00:00:00.000	Rua Vale Do Porto, n� 22, 2230-102 Cabe�a Das M�s - Portugal	35-44	Masculino 	Benfica	Santar�m	2011-07-29 20:09:11.867
+762089	SMCP76	1976-12-30 00:00:00.000	Rua Manuel Mafra, 77 - 1�F, 2500-825 Caldas da Rainha - Portugal	35-44	Masculino 	Benfica	Leiria	2011-09-03 13:09:39.493
+762090	HARR	1963-12-12 00:00:00.000	Rua Nau S�o Rafael, 6 - 2, 2830-489 Barreiro - Portugal	55-64	Masculino 	Benfica	Set�bal	2011-08-11 14:44:11.937
+762092	guapos	1974-02-05 00:00:00.000	, 2830-000 barreiro - Portugal	45-54	Masculino 	Benfica	Set�bal	2012-09-13 16:46:15.150
+762093	gugu5	1976-11-11 00:00:00.000	Rua de Coimbra , 60, 3200-222 lousa - Portugal	35-44	Masculino 	FC Porto	Coimbra	2011-08-17 22:19:03.230
+762095	Pai do To Ze	1987-07-07 00:00:00.000	Urb. Quinta da V�rzea Lote 1 4� dto, 1 Urb. Quinta da V�rzea Lote 1 4� dto - 4� dto, 6200-003 Covilha - Portugal	25-34	Masculino 	Sporting	Castelo Branco	2012-08-20 12:58:16.263
+762096	Marco Ant�o	1973-05-05 00:00:00.000	Rua das Virtudes 41 Edificio Dragoeiro 1�B, 41 - 1� A, 9000-645 Funchal - Portugal	45-54	Masculino 	Mar�timo	Ilha da Madeira	2011-08-06 15:39:35.657
+762099	jmcastilho	1960-11-11 00:00:00.000	Rua Dr.Jo�o Frade Correia, Lte 10 - 3�Esq., 6000-352 Castelo Branco - Portugal	55-64	Masculino 	Benfica	Castelo Branco	2011-08-13 16:26:21.477
+762104	caganda	1975-08-08 00:00:00.000	, 2690-321 Portela da Azoia - Portugal	35-44	Masculino 	Belenenses	Lisboa	2011-08-01 18:36:03.397
+762105	dinisgorjao	1985-07-07 00:00:00.000	Av. J�vea, 2 - 2.A, 2950-566 Quinta do Anjo - Portugal	25-34	Masculino 	Benfica	Set�bal	2011-09-02 12:10:04.957
+762113	Elbicho	1974-10-10 00:00:00.000	, 2625-724 vialonga - Portugal	45-54	Masculino 	Sporting	Lisboa	2012-09-07 14:40:11.910
+762122	Milky15	1985-04-30 00:00:00.000	Rua Hern�ni Torres, 201 - 1.� direito, 4200-320 Porto - Portugal	35-44	Masculino 	FC Porto	Porto	2012-08-14 23:08:28.647
+762123	r77lopes	1977-01-26 00:00:00.000	, 2230-161 Sardoal - Portugal	35-44	Masculino 	Benfica	Santar�m	2012-08-21 12:08:08.497
+762125	goncalo2013a	1989-04-26 00:00:00.000	rua estevao amarante, 6 - rc/d, 2620-264 odivelas - Portugal	25-34	Masculino 	Sporting	Lisboa	2013-02-02 20:32:06.213
+762133	brcv2013	1978-03-03 00:00:00.000	Estrada d. Manuel I , 17, 9200-127 Machico - Portugal	35-44	Masculino 	Benfica	Ilha da Madeira	2012-08-30 12:30:10.520
+762137	Mr.Markovic	1977-07-07 00:00:00.000	Rua Hilario Jose Barreiros , 17 - rc, 2150-083 Pombalinho - Portugal	35-44	Masculino 	Benfica	Santar�m	2014-08-20 23:23:13.343
+762138	alexpicatchu	1978-07-07 00:00:00.000	, 2835-066 Baixa da Banheira - Portugal	35-44	Masculino 	FC Porto	Set�bal	2011-09-07 12:44:19.977
+762140	Vit�ria!!!	1979-08-08 00:00:00.000	Rua Agostinho da Silva, 2 esq - r/c, 3880-150 Ovar - Portugal	35-44	Masculino 	Benfica	Aveiro	2011-08-12 00:02:43.780
+762143	Novak_Henriques	1981-03-03 00:00:00.000	, 9500-787 ponta delgada - Portugal	35-44	Masculino 	Sporting	Ilha de S�o Miguel	2013-09-19 13:31:20.113
+762145	carlos.gaspar.1485	1977-05-14 00:00:00.000	Tv da Cristova , 27, 3750-471 Fermentelos,  Aveiro - Portugal	35-44	Masculino 	Benfica	Aveiro	2014-08-04 22:32:28.563
+762148	jskywalker	1986-11-11 00:00:00.000	Mato Santo Espirito, 8800-208 Tavira - Portugal	25-34	Masculino 	Benfica	Faro	2011-08-23 22:24:46.840
+762150	Bruto_dos_Queixos	1975-02-21 00:00:00.000	Rua Nova da Vila C - 2�Dir, 2460-784 Turquel - Portugal	45-54	Masculino 	Sporting	Leiria	2011-07-31 19:23:14.333
+762157	Joao_Mateus	1963-02-02 00:00:00.000	Travessa Ant�nio Roxo, 312, 6000-345 Castelo Branco - Portugal	55-64	Masculino 	Sporting	Castelo Branco	2011-07-29 15:05:45.950
+762161	h_caria	1977-06-06 00:00:00.000	, 2005-163 Santarem - Portugal	35-44	Masculino 	Benfica	Santar�m	2011-08-09 17:50:16.147
+762166	filipeviegas	1966-08-08 00:00:00.000	Rua Jose Gomes Ferreira, 23 Frt - 2�, 2735-604 ccacem - Portugal	45-54	Masculino 	Benfica	Lisboa	2013-08-01 20:44:28.437
+762168	paulocorreia	1974-06-06 00:00:00.000	Caminho da Gaia Marinha Ovar, 100, 3880-254 Ovar - Portugal	45-54	Masculino 	Benfica	Aveiro	2011-07-29 22:48:20.770
+762170	Isolino1	1965-06-06 00:00:00.000	Rua Jos� Isidro dos Santos, 2 - 3� D, 2625-086 P�voa de Santa Iria - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-09-07 22:07:16.987
+762173	vitorgaspar	1976-06-23 00:00:00.000	rua dos lilazes bairro das flores, 119, 7500-130 v. nova de santo andre - Portugal	35-44	Feminino  	Benfica	Set�bal	2011-08-12 18:42:54.173
+762174	GLAYSON FIDELIS	1979-05-05 00:00:00.000	Rua Joaquim Agostinho, 91 A - 1� Esq, 2785-380 Sao Domingos de Rana - Portugal	35-44	Masculino 	Estoril	Lisboa	2014-08-20 21:34:40.123
+762177	Caetano	1969-04-04 00:00:00.000	Urb. Sta. Apol�nia, 22, 4835-438 Guimar�es - Portugal	45-54	Masculino 	V. Guimar�es	Braga	2015-03-10 09:11:35.960
+762178	MP68	1968-12-25 00:00:00.000	Rua Jos� Afonso, Lote 9 - 3�. Dt�., 1 - 3�. Esq�., 2955-295 Pinhal Novo - Portugal	45-54	Masculino 	Sporting	Set�bal	2012-09-03 11:16:11.007
+762182	P�p�G�is	1982-08-08 00:00:00.000	Bairro dos Combatentes da Grande Guerra, 19, 3330-317 G�is - Portugal	35-44	Masculino 	Benfica	Coimbra	2011-08-26 14:51:52.427
+762184	julio99	1999-01-11 00:00:00.000	Avenida de Espanha  - 2�Esq, 6000-201 Castelo Branco - Portugal	15-24	Masculino 	Sporting	Castelo Branco	2011-08-04 17:46:26.320
+762186	claudiomcb	1989-09-09 00:00:00.000	Rua Jos� Gomes Ferreira, 3 - 2�b, 2720-324 Amadora - Portugal	25-34	Masculino 	Benfica	Lisboa	2012-08-28 21:05:20.877
+762188	soares86	1986-09-18 00:00:00.000	rua do monte, 352, 3720-510 Oliveira de azemeis - Portugal	25-34	Masculino 	Sporting	Aveiro	2011-08-23 14:38:08.160
+762192	filipe.cabo	1974-10-10 00:00:00.000	 Lisbon - Portugal	45-54	Masculino 	Sporting	Lisboa	2014-08-22 23:54:28.410
+762196	MMDragon	1979-10-10 00:00:00.000	, 2565-771 Turcifal - Portugal	35-44	Masculino 	FC Porto	Lisboa	2011-08-19 16:23:48.880
+762202	Cambados	1966-03-13 00:00:00.000	, 1250-263 Lisboa - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-03 23:51:15.663
+762204	Goonies	1971-02-26 00:00:00.000	Rua Quinta do Espinheiro lote 3, 2005-454 Santarem - Portugal	45-54	Masculino 	Benfica	Santar�m	2014-08-05 12:53:39.707
+762206	fhp1985	1985-05-05 00:00:00.000	, 2425-616 Monte Redondo - Portugal	35-44	Masculino 	Sporting	Leiria	2011-08-01 16:50:38.363
+762230	MARCIO F.C.	1982-03-03 00:00:00.000	, 9020-063 funchal - Portugal	35-44	Masculino 	Benfica	Ilha da Madeira	2014-08-06 13:23:29.200
+762237	ptav	1975-01-06 00:00:00.000	, 4410-467 V N Gaia - Portugal	45-54	Masculino 	FC Porto	Porto	2011-09-08 19:38:58.203
+762243	joaobrunoV.N.C.	1976-05-05 00:00:00.000	estrada da murtinheira, 15, 3330-452 Vila  nova do ceira - Portugal	35-44	Feminino  	Benfica	Coimbra	2011-08-30 17:55:05.280
+762246	NFSF	1976-09-09 00:00:00.000	, 4465-122 S. Mamede Infesta - Portugal	35-44	Masculino 	Sem clube	Porto	2011-07-29 22:21:41.947
+762250	Serj�o	1960-05-08 00:00:00.000	Rua 5 de Outubro, 110 A - 4� V, 9000-216 Funchal - Portugal	55-64	Masculino 	Sporting	Ilha da Madeira	2011-08-17 16:23:46.843
+762251	Eu � mais bolos	1981-04-04 00:00:00.000	, 3800-000 Aveiro - Portugal	35-44	Masculino 	Benfica	Aveiro	2014-08-06 02:15:13.820
+762257	PauloBuzz	1982-10-10 00:00:00.000	Rua 1o de maio edif�cio a f�brica , A B - 1, 8300-178 Silves - Portugal	35-44	Masculino 	Benfica	Faro	2011-08-26 03:08:08.570
+762259	Ant�nio_Guerreiro	1958-08-08 00:00:00.000	Rua Nat�lia Correia, 20 - R/C Dto  Cx Postal 5425, 7800-326 Beja - Portugal	55-64	Masculino 	Benfica	Beja	2011-08-26 23:32:16.553
+762272	barbosa81	1981-01-01 00:00:00.000	rua dr egas moniz 1e 3eq, 2830-340 lavradio - Portugal	35-44	Masculino 	Benfica	Set�bal	2014-09-10 11:44:57.490
+762273	nunora	1969-07-07 00:00:00.000	Rua Azeredo Lobo, 42, 4400-728 V. N. Gaia - Portugal	45-54	Masculino 	Benfica	Porto	2011-08-01 13:44:56.673
+762274	Kumeke	1987-08-08 00:00:00.000	Travessa da Gon�ala  vale de nogueira , 8, 5300-846 Vale de nogueira  - Portugal	25-34	Masculino 	FC Porto	Bragan�a	2011-09-06 19:23:38.820
+762276	ojmaria	1968-10-10 00:00:00.000	rua alberto angelo da silva, 16 - 3�frente, 2600-686 castanheira do ribatejo - Portugal	45-54	Masculino 	Benfica	Lisboa	2012-09-17 14:27:52.493
+762277	talholargateira	1980-11-11 00:00:00.000	, 4815-157 lordelo - Portugal	35-44	Masculino 	NULL	Braga	2013-08-08 12:14:33.650
+762279	Ricky Torranowsky	1975-03-03 00:00:00.000	Rua Padre Ant�nio Dias de Almeida, 51, 3810-304 Aveiro - Portugal	45-54	Masculino 	Beira-Mar	Aveiro	2011-09-05 13:34:10.893
+762280	jotta87	1987-07-07 00:00:00.000	Rua 31 de Janeiro, 24, 7005-105 Azaruja - Portugal	25-34	Masculino 	Benfica	�vora	2012-09-17 21:42:53.940
+762285	dijuse	1981-10-10 00:00:00.000	, 2775-036 Parede - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-08-19 11:00:11.540
+762286	Bohemia	1977-04-04 00:00:00.000	, 2890-307 S�o Francisco - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-08-24 09:51:17.043
+762291	RUIJORGE19	1975-07-07 00:00:00.000	Rua Escola do Mexedinho, 257 1� Drt Frt, 4415-213 PEDROSO - Portugal	35-44	Masculino 	FC Porto	Porto	2015-02-13 17:32:02.030
+762294	nuno gonza	1983-11-11 00:00:00.000	av. funda�ao calouste gulbenkian  lote a7, 6005-000 alcains - Portugal	35-44	Masculino 	Sporting	Castelo Branco	2011-08-09 20:13:03.030
+762296	COV�O	1967-05-02 00:00:00.000	Rua Manuel Alfredo Tito Morais, 12 Dto - 2, 2670-572 LOURES - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-08-07 01:16:00.663
+762297	Edcohen	1981-04-04 00:00:00.000	Urbaniza��o Quinta de S�o Lu�s , LT 9 - 1� DRT, 3140-348 Pereira - Portugal	35-44	Masculino 	Sporting	Coimbra	2011-08-04 11:53:20.677
+762298	GODY1975	1975-07-07 00:00:00.000	, 2350-580 TORRES NOVAS - Portugal	35-44	Masculino 	Sporting	Santar�m	2014-08-06 21:07:13.217
+762301	LDamas	1964-07-07 00:00:00.000	Rua da alegria , 1 - 3�dto, 2810-152 - Portugal	55-64	Masculino 	Benfica	Set�bal	2011-07-30 20:00:35.260
+762305	Cei��o	1972-08-08 00:00:00.000	travessa da gandra, 30, 4760-670 Famalicao - Portugal	45-54	Feminino  	Sporting	Braga	2013-09-20 11:42:18.957
+762308	Pinto1983	1983-12-02 00:00:00.000	Rua do Valbom n�1 R/C Esq, 1 - R/C Esq, 2890-000 Alcochete - Portugal	35-44	Masculino 	Benfica	Set�bal	2014-08-17 22:14:05.080
+762315	Ruben99Miguel	1998-05-09 00:00:00.000	, 3420-401 T�bua - Portugal	15-24	Masculino 	Acad�mica	Coimbra	2012-08-13 00:46:26.980
+762323	luismendeiros	1977-03-03 00:00:00.000	Campo da Feira, 12 - R/c Dt�, 7100-073 Estremoz - Portugal	35-44	Masculino 	Benfica	�vora	2011-08-30 01:49:30.740
+762328	jusko39	1965-07-07 00:00:00.000	Ed�ficio Ouro Branco, bloco n� 20 4� esquerdo frente, 20 A - 4� ESQ� frente, 4560-765 Santa Marta - Penafiel - Portugal	45-54	Masculino 	Sporting	Porto	2011-08-10 23:26:41.547
+762332	m.ramalho	1979-01-01 00:00:00.000	rua professor mota pinto  C3 - 1� ESQ., 3060-188 Cantanhede - Portugal	35-44	Masculino 	Benfica	Coimbra	2011-08-31 01:01:34.983
+762333	tpp	1988-05-05 00:00:00.000	, 4520-021 Escap�es - Portugal	25-34	Masculino 	FC Porto	Aveiro	2014-10-30 14:18:35.087
+762343	NITO79	1979-12-12 00:00:00.000	, 7350-312 Elvas - Portugal	35-44	Masculino 	Benfica	Portalegre	2013-08-02 15:38:42.797
+762344	Ramos1981	1981-09-09 00:00:00.000	, 7600-326 Messejana - Portugal	35-44	Masculino 	Benfica	Beja	2012-08-16 12:55:44.343
+762349	PerFect.	1996-07-03 00:00:00.000	Rua da Urbaniza��o da Barca 18 - 4� dt, 4785-336 Trofa - Portugal	15-24	Masculino 	Benfica	Porto	2014-08-13 19:40:21.320
+762355	Cardy	1986-01-18 00:00:00.000	Rua dos bombeiros volunt�rios, 11 Direito - 1, 1685-570 Canecas - Portugal	25-34	Masculino 	Sporting	Lisboa	2014-08-15 18:54:14.457
+762356	cynnes	1974-02-02 00:00:00.000	Rua Nau Santa Catarina, 26, 7520-268 Sines - Portugal	45-54	Masculino 	Benfica	Set�bal	2011-08-24 16:05:12.380
+762361	WilsonValente	1986-08-08 00:00:00.000	Rua Joao Azevedo do Carmo, 4 - 5 Dto, 2835-313 Lavradio - Portugal	25-34	Masculino 	Benfica	Set�bal	2014-09-02 22:41:18.847
+762365	madboy	1982-06-06 00:00:00.000	Rua Alfredo Franco, 10 - 2 Esq, 1800-391 Lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-07 12:05:48.703
+762368	heavenhell	1972-09-12 00:00:00.000	, 4835-126 guimar�es - Portugal	45-54	Masculino 	V. Guimar�es	Braga	2013-09-20 09:56:30.263
+762374	Rafastade	1991-07-16 00:00:00.000	, 4520-192 Santa Maria da Feira - Portugal	25-34	Masculino 	Feirense	Aveiro	2011-08-31 11:55:28.817
+762377	vontade	1960-01-02 00:00:00.000	, 4250-258 porto - Portugal	55-64	Masculino 	FC Porto	Porto	2011-08-23 01:43:11.873
+762380	VR83	1983-09-08 00:00:00.000	Rua General Te�filo da Trindade, 136 - 1, 7800-316 Beja - Portugal	35-44	Masculino 	Benfica	Beja	2011-08-23 14:02:23.453
+762385	Duarte Camilo	1987-01-01 00:00:00.000	, 7430-277 Gafete - Portugal	25-34	Feminino  	Benfica	Portalegre	2013-08-09 11:43:46.133
+762389	godfather1971	1971-11-11 00:00:00.000	Rua Francisco Salgado zenha , 25 C - 2, 2725-546 algueirao-man martins - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-07-29 17:49:29.770
+762390	Psycholady	1975-01-01 00:00:00.000	, 1950-338 Lisboa - Portugal	45-54	Feminino  	Sporting	Lisboa	2014-08-23 12:06:14.420
+762391	Rcapela2	1981-11-11 00:00:00.000	rua via atlantica, 27, 4490-394 povoa de varzim - Portugal	35-44	Masculino 	FC Porto	Porto	2011-08-01 18:13:22.317
+762392	Pardal22	1992-10-26 00:00:00.000	Avenida Dr.Renato Araujo 1690 3� Direito Frente, 54 - 3 Direito Frente, 3700-242 S�o Jo�o da Madeira - Portugal	25-34	Masculino 	FC Porto	Aveiro	2011-09-11 20:42:06.237
+762394	wilson86	1986-10-20 00:00:00.000	, 2830-000 barreiro - Portugal	25-34	Feminino  	Benfica	Set�bal	2014-08-27 22:09:27.043
+762395	Mato87	1987-05-27 00:00:00.000	, 4200-000 Porto - Portugal	25-34	Masculino 	FC Porto	Porto	2012-08-27 22:32:06.293
+762401	abk13	1987-05-05 00:00:00.000	Rua de S.Martinho , 243, 4590-373 Freamunde - Portugal	25-34	Masculino 	Sem clube	Porto	2011-08-01 01:15:31.373
+762402	Anpola	1983-09-09 00:00:00.000	Rua Ant�nio Gedeao, 2 - 4A, 8500-396 Portim�o - Portugal	35-44	Masculino 	Benfica	Faro	2014-09-17 20:54:47.253
+762409	Nuno_10	1993-01-01 00:00:00.000	Rua Francisco Gomes, 8 - 2, 8900-303 Vila Real de Santo Antonio - Portugal	25-34	Masculino 	Benfica	Faro	2011-08-17 01:29:36.470
+762412	poeta77	1977-02-02 00:00:00.000	Rua Nuno Trist�o, 22 B - 1� dto, 2830-095 Barreiro - Portugal	35-44	Masculino 	FC Porto	Set�bal	2011-07-31 22:28:02.787
+762415	S.Simoes	1978-11-22 00:00:00.000	, 4925-491 Montaria - Portugal	35-44	Feminino  	FC Porto	Viana do Castelo	2012-08-24 11:48:41.463
+762420	mPorto	1988-08-08 00:00:00.000	Rua Jos� Vieira Bloco A-4 2� Direito Esposende, 4740-275 Esposende - Portugal	25-34	Masculino 	FC Porto	Braga	2013-09-03 21:40:38.477
+762427	paulofilipe1	1975-01-01 00:00:00.000	Avenida Afonso Costa, 31 - rc dto, 2845-339 Amora - Portugal	45-54	Masculino 	Benfica	Set�bal	2011-08-04 02:09:41.983
+762430	Eu sou GDA	1982-10-10 00:00:00.000	Rua da horta nova - Reino Unido	35-44	Masculino 	Benfica	Santar�m	2014-08-19 13:14:31.797
+762437	rsfcporto	1979-06-06 00:00:00.000	, 5300-388 bragan�a - Portugal	35-44	Masculino 	FC Porto	Bragan�a	2012-08-15 16:17:38.270
+762443	motinha91_goog	1991-09-29 00:00:00.000	av. torres do marco , 13 B - 2 direito, 4630-463 marco de canaveses - Portugal	25-34	Masculino 	FC Porto	Porto	2014-08-11 03:50:53.430
+762444	ginola1980	1980-07-09 00:00:00.000	 - Holanda	35-44	Masculino 	Sporting	Santar�m	2012-09-19 18:30:38.740
+762446	Karlituz72	1972-03-03 00:00:00.000	, 2820-155 Charneca Caparica - Portugal	45-54	Feminino  	Benfica	Set�bal	2011-08-01 14:07:00.033
+762448	PorcoInsens�vel	1975-05-24 00:00:00.000	, 2815-737 Sobreda - Portugal	45-54	Masculino 	Sporting	Set�bal	2011-08-24 17:47:42.990
+762453	ferret	1967-10-10 00:00:00.000	Rua Adriano Jose Silva, 19 3 - Esq, 2770-006 Pa�o Arcos - Portugal	45-54	Masculino 	Sporting	Lisboa	2014-08-06 12:02:33.840
+762457	Jpgouxa 	1978-12-12 00:00:00.000	rua do vale grande, 45, 2380-170 gouxaria - Portugal	35-44	Masculino 	Benfica	Santar�m	2014-08-22 00:36:32.320
+762459	Muli	1979-04-20 00:00:00.000	Rua Honorio de Lima , 14, 4465-170 S�o Mamede Infesta - Portugal	35-44	Masculino 	Benfica	Porto	2014-09-08 18:32:39.443
+762460	Diogo_Campones	1988-06-06 00:00:00.000	Rua da Eira Velha, 3, 2420-116 Caranguejeira - Portugal	25-34	Masculino 	Benfica	Leiria	2014-08-27 11:24:41.293
+762461	BLUE VELVET	1980-01-01 00:00:00.000	, 4425-034 Maia - Portugal	35-44	Masculino 	FC Porto	Porto	2011-08-25 08:07:58.753
+762465	GUST	1982-01-01 00:00:00.000	Cerro Cabe�a de C�mara, 8100-289 Loul� - Portugal	35-44	Masculino 	Benfica	Faro	2014-08-22 16:44:23.270
+762467	Tiagus7	1983-02-02 00:00:00.000	, 2440-042 Batalha - Portugal	35-44	Masculino 	Benfica	Leiria	2011-08-05 01:33:11.767
+762469	Pastel1	1978-05-14 00:00:00.000	Travessa do Moinho Velho, 7, 1300-420 Lisboa - Portugal	35-44	Masculino 	Belenenses	Lisboa	2014-09-04 14:04:38.957
+762471	Krakov	1977-02-02 00:00:00.000	, 2830-507 Palhais BRR - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-09-09 17:53:25.137
+762474	Preto17	1982-10-10 00:00:00.000	Praceta Capit�es de Abril, 4 - 4�B, 8005-233 Faro - Portugal	35-44	Masculino 	Benfica	Faro	2011-08-15 10:36:49.030
+762485	VPaulino	1978-09-09 00:00:00.000	, 2745-874 Massam� - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-02 21:55:45.253
+762487	miguel.igrejanova	1972-02-02 00:00:00.000	1de Maio, 1B C - R/C esq, 2640-320 Igreja nova - Portugal	45-54	Masculino 	FC Porto	Lisboa	2014-08-14 21:29:22.290
+762490	migrossi	1980-02-23 00:00:00.000	Av. 25 Abril, 118 - 6�A, 2745-862 Massam� - Portugal	35-44	Masculino 	Nacional	Ilha da Madeira	2011-09-07 01:13:27.503
+762492	MFClemente	1989-01-01 00:00:00.000	, 2330-021 Entroncamento - Portugal	25-34	Masculino 	Benfica	Santar�m	2013-09-14 21:07:46.550
+762494	kabra1982	1982-01-01 00:00:00.000	Rua Alexandre Herculano , 1 drt, 2690-342 Sta Iria Azoia - Portugal	35-44	Feminino  	FC Porto	Lisboa	2011-09-06 12:51:45.780
+762503	MisterSa	1981-07-07 00:00:00.000	Rua Augusto Costa, 2 - 11D, 1500-064 Lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2013-09-12 21:20:22.850
+762506	ContigoDois	1974-10-10 00:00:00.000	Av Dr Eduardo Mansinho, 21 esq - 2�, 8800-301 Tavira - Portugal	45-54	Masculino 	Benfica	Faro	2012-08-30 14:21:29.190
+762511	TIXICO	1963-04-04 00:00:00.000	Sitio do Bengado, 8150-018 S�o Br�s de Alportel - Portugal	55-64	Masculino 	Benfica	Faro	2013-08-14 11:25:39.440
+762513	passas	1969-03-03 00:00:00.000	, 2720-325 Amadora - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-18 17:07:33.157
+762516	nadiafelix	1989-05-05 00:00:00.000	Rua da Padaria , s/n, 7670-405 pan�ias - Portugal	25-34	Feminino  	Benfica	Beja	2014-09-15 12:03:31.340
+762517	Rjslclima	1981-07-07 00:00:00.000	, 3680-138 Oliveira de Frades - Portugal	35-44	Masculino 	Benfica	Viseu	2012-09-24 23:15:56.113
+762518	Imperial14	1986-08-08 00:00:00.000	, 2510-730 Gaeiras - Portugal	25-34	Masculino 	Benfica	Leiria	2011-08-17 10:39:44.577
+762522	Rodrigo_Gomes	1983-10-25 00:00:00.000	, 2565-298 Freiria - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-15 10:18:11.803
+762524	JorgeJorge	1979-08-11 00:00:00.000	, 2655-300 Ericeira - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-10 15:07:01.950
+762525	Solo_Invicto	1981-05-05 00:00:00.000	Rua Gerrufes, NR 378, Santa Comba, Santa Comba, 378 Rua Gerrufes, NR 378, Santa Comba, Santa Comba, 4990-740 Santa Comba, Ponte de Lima - Portugal	35-44	Masculino 	Benfica	Viana do Castelo	2014-08-11 13:14:01.753
+762533	Belem2012	1956-05-05 00:00:00.000	rua arminda gomes de carvalho, 14 - 2� Dto, 1885-007 Moscavide - Portugal	55-64	Masculino 	Sem clube	Lisboa	2012-09-11 23:24:28.530
+762537	Hugovsky	1993-03-03 00:00:00.000	Rua Jo�o Azevedo do Carmo, 15 - 2�Dt, 2835-313 Lavradio - Portugal	25-34	Masculino 	Sporting	Set�bal	2011-08-10 16:40:00.693
+762544	RANGER13	1979-07-07 00:00:00.000	, 4765-243 riba de ave - Portugal	35-44	Masculino 	FC Porto	Braga	2011-07-31 10:00:18.243
+762545	Tropa�sorte	1985-09-09 00:00:00.000	Rua da palmeira , 20, 3090-455 Lavos - Portugal	25-34	Masculino 	Benfica	Coimbra	2014-09-01 18:14:54.923
+762546	f.gil	1968-12-17 00:00:00.000	rua Jo�o de Vilhena, 51, 7800-651 Ferreira do Alentejo - Portugal	45-54	Masculino 	Benfica	Beja	2011-07-30 08:37:36.630
+762551	wilsonferreira1993	1993-12-12 00:00:00.000	Rua cais da barrinha , 99 - 2o esq. , 3885-527 Esmoriz - Portugal	25-34	Masculino 	FC Porto	Aveiro	2014-08-11 19:47:30.910
+762555	Seguidor	1982-11-11 00:00:00.000	Rua S� de Miranda, 311, 4800-176 Guimar�es - Portugal	35-44	Masculino 	Benfica	Braga	2012-09-17 14:08:17.793
+762556	Silva Alex Paulo	1966-07-07 00:00:00.000	, 6000-217 castelo branco - Portugal	45-54	Masculino 	Benfica	Castelo Branco	2011-09-06 21:21:32.823
+762563	oliveira.xico	1991-12-12 00:00:00.000	Rua E�a de Queir�s, 493 - 4�A Vila Nova de Famalic�o - Portugal	25-34	Masculino 	Sporting	Braga	2014-09-08 00:36:16.630
+762568	pvasconcelos77	1977-09-09 00:00:00.000	, 2910-864 Setubal - Portugal	35-44	Masculino 	Acad�mica	Set�bal	2014-08-17 01:07:55.197
+762569	MRDAVIDS	1983-05-05 00:00:00.000	Rua rancho tipico de Pombal , 21 A - 2�Esq., 3100-432 pombal - Portugal	35-44	Masculino 	Benfica	Leiria	2011-08-12 11:55:27.667
+762570	Mazorro 	1970-06-06 00:00:00.000	, 8000-408 faro - Portugal	45-54	Masculino 	Benfica	Faro	2011-07-30 14:56:34.847
+762571	MB Drag�o do Moledo 	1974-09-09 00:00:00.000	Rua do Moledo, 10, 4870-253 santo aleixo - Portugal	45-54	Masculino 	FC Porto	Vila Real	2012-09-20 12:15:29.127
+762572	UnderstatioN	1979-08-08 00:00:00.000	, 2230-105 Sardoal - Portugal	35-44	Masculino 	Sporting	Santar�m	2011-08-08 10:11:32.337
+762573	eskilo69	1987-04-04 00:00:00.000	, 2230-000 Sardoal - Portugal	25-34	Masculino 	Sporting	Santar�m	2011-08-03 17:40:52.693
+762577	junmisugi	1987-12-12 00:00:00.000	, 3800-000 Aveiro - Portugal	25-34	Masculino 	Benfica	Aveiro	2012-09-08 21:50:30.417
+762578	ppf	1972-09-06 00:00:00.000	, 1990-503 Lisboa - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-04 16:17:51.863
+762580	diabo11982	1977-03-03 00:00:00.000	Rua Cruz das Guardeiras, 146 Ent. A2 - 1� Drt Ctr, 4470-593 Maia - Portugal	35-44	Masculino 	Benfica	Porto	2012-08-16 00:18:15.360
+762589	DSR8	1988-08-08 00:00:00.000	, 2495-132 loureira - Portugal	25-34	Feminino  	Sporting	Leiria	2012-01-09 14:54:18.720
+762592	homem do leme	1975-10-10 00:00:00.000	rua machado castro, urbaniza��o nurial, lote C3 - 1.� A, 8500-303 Portim�o - Portugal	35-44	Masculino 	Benfica	Faro	2011-08-05 00:26:48.460
+762598	Deus�bio	1988-02-02 00:00:00.000	, 2770-006 Pa�o de Arcos - Portugal	25-34	Masculino 	Benfica	Lisboa	2013-09-12 10:06:04.190
+762599	Dreamfast	1982-04-04 00:00:00.000	Rua das Roseiras - Urb. Chousa do Ramalho, Fra��o B, 2475-029 Benedita - Portugal	35-44	Masculino 	Benfica	Leiria	2011-07-29 11:00:21.737
+762602	andre6592	1988-08-23 00:00:00.000	Rua do Farinheiro,208  R/C Esquerdo, Fornos, 208 U - R/C - Esquerdo, 4521-310 Feira - Portugal	25-34	Masculino 	Feirense	Aveiro	2011-08-27 20:32:46.047
+762603	mirand	1967-08-08 00:00:00.000	Rua Eduardo Joaquim Reis Figueira, 1080 - 1/C, 4440-647 Valongo - Portugal	45-54	Feminino  	Benfica	Porto	2011-09-02 17:45:07.250
+762605	Deboraedu	1983-11-18 00:00:00.000	Urbaniza��o Bela Vista , 61 4 - 1� Esquerdo, 3460-623 Tondela - Portugal	35-44	Masculino 	Tondela	Viseu	2013-08-05 13:14:21.163
+762608	Manel86	1984-05-05 00:00:00.000	Rua Catarina Euf�mia, 18, 7920-367 Vila Nova da Baronia - Portugal	35-44	Feminino  	Benfica	Beja	2011-08-13 14:15:13.623
+762609	Penta Qu� Qu�	1975-12-12 00:00:00.000	Urbaniza��o do Loreto, Lote 4 4 - 2�E, 3025-037 COIMBRA - Portugal	35-44	Masculino 	Benfica	Coimbra	2013-08-30 15:01:40.993
+762611	lousense	1972-10-10 00:00:00.000	Rua Olival de Oledo, 43, 6005-232 Lousa - Portugal	45-54	Masculino 	Benfica	Castelo Branco	2015-03-04 17:24:51.070
+762613	Walk	1987-02-02 00:00:00.000	, 2840-096 Arneiro - Portugal	25-34	Masculino 	FC Porto	Set�bal	2011-08-23 22:54:11.820
+762616	mdrack	1977-10-10 00:00:00.000	, 3720-125 Oliveira de Azemeis - Portugal	35-44	Masculino 	FC Porto	Aveiro	2011-08-18 19:31:24.800
+762620	alexcampino	1972-09-09 00:00:00.000	, 2600-063 vila franca de xira - Portugal	45-54	Masculino 	Benfica	Lisboa	2012-08-04 09:14:58.250
+762626	Aluizioxavi	1974-06-06 00:00:00.000	   Rua Ant�nio Aleixo 31 Rc Dto Queluz Baixo 2730-015 Barcarena, 2730-015 Barcarena - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-31 11:46:56.747
+762632	flamitama	1990-03-03 00:00:00.000	, 6260-236 Manteigas - Portugal	25-34	Masculino 	Benfica	Guarda	2014-09-09 09:16:53.400
+762634	DavidPato	1992-01-01 00:00:00.000	, 2600-133 V - Portugal	25-34	Masculino 	Benfica	Lisboa	2014-08-24 13:00:14.590
+762639	lfresende	1979-06-03 00:00:00.000	, 4535-425 Santa Maria de Lamas - Portugal	35-44	Masculino 	FC Porto	Aveiro	2012-08-14 15:44:24.980
+762640	Brunus1983	1983-02-02 00:00:00.000	, 2620-000 Ramada - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-08-29 20:02:33.150
+762643	simoes_seixal	1977-06-06 00:00:00.000	, 2925-811 Azeit�o - Portugal	35-44	Masculino 	Benfica	Set�bal	2013-08-19 08:50:21.443
+762645	TelmoLeduk	1977-09-08 00:00:00.000	, 2665-505 venda do pinheiro - Portugal	35-44	Masculino 	Sporting	Lisboa	2011-08-25 17:30:21.107
+762647	Chicodalenha	1978-06-06 00:00:00.000	, 6000-000 Castelo Branco - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2014-08-19 11:58:49.550
+762650	MISTER M�RIO LOUREN�O	1969-08-08 00:00:00.000	EDIFICIO VARANDAS DA CAMELA LOTE 1 - 1�ESQ., 3230-257 Penela - Portugal	45-54	Masculino 	V. Set�bal	Coimbra	2011-09-01 20:23:06.117
+762653	Pestana2000	1985-09-07 00:00:00.000	, 7960-214 Vidigueira - Portugal	25-34	Feminino  	Benfica	Beja	2013-08-11 14:49:50.420
+762659	CABOLOPES	1972-01-01 00:00:00.000	, 8005-246 Faro - Portugal	45-54	Feminino  	Benfica	Faro	2011-08-28 00:24:47.583
+762666	LuisBaptista	1975-07-07 00:00:00.000	Rua S�rgio Vieira de Melo, 39, 7005-401 �vora - Portugal	35-44	Masculino 	Benfica	�vora	2011-09-07 19:08:02.173
+762669	k7pirata	1981-01-01 00:00:00.000	Rua do Olival,  11 - 1� D, 5000-579 Vila Real - Portugal - Portugal	35-44	Masculino 	Benfica	Vila Real	2012-08-15 19:51:07.697
+762675	FBate	1982-11-18 00:00:00.000	Rua Da Lavoura Beco de Almod�var , 3 - rch, 7800-149 Beja - Portugal	35-44	Feminino  	Benfica	Beja	2011-08-10 06:32:17.173
+762677	Trent	1976-01-13 00:00:00.000	, 3830-748 Gafanha da Nazar� - Portugal	35-44	Masculino 	Benfica	Aveiro	2011-08-31 14:49:04.227
+762679	"Ze Maia ""Mestre da Tactica"""	1977-08-13 00:00:00.000	Rua Dr Jos� Alegre, Lote 1, 7595-168 Torr�o - Portugal	35-44	Masculino 	Benfica	Set�bal	2012-08-09 11:37:03.333
+762684	pcfevereiro	1971-08-08 00:00:00.000	, 2735-606 Cac�m - Portugal	45-54	Masculino 	Benfica	Lisboa	2014-08-09 13:41:11.277
+762695	MR BESUGO	1964-06-08 00:00:00.000	Rua das Torres , 6, 7595-124 Torr�o - Portugal	55-64	Masculino 	V. Set�bal	Set�bal	2014-09-10 23:02:55.947
+762699	VALPOMBO	1973-09-09 00:00:00.000	, 3150-230 CONDEIXA - Portugal	45-54	Masculino 	Acad�mica	Coimbra	2013-09-11 20:47:53.390
+762703	NMOMesquita	1978-09-09 00:00:00.000	Praceta Nova Alian�a, lote 12, 1� direito, 47 - 1 dt, 2785-780 S�o Domingos de Rana - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-02 17:20:35.607
+762709	RVeiga	1964-09-09 00:00:00.000	, 1500-664 Lisboa - Portugal	55-64	Masculino 	Benfica	Lisboa	2014-09-25 09:43:32.797
+762710	STIFFMASTER	1979-09-09 00:00:00.000	Rua da Olaria N�5 Edificio Fal�sias do Garajau Bloco B Apt F  R/C, F B - R/C, 9125-043 Cani�o - Portugal	35-44	Masculino 	Sporting	Ilha da Madeira	2011-07-31 09:51:02.283
+762711	akelegajo	1982-11-11 00:00:00.000	, 7800-521 beja - Portugal	35-44	Feminino  	Benfica	Faro	2012-08-23 14:25:14.303
+762715	pedro__videira	1988-04-04 00:00:00.000	rua por do sol , 22, 2405-029 maceira - Portugal	25-34	Masculino 	Sporting	Leiria	2014-08-15 12:07:44.000
+762722	MrWolf	1980-10-10 00:00:00.000	Rua Leopoldo de Almeida , 1 - 7D, 1750-137 lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-10 14:20:50.663
+762723	Jo�oPedro87	1987-05-05 00:00:00.000	, 3000-000 Coimbra - Portugal	25-34	Masculino 	Sporting	Coimbra	2011-08-29 03:00:49.153
+762736	AB68	1968-05-05 00:00:00.000	Avenida Jos� Marcelino, Lote 7 2 - c, 6040-100 Gavi�o - Portugal	45-54	Masculino 	Benfica	Portalegre	2014-08-20 19:42:12.837
+762738	Mister_Nelson_Domingos	1978-07-04 00:00:00.000	Rua Major J. Moura-Catefica, 4, 2560-587 Tores Vedras - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-17 11:26:52.140
+762744	SLB-SempreLampi�oBelo	1970-10-10 00:00:00.000	, 2780-255 Oeiras - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-25 14:07:42.477
+762749	c0rreia	1988-03-02 00:00:00.000	Rua do Canado, s/n, 6100-213 Cernache do Bonjardim - Portugal	25-34	Masculino 	Benfica	Castelo Branco	2011-08-04 18:36:58.993
+762760	N. Marzia	1977-11-25 00:00:00.000	Rua quinta da silveira, Casal da Silveira, 554, 1685-818 FAMOES - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-07-30 17:34:21.293
+762765	slcotovios	1965-04-04 00:00:00.000	Rua da Ribatejana , 1, 2600-857 A-de-Freire  S. Jo�o dos Montes - Portugal	55-64	Masculino 	Benfica	Lisboa	2013-09-09 16:37:51.107
+762766	pascencao78	1978-02-02 00:00:00.000	Rua da Estrada  3 - 1� dt, 6032-223 Vila Velha de R�d�o - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2012-08-30 14:13:11.073
+762771	Balde Rama	1974-10-10 00:00:00.000	Oliveira Martins, 254 - 4� Dto, 4200-000 Porto - Portugal	45-54	Masculino 	FC Porto	Porto	2011-08-15 01:00:34.700
+762773	FUnomenal	1981-01-01 00:00:00.000	Rua 7 de Novembro de1862, 2 Direito - 1, 2330-189 Entroncamento - Portugal	35-44	Masculino 	Benfica	Santar�m	2012-09-06 16:18:41.980
+762775	Burabenbus	1988-12-24 00:00:00.000	rua jer�nimo rodrigues, 20, 2840-460 Arrentela - Portugal	25-34	Masculino 	Sporting	Set�bal	2013-08-02 21:49:19.170
+762776	Alvacord	1969-07-07 00:00:00.000	, 8000-155 Faro - Portugal	45-54	Masculino 	FC Porto	Faro	2014-09-19 13:19:56.033
+762782	Luis_Martins	1982-08-08 00:00:00.000	Beco do Joc, 11, 9000-217 Funchal - Portugal	35-44	Masculino 	Sporting	Ilha da Madeira	2011-09-02 18:26:24.593
+762787	SELVAGEM1983	1962-08-08 00:00:00.000	avenida general Humberto delgado, 20 - 3 dert, 2975-311 quinta do conde - Portugal	55-64	Masculino 	Benfica	Set�bal	2014-08-15 17:24:16.407
+762788	JN1317	1983-10-10 00:00:00.000	, 3700-312 S. Jo�o da Madeira - Portugal	35-44	Feminino  	Benfica	Aveiro	2012-08-13 08:57:43.960
+762790	ricardondf	1977-10-06 00:00:00.000	Rua Ferreira de Castro,, 56 Nascente - 1 Esquerdo, 4910-510 Vila Praia de Ancora - Portugal	35-44	Masculino 	Sporting	Viana do Castelo	2012-08-03 10:28:00.683
+762794	JoniLopes83	1983-12-12 00:00:00.000	Quinta das Flores 5 - 2� Dto, 1685-569 Cane�as - Portugal	35-44	Masculino 	Benfica	Lisboa	2013-09-05 21:16:14.627
+762797	Isabelinha	1974-10-25 00:00:00.000	, 4450-198 Matosinhos - Portugal	45-54	Feminino  	FC Porto	Porto	2011-07-29 11:42:38.880
+762798	ferreira23	1983-06-01 00:00:00.000	Rua da Liberdade, lt 128, 7050-175 �vora - Portugal	35-44	Masculino 	Sporting	�vora	2011-08-28 17:14:09.950
+762802	SergioTheSpecialOne	1977-01-18 00:00:00.000	, 2685-000 Portela - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-09-20 15:09:20.000
+762806	Tigerman	1980-08-08 00:00:00.000	Rua Mateus Carvalho, 11 Dtr - 5, 2580-665 Alenquer - Portugal	35-44	Masculino 	Sporting	Lisboa	2011-07-31 22:38:29.093
+762807	zedias	1955-07-07 00:00:00.000	Travessa outeiro-levado Selho S. Crist�v�o, 172 d - 1�, 4835-283 guimaraes - Portugal	55-64	Masculino 	V. Guimar�es	Braga	2011-08-16 16:55:37.713
+762809	DONALD TRAMPA	1977-07-07 00:00:00.000	, 4350-339 PORTO - Portugal	35-44	Masculino 	FC Porto	Porto	2014-12-04 15:54:06.507
+762812	doom_master	1990-06-16 00:00:00.000	Pra�a Infante D. Duarte, 10 - 1�Esq, 2670-386 Loures - Portugal	25-34	Masculino 	Sporting	Lisboa	2011-09-07 01:54:13.597
+762819	catiassm	1981-09-09 00:00:00.000	, 1750-172 Lisboa - Portugal	35-44	Feminino  	Benfica	Lisboa	2013-09-14 14:23:08.717
+762821	HelderAPC	1970-10-10 00:00:00.000	, 6000-406 Castelo Branco - Portugal	45-54	Masculino 	Benfica	Castelo Branco	2012-08-08 00:31:01.900
+762822	hlgsa	2019-03-08 00:00:00.000	 - Portugal	-15	Feminino  	Benfica	Santar�m	2014-08-05 23:26:49.453
+762830	Mestre Waldo	1982-06-06 00:00:00.000	, 1300-000 Lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-19 14:15:29.100
+762831	F�bio69	1981-06-06 00:00:00.000	Rua Nova , 18, 7800-852 Beringel - Portugal	35-44	Masculino 	Sporting	Beja	2012-08-07 14:04:47.290
+762835	gregorio	1956-02-02 00:00:00.000	Rua J. J. Rodrigues de Freitas - Portim�o, 5 - R/C, 8500-695 portimao - Portugal	55-64	Masculino 	Portimonense	Faro	2011-08-15 12:25:28.500
+762838	NNJo�oSilvaNN	1988-04-04 00:00:00.000	, 7050-000 Montemor-o-Novo - Portugal	25-34	Masculino 	Benfica	�vora	2014-08-06 23:15:37.577
+762840	zalho69	1985-06-06 00:00:00.000	, 3140-491 Tent�gal - Portugal	25-34	Masculino 	Benfica	Coimbra	2013-09-10 20:04:10.363
+762842	ricardo.salter.cid	2019-03-13 00:00:00.000	Rua Casal da Machada, 18 - Portugal	-15	Masculino 	Benfica	Lisboa	2014-09-26 15:18:50.510
+762844	RicardoCosta8	1978-04-04 00:00:00.000	, 2615-009 Alverca - Portugal	35-44	Masculino 	Benfica	Lisboa	2013-09-03 19:22:40.197
+762849	SSAM	1982-08-14 00:00:00.000	Rua paulo sexto , 70 - Portugal	35-44	Masculino 	FC Porto	Braga	2011-08-08 18:46:38.700
+762852	vik21	1979-12-12 00:00:00.000	rua gon�alo anes da ponte, 16 - 2�drt, 2860-081 alhos vedros - Portugal	35-44	Masculino 	Sporting	Set�bal	2011-08-01 20:05:12.000
+762854	sergifael	1982-04-22 00:00:00.000	trvessa tomas abril, 2 drt - 1, 2845-482 Amora - Portugal	35-44	Masculino 	Sporting	Set�bal	2011-09-03 15:08:47.647
+762858	guutman	1978-02-02 00:00:00.000	Rua Dr Teofilo Braga n�3 3 ESQ, 20 - 1, 1200-653 Lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2013-08-26 15:58:28.633
+762861	t.silvestre23	1982-11-11 00:00:00.000	Rua Eug�nio de Andrade , 26, 7780-128 Castro verde - Portugal	35-44	Masculino 	Benfica	Beja	2011-08-02 18:03:04.820
+762867	SLBSanfins	1964-11-11 00:00:00.000	, 2910-585 Set�bal - Portugal	55-64	Masculino 	Benfica	Set�bal	2014-09-04 14:31:12.130
+762870	Fredos	1972-01-01 00:00:00.000	, 2820-329 charneca de caparica - Portugal	45-54	Masculino 	Sporting	Lisboa	2014-08-13 11:08:44.500
+762875	PC11	1975-02-02 00:00:00.000	Rua Dr� Lu�s Freitas Morna, 54, 3045-087 coimbra - Portugal	45-54	Masculino 	FC Porto	Coimbra	2014-08-22 15:52:29.493
+762882	AntonioZ�Gato	1986-07-01 00:00:00.000	, 7780-140 Castro Verde - Portugal	25-34	Masculino 	Sporting	Beja	2013-08-17 12:02:02.717
+762886	joaoglucas	1983-11-11 00:00:00.000	, 2660-253 St� Ant� Cavaleiros - Portugal	35-44	Masculino 	Sporting	Lisboa	2012-08-02 18:04:45.560
+762888	HouseMD	1950-11-11 00:00:00.000	Diogo de Silves, 35 5 - d.�, 1400-000 Lisboa - Portugal	64	Masculino 	FC Porto	Lisboa	2011-08-10 23:27:12.100
+762896	Cruz T�ceo	1973-11-11 00:00:00.000	Largo S�o Sebasti�o da Pedreira, 4 - 1esq, 1050-205 Lisboa - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-07-29 14:11:53.633
+762903	marcocatita	1979-06-06 00:00:00.000	Av bombeiros municipais, 0 6 - 1frente, 8700-312 olh�o - Portugal	35-44	Masculino 	Benfica	Faro	2014-08-31 16:34:25.930
+762905	majova	1974-06-06 00:00:00.000	Rua da Vargem, 10 - 6 BN, 9000-705 Funchal - Portugal	45-54	Masculino 	Benfica	Ilha da Madeira	2011-08-23 12:42:35.467
+762907	quimsoares@gmail.com	1968-04-01 00:00:00.000	, 7520-000 sines - Portugal	45-54	Masculino 	Sporting	Set�bal	2011-08-19 20:53:22.493
+762911	Jardineiro1	1978-04-04 00:00:00.000	Pra�a S�rgio Martins, 3 - 3� D, 8600-781 Lagos - Portugal	35-44	Masculino 	Benfica	Faro	2014-08-15 14:45:10.310
+762917	davidsilva70	1970-06-06 00:00:00.000	praca da independencia , n�1 - 8� frente, 2910-716 Set�bal - Portugal	45-54	Masculino 	Benfica	Set�bal	2014-08-26 00:41:22.383
+762919	Lino91	1988-09-09 00:00:00.000	, 6160-401 Oleiros - Portugal	25-34	Masculino 	NULL	Castelo Branco	2013-08-18 12:44:38.907
+762921	R0dinh0	1973-09-29 00:00:00.000	, 2925-724 Azeit�o  - Portugal	45-54	Masculino 	Benfica	Set�bal	2013-09-05 10:55:22.550
+762924	ManuelA.SousaLouren�o	1961-12-12 00:00:00.000	R. Roberto Ivens n�.1, 1, 2910-721 Set�bal - Portugal	55-64	Masculino 	V. Set�bal	Set�bal	2014-09-05 14:32:40.323
+762930	JJBB	1960-12-12 00:00:00.000	Rua Jos� Cardoso Pires, 1 3 - Dto, 2840-614 Seixal - Portugal	55-64	Masculino 	Benfica	Set�bal	2011-07-29 19:51:34.643
+762936	klaudio16#FeitoDeSporting	1986-12-12 00:00:00.000	Pr.Dr.Francisco S� Carneiro 4 - 1c, 2380-049 Alcanena - Portugal	25-34	Masculino 	Sporting	Santar�m	2011-08-02 19:50:06.730
+762940	Urr�s	1980-11-11 00:00:00.000	, 4710-081 Braga - Portugal	35-44	Masculino 	Benfica	Braga	2012-09-03 18:17:28.707
+762944	F.Valente	1960-12-10 00:00:00.000	R.Roberto Ivens n�.4 6� Esq. 2910 Set�bal, 2910-721 Set�bal - Portugal	55-64	Masculino 	Sporting	Set�bal	2011-09-03 11:34:17.517
+762948	DanielMorais	1989-05-14 00:00:00.000	rua nova, 13, 7200-052 falcoeiras - Portugal	25-34	Masculino 	Benfica	�vora	2011-08-20 01:23:50.140
+762955	tev9	1985-04-04 00:00:00.000	, 7565-216 Ermidas-Sado - Portugal	35-44	Masculino 	FC Porto	Set�bal	2014-08-16 13:59:59.910
+762960	Helder1976	1976-04-14 00:00:00.000	Rua Alves Redol, 6 - 2� Direito, 8005-546 Faro - Portugal	35-44	Masculino 	Sporting	Faro	2011-08-28 00:18:47.073
+762961	MisterBuco	1983-06-06 00:00:00.000	Rua Tenente Ferreira Dur�o, 55 - 4� DTO, 1350-311 Lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-22 00:31:24.860
+762963	Andresov	1982-10-10 00:00:00.000	, 2300-310 Tomar - Portugal	35-44	Masculino 	FC Porto	Santar�m	2011-08-01 23:50:21.873
+762964	ATFC	1990-04-04 00:00:00.000	Barreiros Vermelhos Vale D' �guas Apartado 3587, 8135-033 Almancil - Portugal	25-34	Masculino 	Sporting	Faro	2012-09-21 10:57:25.610
+762965	Nubat25	1982-04-04 00:00:00.000	, 2745-822 Massam� - Portugal	35-44	Masculino 	Benfica	Lisboa	2013-09-11 22:42:31.130
+762967	JACASTRO	1962-03-09 00:00:00.000	DR. BERNARDO PACHECO PEREIRA LEITE, 270, 4580-352 - Portugal	55-64	Masculino 	FC Porto	Porto	2013-08-02 12:09:36.433
+762972	Sempre Seguro!	1958-02-13 00:00:00.000	Travessa dos Moinhos, 6 - 3� Dt�, 2610-121 Amadora - Portugal	55-64	Feminino  	Benfica	Lisboa	2011-08-18 19:57:33.603
+762975	Richardscpcm	1990-10-10 00:00:00.000	, 7370-097 Campo Maior - Portugal	25-34	Masculino 	Sporting	Portalegre	2014-09-09 16:27:42.323
+762982	C.Ruivinho	1990-11-11 00:00:00.000	Rua do Beira Mar, Lote 13, 8900-431 Monte Gordo - Portugal	25-34	Masculino 	Sporting	Faro	2011-08-13 17:55:18.683
+762984	Lela	1974-01-01 00:00:00.000	, 8800-600 Tavira - Portugal	45-54	Masculino 	Sporting	Faro	2011-08-03 08:52:24.640
+762990	joca09	1975-05-05 00:00:00.000	Urb. Horta do Rossio, 6, 7150-150 Borba - Portugal	45-54	Masculino 	Benfica	�vora	2014-08-11 22:41:20.010
+762991	jermda	1958-12-12 00:00:00.000	Rua padre Alberto Sanches pinto, 4, 3200-396 lousa - Portugal	55-64	Masculino 	Sporting	Coimbra	2011-08-10 09:27:25.750
+762992	nunorios	1988-03-03 00:00:00.000	Rua do Campinho, 362, 3720-474 Oliveira de Azem�is - Portugal	25-34	Masculino 	Benfica	Aveiro	2014-09-11 10:21:56.850
+762996	eustaquio	1976-04-22 00:00:00.000	Quinta da falorca , 21 - 1� esq, 3505-585 Viseu - Portugal	35-44	Masculino 	FC Porto	Viseu	2011-07-31 23:25:03.743
+763005	Pekter8	1980-03-03 00:00:00.000	Rua dos Cravos, 2 - R/C Esquerdo, 7520-313 Sines - Portugal	35-44	Masculino 	Benfica	Set�bal	2014-08-11 15:55:14.680
+763006	jose-r-barreto	1958-10-10 00:00:00.000	, 2700-801 AMADORA - Portugal	55-64	Masculino 	Benfica	Lisboa	2011-08-21 21:25:31.953
+763008	30dmcc03	1983-03-03 00:00:00.000	Av. dos Combatentes do Ultramar, 28, 3330-333 G�is - Portugal	35-44	Masculino 	Sporting	Coimbra	2011-08-02 16:29:00.633
+763014	rusan	1982-06-06 00:00:00.000	rua eng adolfo ramirez, 27, 5300-147 bragan�a - Portugal	35-44	Masculino 	FC Porto	Bragan�a	2013-09-04 16:20:17.653
+763015	josealbertomarquesoliveira	1949-12-12 00:00:00.000	rua S . PEDRO   MARINHA  GRANDE, 34 - 1�, 2430-162 marinha  grande - Portugal	64	Masculino 	Benfica	Leiria	2013-08-02 12:17:22.663
+763016	moraisdd	1977-08-08 00:00:00.000	, 2695-858 S. jo�o da talha - Portugal	35-44	Masculino 	Benfica	Lisboa	2014-08-22 09:53:37.777
+763023	benficarumo34	1981-03-04 00:00:00.000	rua infante d henrrique , 561 - 1, 1675-122 pontinha - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-11 13:22:15.260
+763024	felix23	1987-04-25 00:00:00.000	rua forno do grilo, 6 x - 3, 2330-160 entroncamento - Portugal	25-34	Masculino 	Sporting	Santar�m	2012-08-30 02:45:59.617
+763025	Mister_JM	1984-05-22 00:00:00.000	Rua Santa Catarina , 11, 6000-001 Castelo Branco - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2012-08-30 11:07:16.273
+763034	dreamslow	1983-04-04 00:00:00.000	, 2440-201 Batalha - Portugal	35-44	Feminino  	Sem clube	Leiria	2011-08-03 11:36:04.733
+763041	tainhas	1971-04-01 00:00:00.000	Av. Portas Fronhas, 134 - 1-ESQ, 4480-004 Vila do Conde - Portugal	45-54	Masculino 	Sporting	Porto	2013-09-08 21:26:10.727
+763043	TheChizzler	1974-11-11 00:00:00.000	, 2975-331 Qta do Conde - Portugal	45-54	Masculino 	Sem clube	Set�bal	2012-09-09 09:46:19.947
+763047	Tinnonni	1983-01-01 00:00:00.000	, 4925-481 viana castelio - Portugal	35-44	Feminino  	Benfica	Viana do Castelo	2012-09-18 22:17:19.370
+763051	Silgo1989	1989-05-05 00:00:00.000	Entrada de sedouros, 5, 3870-019 Bunheiro - Portugal	25-34	Masculino 	FC Porto	Aveiro	2011-08-22 09:09:36.990
+763054	xeixau	1979-12-11 00:00:00.000	Estrada do Garajau, Edf. Vila Branca Bloco A 2� B, 2�B, 9125-067 Cani�o - Portugal	35-44	Masculino 	Benfica	Ilha da Madeira	2011-08-06 18:40:51.140
+763060	Aires91	1991-09-09 00:00:00.000	Rua Nossa Senhora de F�tima, 10, 2350-073 Chancelaria - Portugal	25-34	Masculino 	Benfica	Santar�m	2014-08-24 12:26:14.683
+763064	xanana99	1984-10-10 00:00:00.000	Avenida brigadeiro figueiredo sarmento , 13 numero - r/c  esquerdo, 5300-302 bragan�a - Portugal	35-44	Feminino  	FC Porto	Bragan�a	2011-07-30 00:11:17.123
+763079	PGAMA	1971-04-04 00:00:00.000	, 2625-254 vialonga - Portugal	45-54	Masculino 	FC Porto	Lisboa	2014-08-31 00:35:26.570
+763083	FerreiraCouto	1963-01-14 00:00:00.000	"Travessa 28 de Maio, ""Casal Mendes"", S�o Martinho do Porto, - - - -, 2460-682 S�o Martinho do Porto - Portugal"	55-64	Masculino 	Sporting	Leiria	2011-08-14 13:26:35.100
+763084	underkovaz	1985-04-09 00:00:00.000	Lu�s de Cam�es, 12 - 3�dto, 3700-171 S�o Jo�o da Madeira - Portugal	35-44	Masculino 	FC Porto	Aveiro	2013-09-08 20:49:23.460
+763091	Mister Kim Barreiras	1976-04-04 00:00:00.000	, 3040-041 Coimbra - Portugal	35-44	Masculino 	FC Porto	Coimbra	2011-08-08 19:02:50.053
+763095	mantorras.qse	1977-06-06 00:00:00.000	, 8365-000 algoz - Portugal	35-44	Masculino 	Benfica	Faro	2012-08-07 14:44:02.053
+763102	carlosandre.silverio	1983-05-27 00:00:00.000	Rua Casal Centeio, 4, 2150-015 Pombalinho - Portugal	35-44	Masculino 	Benfica	Santar�m	2014-08-21 13:48:44.980
+763110	jmigmag	1972-05-17 00:00:00.000	, 4250-363 Porto - Portugal	45-54	Masculino 	FC Porto	Porto	2011-09-06 18:36:28.313
+763119	guaxinim63	1963-06-06 00:00:00.000	Rua Padre Jos� Feliciano, 8 - 3� Direito, 2835-142 Baixa da Banheira - Portugal	55-64	Masculino 	V. Set�bal	Set�bal	2011-08-12 10:10:53.993
+763121	Cambalhotas	1978-07-07 00:00:00.000	, 2655-268 Ericeira - Portugal	35-44	Masculino 	Sporting	Lisboa	2011-09-06 09:57:06.593
+763130	LMRAPOSO1974	1974-06-06 00:00:00.000	, 6200-126 COVILHA - Portugal	45-54	Masculino 	Sporting	Castelo Branco	2013-09-12 20:25:11.353
+763139	seravat69	1956-06-06 00:00:00.000	largo judice fialho   , 1 a - 3, 7520-269 sines - Portugal	55-64	Masculino 	Sporting	Set�bal	2011-08-31 23:05:54.017
+763140	DMLisboa	1991-11-11 00:00:00.000	Rua Principal, 2415-003, Carri�o, Bidoeira de Cima, Leiria, 774, 2415-003 Carri�o - Portugal	25-34	Masculino 	Sporting	Leiria	2014-09-18 19:29:15.633
+763147	tikkks	1982-10-23 00:00:00.000	D.Afonso Henriques 7.1 - R/ch esquerdo, 2410-492 Leiria - Portugal	35-44	Feminino  	Benfica	Leiria	2011-07-29 21:24:01.373
+763148	SirSamuel	1982-07-07 00:00:00.000	, 2420-195 leiria - Portugal	35-44	Masculino 	FC Porto	Leiria	2011-09-05 10:54:56.417
+763150	Guerreiro11	1983-01-16 00:00:00.000	Rua Coronel Melo Antunes, 56 - 1C, 2745-871 Massam� - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-18 11:15:18.483
+763152	Nuno Gamboa	1979-11-11 00:00:00.000	R PEDRO DA FONSECA, 10 L - 1, 6000-257 Castelo Branco - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2013-08-02 21:05:02.100
+763165	massinga	1974-12-12 00:00:00.000	rua santo Ant�nio , 15 a - 1, 7860-155 moura - Portugal	45-54	Masculino 	Tondela	Beja	2014-09-11 15:05:49.343
+763168	kapinhas	1970-10-10 00:00:00.000	Rua alto da torre, 458, 3885-436 esmoriz - Portugal	45-54	Masculino 	FC Porto	Aveiro	2011-08-09 10:45:48.603
+763171	lapy	1977-02-02 00:00:00.000	rua marques de pombal, 12, 2125-259 muge - Portugal	35-44	Masculino 	Sporting	Santar�m	2014-08-30 14:50:21.440
+763172	Ricardo_Silva1980	1980-05-05 00:00:00.000	, 2420-424 MEM�RIA - Portugal	35-44	Masculino 	Benfica	Leiria	2012-09-03 14:25:56.017
+763174	Tib�rcio	1983-01-01 00:00:00.000	Rua Tomas Mendes S Pinto, lote 3 - 7direito, 6000-000 Castelo Branco - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2012-08-17 16:32:56.933
+763175	kalhordas	1978-07-30 00:00:00.000	ruapadre basilio costa morgado, 40, 3060-752 corticeiro cima - Portugal	35-44	Masculino 	Sporting	Coimbra	2014-08-29 17:48:24.457
+763183	Tendo	1990-10-10 00:00:00.000	, 8125-203 Quarteira - Portugal	25-34	Feminino  	Benfica	Faro	2011-08-30 19:23:00.920
+763186	smirnoff	1957-02-02 00:00:00.000	rua filipe ferrer , 6 - r/c direito, 8005-334 faro - Portugal	55-64	Masculino 	Sporting	Faro	2014-08-18 17:00:04.467
+763197	VERMELHO70	1970-02-05 00:00:00.000	Rua 1� de Maio , 48 - 6� B, 1885-068 Moscavide - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-13 16:08:22.037
+763204	"Mister ""Bolas"""	1973-01-01 00:00:00.000	Urb. Qta do Pinheiro, Trav. Qta das Oliveiras, 22, 8500-768 Portim�o - Portugal	45-54	Masculino 	Sporting	Faro	2013-09-04 00:50:06.127
+763205	Garcez	1974-05-05 00:00:00.000	Av.� S�o Rom�o, 162, 4935-546 S�o Rom�o de Neiva - Portugal	45-54	Masculino 	FC Porto	Viana do Castelo	2011-08-18 16:20:26.690
+763208	Mudokon	2000-02-06 00:00:00.000	Rua Manuel J.F. Gomes n�25 Fonte Nova, 3100-340 Pombal - Portugal	15-24	Masculino 	Benfica	Leiria	2012-09-20 21:03:25.303
+763214	lumatox	1961-11-11 00:00:00.000	Rua Soc.Fil.Op.Amorense, 27 Dt - 2, 2845-469 Amora - Portugal	55-64	Masculino 	NULL	Set�bal	2011-08-04 21:38:16.463
+763215	MarcotourS	1967-04-21 00:00:00.000	Travessa Ingmar Bergman, 5 M, 8800-744 Tavira - Portugal	45-54	Masculino 	Benfica	Faro	2011-08-01 10:53:25.887
+763219	Splash	1980-02-15 00:00:00.000	Rua do Centro , 205 LT 9 - RC FRT ESQ, 2430-148 MARINHA GRANDE - Portugal	35-44	Masculino 	Benfica	Leiria	2011-10-05 18:14:41.227
+763223	lupa492	1972-09-06 00:00:00.000	, 8600-361 Lagos - Portugal	45-54	Masculino 	Benfica	Faro	2014-08-05 12:02:45.363
+763227	balola	1987-04-16 00:00:00.000	, 7860-034 Moura - Portugal	25-34	Masculino 	Sporting	Beja	2014-08-18 14:05:34.280
+763229	FORMERBAKER	1971-02-02 00:00:00.000	, 3700-287 S�o Jo�o da Madeira - Portugal	45-54	Masculino 	Benfica	Aveiro	2011-07-31 12:00:57.767
+763230	diogocx	1980-10-18 00:00:00.000	, 2580-366 alenquer - Portugal	35-44	Masculino 	Sporting	Lisboa	2011-08-02 23:36:31.737
+763232	elbandido20	1989-05-05 00:00:00.000	av. dr� s� carneiro , 3440-324 sants comba dao - Portugal	25-34	Masculino 	Benfica	Viseu	2014-08-29 16:51:15.960
+763237	merida	1970-03-03 00:00:00.000	urbaniza��o alto do palmeiral II lote 9 algoz, 8200-069 Algoz - Portugal	45-54	Masculino 	Benfica	Faro	2011-08-30 21:31:54.587
+763248	joca222	1969-01-14 00:00:00.000	RUA DOUTOR AGOSTINHO TINOCO, 12 FRENTE - 2, 2400-084 leiria - Portugal	45-54	Masculino 	Benfica	Leiria	2011-08-15 19:50:39.103
+763249	Paulojdsc	1979-08-08 00:00:00.000	, 2430-000 Marinha Grande - Portugal	35-44	Masculino 	Benfica	Leiria	2011-08-16 23:38:43.983
+763253	StefanoRP	1991-04-04 00:00:00.000	Urb. Moura Sol , 82, 7860-356 Moura - Portugal	25-34	Masculino 	Sporting	Beja	2013-08-17 14:44:38.930
+763254	Takos	1982-11-11 00:00:00.000	Travessa casal do alho, 5, 2480-217 Porto de m�s - Portugal	35-44	Masculino 	Sporting	Leiria	2014-08-15 17:20:46.390
+763255	PITEX	1980-04-04 00:00:00.000	Rua do Pita, 4, 2230-001 CASAL PEDRO MAIA - Portugal	35-44	Masculino 	Benfica	Santar�m	2013-08-13 13:11:24.797
+763265	Macosta	1979-05-05 00:00:00.000	Rua do Emigrante, , 500, 3885-054 Arada - Portugal	35-44	Masculino 	Benfica	Aveiro	2011-08-06 14:37:49.573
+763266	Jo�o A. Santos	1979-03-03 00:00:00.000	RUA ENG LOPES CARDOZO N1 A RCH DRT, 1A A - RCH, 7800-589 beja - Portugal	35-44	Masculino 	Benfica	Beja	2011-08-10 18:47:40.647
+763280	jtaborda123	1989-07-07 00:00:00.000	, 6000-405 CASTELO BRANCO - Portugal	25-34	Masculino 	Benfica	Castelo Branco	2012-08-13 16:57:40.870
+763285	JOHNNYCONTADOR	1972-06-06 00:00:00.000	AVENIDA 29 DE MAR�O -EDIFICIO AGUEIRO-3885-520-ESMORIZ, 1500 1 - 2 DRT FRENTE, 3885-520 esmoriz - Portugal	45-54	Masculino 	Benfica	Aveiro	2011-07-29 00:24:00.750
+763290	celinho99	1979-09-11 00:00:00.000	Vereador filipe jonas, belavista, 38, 8125-257 Quarteira - Portugal	35-44	Masculino 	FC Porto	Faro	2011-08-16 09:00:43.457
+763292	Sir_Tiger	1982-04-04 00:00:00.000	rua fragosa, 48 A - 2� i, 4490-064 P�voa de Varzim - Portugal	35-44	Masculino 	Benfica	Porto	2011-08-03 19:08:22.310
+763293	Galptotter	1969-08-21 00:00:00.000	, 4435-111 Rio-Tinto - Portugal	45-54	Masculino 	FC Porto	Porto	2012-08-30 13:10:22.433
+763297	CoelhosTeam	1981-07-07 00:00:00.000	Estrada Casal dos Matos Lt7 561 - 2� Esq., 2410-396 Pousos - Portugal	35-44	Masculino 	Benfica	Leiria	2012-09-03 22:59:32.703
+763301	L.J.G.	1973-09-09 00:00:00.000	rua bartulumeu dias, 31 a - r/ch, 8800-608 tavira - Portugal	45-54	Feminino  	Benfica	Faro	2013-09-13 15:18:18.947
+763303	botinhas1014	1965-01-01 00:00:00.000	Rua Maria Paz Varzim, 28 - r/c, 4490-658 povoa de varzim - Portugal	55-64	Masculino 	Sporting	Porto	2012-09-06 18:36:20.447
+763309	Luichik	1984-05-05 00:00:00.000	, 4710-000 Braga - Portugal	35-44	Masculino 	Sp. Braga	Braga	2011-07-29 18:01:51.873
+763310	Sir Graeme Souness	1982-11-11 00:00:00.000	, 3050-235 luso - Portugal	35-44	Masculino 	Benfica	Aveiro	2011-08-27 12:04:51.440
+763313	QuimRijo	1978-03-19 00:00:00.000	, 2735-580 - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-08-20 14:26:12.443
+763315	F.C.FONSECA	1972-03-17 00:00:00.000	AV. ARISTIDES SOUSA MENDES, 13 - R/C DTO, 2725-538 MEM  MARTINS - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-13 23:21:02.027
+763328	DanielRocha	1974-07-24 00:00:00.000	rua do outeiro, 30 esquerdo - 3, 4620-166 Boim,  Porto - Portugal	45-54	Masculino 	FC Porto	Porto	2015-01-14 20:50:27.530
+763331	DRAGONIANO	1974-05-05 00:00:00.000	, 4150-208 PORTO - Portugal	45-54	Masculino 	FC Porto	Porto	2014-08-10 20:12:26.950
+763332	Hrodrick	1991-04-10 00:00:00.000	, 2730-195 Barcarena - Portugal	25-34	Masculino 	Sporting	Lisboa	2014-09-02 21:31:06.637
+763335	PauloMoreira	1974-05-05 00:00:00.000	, 2770-000 Paco de Arcos - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-04 22:55:15.577
+763336	Man� Santos	1971-11-11 00:00:00.000	rua frei manuel cardoso- bairro da casinha, 8, 7005-497 �vora - Portugal	45-54	Masculino 	Benfica	�vora	2012-08-30 15:36:17.550
+763338	Pedro_Vilar	1986-07-07 00:00:00.000	Avenida 29 de Mar�o , 993 Esquerdo - 1, 3885-517 Esmoriz - Portugal	25-34	Masculino 	Benfica	Aveiro	2011-08-23 10:03:18.820
+763343	tteixeira	1988-03-03 00:00:00.000	, 3700-061 SJM - Portugal	25-34	Masculino 	FC Porto	Aveiro	2011-09-02 22:47:10.260
+763344	gustavo_barros	1974-01-01 00:00:00.000	, 8500-333 Portimao - Portugal	45-54	Masculino 	Benfica	Faro	2011-08-06 21:47:56.463
+763345	samfc	1980-01-01 00:00:00.000	, 4925-000 viana do Castelo - Portugal	35-44	Feminino  	FC Porto	Viana do Castelo	2014-08-24 15:28:03.113
+763346	Tozeferreira	1983-08-08 00:00:00.000	, 4520-608 sao joao de ver - Portugal	35-44	Feminino  	Benfica	Aveiro	2011-09-09 17:53:20.200
+763348	Mirra65	1965-11-11 00:00:00.000	 - Portugal	45-54	Masculino 	Benfica	Set�bal	2011-08-11 22:56:45.813
+763349	HSILVA	1974-06-06 00:00:00.000	Rua Ant�nio Maria Lisboa, Lote B-17 - 2 Direito, 2650-065 S�o Br�s - Portugal	45-54	Masculino 	Sporting	Lisboa	2013-08-16 11:29:24.627
+763352	Zandinga69	1979-01-20 00:00:00.000	Avenida Avelar Brotero, 3 - 3d, 2900-038 set�bal - Portugal	35-44	Masculino 	Sporting	Set�bal	2011-09-07 12:30:38.707
+763360	Rochaa	1979-09-09 00:00:00.000	Rua 5 de Outubro , 2B I, 9700-507 Angra do Heroismo - Portugal	35-44	Masculino 	Benfica	Ilha Terceira	2014-09-14 03:09:01.943
+763361	MilhanoPRO	1981-10-10 00:00:00.000	urb. monte azevedo, lt 23 - 3drt, 8600-550 lagos - Portugal	35-44	Masculino 	FC Porto	Faro	2012-08-19 23:47:41.787
+763371	paulocan	1973-04-04 00:00:00.000	Rua nova do olival, 12, 7960-291 - Portugal	45-54	Masculino 	Benfica	Beja	2013-08-19 15:14:36.440
+763376	Carlos_Motas	1979-05-05 00:00:00.000	Bairro Social , 101 C - 1� DT, 8150-103 Sao Bras de alportel - Portugal	35-44	Feminino  	Benfica	Faro	2011-09-09 10:59:25.337
+763379	Pecefama	1982-07-07 00:00:00.000	Rua da pateira , 493, 4755-025 alvelos - Portugal	35-44	Masculino 	Benfica	Braga	2013-09-18 11:06:39.123
+763381	oliveraly	1986-07-07 00:00:00.000	, 2425-482 souto carpalhosa - Portugal	25-34	Masculino 	Benfica	Leiria	2011-09-07 21:46:47.543
+763387	DuarteRita99	1990-08-08 00:00:00.000	, 7300-405 Portalegre - Portugal	25-34	Masculino 	Sporting	Portalegre	2011-08-07 18:07:45.787
+763391	landuslb	1978-07-07 00:00:00.000	r.joaquim costa pereira serra, 90 b - 203, 4785-327 trofa - Portugal	35-44	Masculino 	Benfica	Porto	2011-08-03 01:35:08.780
+763394	jjne	1974-01-01 00:00:00.000	Urbaniza��o Colina Verde, Rua das Oliveiras , 9, 8365-061 Algoz - Portugal	45-54	Masculino 	Benfica	Faro	2011-08-06 03:11:16.463
+763412	Sir.AlexJohn	1974-08-08 00:00:00.000	Travessa do cavaco, 52, 3720-700 S.Roque OAZ - Portugal	45-54	Masculino 	FC Porto	Aveiro	2011-08-01 15:33:09.347
+763414	N�7	1992-05-05 00:00:00.000	, 4755-034 Barcelos - Portugal	25-34	Masculino 	Benfica	Braga	2011-09-06 23:45:35.880
+763418	BeChE	1985-01-01 00:00:00.000	Rua Ces�rio Verde, 4 - 3�Esquerdo, 7800-053 Beja - Portugal	35-44	Masculino 	FC Porto	Beja	2011-07-30 21:32:07.767
+763424	jlasilva	1980-02-02 00:00:00.000	, 2580-650 Alenquer - Portugal	35-44	Masculino 	Benfica	Lisboa	2012-10-31 22:39:39.260
+763429	Leandrovic	1956-10-10 00:00:00.000	Rua Adolfo Coelho, 7 - 2� esq�, 2810-429 Almada - Portugal	55-64	Masculino 	Benfica	Lisboa	2011-09-06 10:41:18.430
+763434	filipovic	1978-03-03 00:00:00.000	Rua Francisco Costa , 11 B - 5, 2635-277 Rio de Mouro - Portugal	35-44	Masculino 	FC Porto	Lisboa	2014-08-28 10:08:30.357
+763435	CVPM83	1983-12-12 00:00:00.000	Rua Dom Dinis, 26, 7860-050 Moura - Portugal	35-44	Masculino 	Benfica	Beja	2011-08-29 12:40:27.240
+763442	cortelhao78	1978-12-12 00:00:00.000	Rua Dr. May Vianna, 11 - 5 Dt.�, 8000-143 Faro - Portugal	35-44	Masculino 	Benfica	Faro	2014-09-19 11:07:49.727
+763446	PaulitoMendon�a	1985-08-10 00:00:00.000	pr� da concordia, 243 frt - 2, 2870-471 Montijo - Portugal	25-34	Masculino 	Benfica	Portalegre	2011-08-30 16:31:23.743
+763449	DanielBaptista	1979-11-11 00:00:00.000	rua Palmira meireles, 555 2 - 1, 4620-668 lousada - Portugal	35-44	Masculino 	FC Porto	Porto	2011-08-08 12:04:23.617
+763451	RicardoRoscas	1981-04-16 00:00:00.000	, 6005-150 Escalos de Baixo - Portugal	35-44	Masculino 	Sporting	Castelo Branco	2014-09-07 18:52:09.753
+763453	GuiReis	1966-09-09 00:00:00.000	, 2675-671 odivelas - Portugal	45-54	Masculino 	Benfica	Lisboa	2013-09-16 20:17:26.227
+763458	RdeVit�ria	1974-02-02 00:00:00.000	Av. S. Domingos, 33 - 1� esq, 3280-013 Castanheira de Pera - Portugal	45-54	Masculino 	Benfica	Leiria	2011-09-07 23:22:13.970
+763467	caladovic	1981-09-06 00:00:00.000	, 7852-000 Sines - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-08-30 22:09:26.620
+763468	ricfil	1962-06-06 00:00:00.000	, 2700-765 Amadora - Portugal	55-64	Masculino 	Sporting	Lisboa	2011-08-29 20:08:01.053
+763478	DANIEL_DV	1982-04-21 00:00:00.000	, 8500-000 Portim�o - Portugal	35-44	Masculino 	Benfica	Faro	2011-08-17 16:52:30.700
+763479	r3nato.m	1985-07-30 00:00:00.000	Rua do Carteiro , 24D, 2910-325 Set�bal - Portugal	25-34	Masculino 	Sporting	Set�bal	2013-09-14 18:35:36.190
+763485	Marm�	1981-10-10 00:00:00.000	, 3810-925 Aveiro - Portugal	35-44	Masculino 	Benfica	Aveiro	2011-09-06 22:16:31.173
+763486	SPOliveira	1980-04-04 00:00:00.000	Rua Professor Agostinho da Silva, n�4 - 2 Drt, 7050-000 Montemor-o-Novo - Portugal	35-44	Masculino 	Benfica	�vora	2012-09-10 16:40:47.957
+763490	MRuiG	1971-10-24 00:00:00.000	Rua Manuel Ferreira de Andrade, 1 - 7� Esq., 1500-416 Lisboa - Portugal	45-54	Masculino 	Sporting	Lisboa	2012-09-19 17:27:35.277
+763497	Sarilho20	1985-12-12 00:00:00.000	Rua de Dam�o , 15 - R/c esq, 2860-060 Alhos vedros - Portugal	25-34	Feminino  	Benfica	Set�bal	2011-07-30 20:19:02.013
+763499	Ribas64	1964-04-04 00:00:00.000	, 2810-215 laranjeiro - Portugal	55-64	Masculino 	Benfica	Set�bal	2013-08-14 17:25:28.073
+763501	Ogre_Lage	1980-05-05 00:00:00.000	av cap antonio gomes rocha n� 16 2�E, 16 - 2�E, 2745-246 queluz - Portugal	35-44	Masculino 	Benfica	Lisboa	2013-08-13 09:43:27.897
+763507	eneto	1980-12-12 00:00:00.000	Rua Cidade Vila do Conde, 5 - 3. � esquerdo, 7300-132 Portalegre - Portugal	35-44	Masculino 	Benfica	Portalegre	2014-08-27 15:26:28.603
+763512	luisoliveira1957	1957-11-11 00:00:00.000	Rua de S�o Cristov�o, 12, 2785-121 S�o Domingos de Rana - Portugal	55-64	Masculino 	Benfica	Lisboa	2012-08-06 20:58:04.007
+763515	nunoalves08	1989-08-08 00:00:00.000	, 4535-167 Mozelos - Portugal	25-34	Masculino 	Benfica	Aveiro	2012-08-08 18:47:29.460
+763517	baixinho25	1982-03-03 00:00:00.000	, 7540-237 santiago do cacem - Portugal	35-44	Feminino  	Benfica	Set�bal	2011-08-25 19:01:25.247
+763520	minga	1970-03-03 00:00:00.000	rua padre palmeiro, lote 1 D, 8700-178 pechao - Portugal	45-54	Masculino 	Benfica	Faro	2012-01-05 16:39:09.203
+763528	HESCPT	1980-06-06 00:00:00.000	Rua Poder Local, 40, 4650-710 Varziela - Portugal	35-44	Masculino 	FC Porto	Porto	2014-08-08 14:34:49.223
+763529	Paulo Videira | Cofina	1976-11-11 00:00:00.000	, 1200-111 Lisboa - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-08 15:28:25.910
+763534	SopranoMor	1965-06-06 00:00:00.000	, 3100-522 Pombal - Portugal	45-54	Feminino  	Sporting	Leiria	2012-08-04 23:43:58.090
+763540	Barnabe	1980-06-06 00:00:00.000	Rua D. Afonso Henriques, 612 - 2� Esq., 4435-006 Rio Tinto - Portugal	35-44	Masculino 	FC Porto	Porto	2014-09-09 09:31:11.350
+763541	fintas	1982-06-06 00:00:00.000	, 29, 4590-582 Pa�os de Ferreira - Portugal	35-44	Masculino 	P. Ferreira	Porto	2011-09-05 13:15:36.980
+763544	biker	1973-02-28 00:00:00.000	Rua Alberto Sabches de Castro, 2 -  1� Dto, 2625-069 Povoa de Santa Iria - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-09-11 21:44:59.920
+763546	marioj25	1991-11-11 00:00:00.000	, 2330-031 entroncamento - Portugal	25-34	Feminino  	Benfica	Santar�m	2012-09-11 16:55:31.817
+763548	SGrandson6	1982-01-25 00:00:00.000	Rua Nova de Sistelo, 41 4� direito - traseiras, 4590-177 Pa�os de Ferreira - Portugal	35-44	Masculino 	FC Porto	Porto	2012-08-13 17:16:34.210
+763552	Gatlas	1976-09-24 00:00:00.000	Rua do Pina, 10C, 9050-067 Funchal - Portugal	35-44	Feminino  	Sporting	Ilha da Madeira	2011-08-02 16:48:03.747
+763555	robertoafrica46	1987-06-01 00:00:00.000	Rua da Lameira casa 230 Varziela Felgueiras, 4650-738 Felgueiras - Portugal	25-34	Masculino 	Benfica	Porto	2013-10-04 12:42:03.420
+763557	Veni_vidi_vici	1974-10-05 00:00:00.000	, 1500-073 lisboa - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-01 00:43:55.130
+763564	zefernando66	1985-11-11 00:00:00.000	Rua da Cadeia Velha, 16 - r/c, 7830-403 Serpa - Portugal	25-34	Masculino 	Sporting	Beja	2013-08-26 21:41:54.243
+763566	Kordini	1980-08-08 00:00:00.000	Av. das Esmeraldas, 239 4� - A, 2785-811 S. Domingos de Rana - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-09-01 16:18:23.850
+763568	papa-jantares	1976-01-01 00:00:00.000	, 2665-137 Gradil - Portugal	35-44	Masculino 	FC Porto	Lisboa	2012-08-16 09:15:41.133
+763569	passal	1968-04-09 00:00:00.000	Largo machado dos santos, 2, 7050-125 montemor o novo - Portugal	45-54	Masculino 	Benfica	�vora	2014-09-12 17:06:49.747
+763570	J�lioBatista	1990-03-03 00:00:00.000	Rua Prof Mateus, 21, 2260-018 Praia do Ribatejo - Portugal	25-34	Masculino 	Benfica	Santar�m	2011-08-31 20:28:21.740
+763573	fanfan	1973-02-04 00:00:00.000	, 2810-356 Almada - Portugal	45-54	Masculino 	Benfica	Set�bal	2011-08-18 00:11:34.047
+763575	NNeves	1980-07-07 00:00:00.000	Rua dos lavadouros, 12 - 1� esq, 2615-123 Alverca - Portugal	35-44	Masculino 	Sporting	Lisboa	2011-09-07 21:34:37.420
+763577	Conniott	1993-11-11 00:00:00.000	Rua da F� n�240, 240, 2420-195 Barrac�o - Portugal	25-34	Masculino 	Benfica	Leiria	2014-08-06 19:21:52.647
+763580	bigcar	1984-10-10 00:00:00.000	rua do covelo, 729 - 1� esquerdo post, 4805-356 guimar�es - Portugal	35-44	Masculino 	FC Porto	Braga	2011-09-02 20:45:52.933
+763582	aclpires	1965-03-03 00:00:00.000	monte da vinha nova tapada, 1, 7100-147 Estremoz - Portugal	55-64	Masculino 	Benfica	�vora	2013-09-17 15:20:06.077
+763594	Beto77	1977-06-06 00:00:00.000	 Rua J�lio Dinis, 2 A - 3 Dto, 7570-214 Grandola - Portugal	35-44	Masculino 	Benfica	Set�bal	2011-08-23 11:58:14.313
+763598	Garigou	1977-05-05 00:00:00.000	, 4200-007 Porto - Portugal	35-44	Masculino 	Sem clube	Porto	2014-08-07 00:17:08.877
+763599	GDA	1980-02-02 00:00:00.000	, 7860-108 moura - Portugal	35-44	Masculino 	FC Porto	Beja	2011-08-25 20:05:15.660
+763600	MBicho79	1979-06-06 00:00:00.000	, 3025-037 Coimbra - Portugal	35-44	Feminino  	Sporting	Coimbra	2013-08-27 16:43:28.217
+763605	Vanny	1979-05-24 00:00:00.000	rua dos ex votos, 275 F - 2, 2870-723 atalaia - Portugal	35-44	Feminino  	Sporting	Set�bal	2011-08-11 23:57:46.203
+763612	PC-Liga	1976-03-03 00:00:00.000	, 2625-236 povoa santa iria - Portugal	35-44	Feminino  	Benfica	Lisboa	2013-09-13 13:06:09.473
+763615	Tugadobigode	1979-08-14 00:00:00.000	Pra�a da Batalha, n�1 - 2 Dto, 2700-106 Amadora - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-02 00:54:40.040
+763617	XISCA	1977-08-08 00:00:00.000	estrada da bela vista , 99 - 2 dt, 2820-163 charneca - Portugal	35-44	Feminino  	Benfica	Set�bal	2013-09-21 04:05:39.917
+763620	Chemelga	1978-08-08 00:00:00.000	, 8500-321 Portim�o - Portugal	35-44	Masculino 	Benfica	Faro	2011-09-06 10:46:59.773
+763621	sandim80	1993-02-02 00:00:00.000	Rua 1 Dezembro, N�301 Lourosa, 301, 4535-019 Lourosa - Portugal	25-34	Masculino 	Benfica	Aveiro	2012-09-14 18:19:12.007
+763632	Fl�vioRamos10	1990-04-04 00:00:00.000	, 6000-227 castelo branco - Portugal	25-34	Masculino 	Benfica	Castelo Branco	2013-09-09 20:46:40.633
+763634	Jo�oLoreto	1981-02-02 00:00:00.000	, 3150-313 condeixa a nova - Portugal	35-44	Masculino 	Benfica	Coimbra	2011-08-12 18:17:01.370
+763641	kris75	1975-12-12 00:00:00.000	RUA DO BARROUCO, 201, 3885-776 MACEDA - Portugal	35-44	Masculino 	FC Porto	Aveiro	2013-08-02 15:57:02.170
+763644	SrDrFabioRibeiro	1986-07-30 00:00:00.000	, 2494-132 Loureira - Portugal	25-34	Masculino 	Benfica	Leiria	2013-09-11 18:48:42.437
+763646	pcosta16	1990-03-03 00:00:00.000	Rua entremuros, n�2, Alhastro, Carapinheira, 3140-071 Carapinheira - Portugal	25-34	Masculino 	Benfica	Coimbra	2011-08-16 17:28:02.117
+763650	TIAGOPRETO	1988-03-24 00:00:00.000	BRAGAN�A, 5300-252 BRAGAN�A - Portugal	25-34	Masculino 	FC Porto	Bragan�a	2013-08-15 16:40:19.843
+763652	ruins	1978-07-17 00:00:00.000	, 8700-210 olhao - Portugal	35-44	Masculino 	FC Porto	Faro	2011-08-03 00:06:04.223
+763656	Senpai	1977-06-10 00:00:00.000	, 2625-450 Forte da casa - Portugal	35-44	Masculino 	FC Porto	Lisboa	2011-08-11 23:03:46.163
+763659	OiR�M	1977-12-28 00:00:00.000	Av.das For�as Armadas, Qta da Trajinha, 37 31, 5300-440 Bragan�a - Portugal	35-44	Masculino 	FC Porto	Bragan�a	2013-08-15 16:57:32.970
+763663	TiagoMMDias	1990-04-04 00:00:00.000	Travessa Senhor dos Perigos, 141, 141, 4835-354 Guimar�es - Portugal	25-34	Masculino 	V. Guimar�es	Braga	2014-09-05 17:45:30.510
+763670	Mister Res�o	1972-12-04 00:00:00.000	, 1750-352 Lisboa - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-29 11:52:46.680
+763671	pmscabral	1979-10-10 00:00:00.000	Rua Dr. Ernesto Soares dos Reis, 175 - 5� DTO, 3720-256 OLIVEIRA DE AZEMEIS - Portugal	35-44	Masculino 	Sporting	Aveiro	2011-08-03 17:40:54.170
+763678	ftome1	1980-07-23 00:00:00.000	, 2430-813 Vieira de Leiria - Portugal	35-44	Masculino 	Benfica	Leiria	2011-08-04 08:55:32.667
+763681	CTeam2010	1978-10-10 00:00:00.000	, 2500-000 Caldas da Rainha - Portugal	35-44	Masculino 	Benfica	Leiria	2011-08-03 17:24:01.790
+763682	stoutless	1981-02-08 00:00:00.000	, 8005-334 Faro - Portugal	35-44	Feminino  	Benfica	Faro	2011-09-01 18:07:54.687
+763693	ns01	1979-10-09 00:00:00.000	, 2870-163 Montijo - Portugal	35-44	Masculino 	Sporting	Set�bal	2011-09-27 14:25:21.867
+763695	batatinha82	1982-07-07 00:00:00.000	Rua senhora da concei��o, 3140-500 Portela - Portugal	35-44	Masculino 	Benfica	Coimbra	2014-08-07 07:09:26.797
+763699	van Harten	1978-04-12 00:00:00.000	, 1000-000 Lisboa - Portugal	35-44	Masculino 	Sem clube	Lisboa	2011-08-01 15:37:58.820
+763705	Sergiodeco	1987-09-09 00:00:00.000	, 7350-157 Elvas - Portugal	25-34	Masculino 	Benfica	Portalegre	2013-08-13 21:43:07.157
+763709	nmfrp	1976-07-16 00:00:00.000	, 9000-216 Funchal - Portugal	35-44	Masculino 	Benfica	Ilha da Madeira	2011-09-07 10:43:04.873
+763710	DSILVA	1984-02-02 00:00:00.000	rua, 000 00 - 00, 3500-000 Viseu - Portugal	35-44	Masculino 	Benfica	Viseu	2014-09-23 20:09:53.093
+763713	NJ9	1972-10-10 00:00:00.000	, 2560-581 Torres Vedras - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-08-23 15:15:10.977
+763716	Heribata	1978-03-03 00:00:00.000	Rua Tenente Coronel Maggioli Gouveia, n.408, 4630-131 Marco Canaveses - Portugal	35-44	Feminino  	Benfica	Porto	2013-08-13 13:50:51.783
+763718	rmlx	1984-01-07 00:00:00.000	Jos� Francisco Fragoso, 117, 7080-037 Vendas Novas - Portugal	35-44	Masculino 	Benfica	�vora	2011-08-02 18:16:13.810
+763719	Farropas78	1978-07-07 00:00:00.000	Avenida Mouzinho de Albuquerque, 53, 6060-178 Idanha-a-Nova - Portugal	35-44	Masculino 	Benfica	Castelo Branco	2011-08-25 00:13:23.987
+763724	JNB	1984-09-09 00:00:00.000	 - Angola	35-44	Masculino 	Benfica	Lisboa	2014-08-20 18:05:28.773
+763727	Po�as	1955-09-09 00:00:00.000	, 2690-505 St Iria D�zoia - Portugal	55-64	Masculino 	Benfica	Lisboa	2014-09-11 15:26:05.730
+763729	rogerio30	1979-09-17 00:00:00.000	Rua palmira bastos , 1 9 - c, 2675-425 Odivelas - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-07-31 19:38:59.790
+763736	SuperMayStar	1970-08-08 00:00:00.000	, 3100-538 Pombal - Portugal	45-54	Masculino 	FC Porto	Leiria	2011-08-24 22:46:15.477
+763741	pdma	1968-06-06 00:00:00.000	rua de angola, 324 9 - 51, 4100-056 porto - Portugal	45-54	Masculino 	Sporting	Porto	2011-08-22 11:09:56.210
+763743	ultrasanta	1979-05-05 00:00:00.000	rua coronel jaime cansado , numero 14, 8800-547 tavira - Portugal	35-44	Masculino 	Sporting	Faro	2012-08-29 22:45:12.897
+763745	drag�ododouro	1977-09-09 00:00:00.000	, 5120-000 tabua�o - Portugal	35-44	Masculino 	FC Porto	Castelo Branco	2011-09-07 12:12:45.997
+763746	N�lito	1970-03-23 00:00:00.000	Rua combatente do ulramar n.� 5 - NORA, 5, 7150-344 BORBA - Portugal	45-54	Masculino 	Benfica	�vora	2014-08-29 22:18:50.790
+763752	Patetinha17	1976-10-10 00:00:00.000	Rua dos Agodins, 29, 4470-144 Maia - Portugal	35-44	Masculino 	Benfica	Porto	2011-09-08 15:45:47.580
+763754	*FJ*	1968-06-06 00:00:00.000	, 4800-526 Guimar�es - Portugal	45-54	Masculino 	Benfica	Braga	2013-09-05 19:23:10.660
+763759	CesarRosa	1974-12-24 00:00:00.000	Azinhaga do Pilar 8, Ed.Varandas Pilar Bl. A7 3� Frente, 9000-690 Funchal - Portugal	45-54	Masculino 	Mar�timo	Ilha da Madeira	2012-08-10 10:17:44.607
+763766	hugohenriques6	1982-04-04 00:00:00.000	, 8000-176 Faro - Portugal	35-44	Masculino 	Sporting	Faro	2011-10-23 20:19:38.587
+763767	TwoFaces	1966-01-01 00:00:00.000	Rua Nossa Sra. do Livramento, 24, 3750-310 Agueda - Portugal	45-54	Masculino 	FC Porto	Aveiro	2011-08-24 21:27:23.420
+763768	131313	1951-06-13 00:00:00.000	Rua  Vale De Infante, 304, 4600-632 Amarante - Portugal	64	Masculino 	FC Porto	Porto	2011-08-10 16:36:36.537
+763771	Balcom	1978-01-01 00:00:00.000	Rua Dr. Luis Regala, 7 - - 1�, 3800-169 Aveiro - Portugal	35-44	Masculino 	Benfica	Aveiro	2011-07-28 16:31:11.510
+763777	ESGALHADOS.FC	1984-06-06 00:00:00.000	, 3840-551 s,t andre vagos  - Portugal	35-44	Feminino  	FC Porto	Aveiro	2011-07-29 18:04:47.523
+763779	marcoesposende	1979-08-08 00:00:00.000	Rua  Alexandre Torres, 34, 4740-231 Esposende - Portugal	35-44	Masculino 	Benfica	Braga	2011-08-23 00:53:27.417
+763783	valinha	1981-03-03 00:00:00.000	, 4800-000 Guimar�es - Portugal	35-44	Masculino 	V. Guimar�es	Braga	2011-08-18 10:18:39.480
+763786	Abramovich Jr.	1990-05-04 00:00:00.000	Rua da Devesa, 279, 4760-480 Esmeriz - Portugal	25-34	Masculino 	FC Porto	Braga	2011-09-07 11:09:15.830
+763788	nunoscpforever	1993-06-06 00:00:00.000	rua actor nascimento fernandes, 1 - 2, 8005-000 faro - Portugal	25-34	Masculino 	Sporting	Faro	2014-08-31 21:57:14.810
+763794	lnxa	1983-02-02 00:00:00.000	, 1500-000 Lisboa - Portugal	35-44	Masculino 	Sporting	Lisboa	2014-08-14 08:32:37.490
+763795	ninorx	1974-07-24 00:00:00.000	Rua do Escoural, 16, 7005-426 �vora - Portugal	45-54	Masculino 	Benfica	�vora	2011-09-06 14:49:53.667
+763798	jozeroza	1963-09-09 00:00:00.000	, 2785-817 Cascais - Portugal	55-64	Masculino 	Benfica	Lisboa	2011-08-12 16:04:30.630
+763799	Somewell	1980-01-01 00:00:00.000	Qta da Bemposta, 22, 8500-333 Portim�o - Portugal	35-44	Masculino 	Portimonense	Faro	2014-09-05 17:43:27.380
+763800	nandoareias	1978-10-10 00:00:00.000	Estrada de Abrantes E - R/C Esq�, 7400-227 Ponte de Sor - Portugal	35-44	Masculino 	Benfica	Portalegre	2014-11-24 15:38:39.197
+763808	Andr�RSM_SCP	1979-01-01 00:00:00.000	Rua das Lameiras, 27, 2560-404 Silveira - Portugal	35-44	Masculino 	Sporting	Lisboa	2011-09-07 00:12:42.633
+763809	CadoRoque	2000-07-07 00:00:00.000	Rua Dom Carlos 1, 29 29 - 1, 2810-193 Almada - Portugal	15-24	Masculino 	Sporting	Set�bal	2014-08-04 16:11:26.763
+763813	maxipirata	1977-03-02 00:00:00.000	, 2350-527 torres novas - Portugal	35-44	Masculino 	Benfica	Santar�m	2011-08-02 14:45:20.023
+763815	PakitoNeiva	1973-10-15 00:00:00.000	Rua General Humberto Delgado, 50 - 2�Dt, 4490-256 Povoa de varzim - Portugal	45-54	Masculino 	FC Porto	Porto	2011-07-30 20:21:06.430
+763816	SamuelSilva	1986-03-06 00:00:00.000	Rua Principal , 19, 2405-001 Maceira-Lra - Portugal	25-34	Masculino 	Sporting	Leiria	2014-08-14 11:55:26.833
+763817	MiguelLTeixeira	1978-04-04 00:00:00.000	Rua Frei Joao Sao Jose , 3 - 1 esquerdo, 8800-461 Tavira - Portugal	35-44	Masculino 	Sporting	Faro	2012-08-07 16:19:57.580
+763820	Pan�iasTeam	1985-09-11 00:00:00.000	, 7670-204 ourique - Portugal	25-34	Masculino 	Benfica	Beja	2014-09-16 15:15:30.747
+763829	Sidonio Lima	1977-11-23 00:00:00.000	Estrada de Trazancora, 684, 4925-491 Montaria - Portugal	35-44	Masculino 	Sporting	Viana do Castelo	2011-08-13 15:49:34.343
+763831	FABIOMARTINS88	1988-04-04 00:00:00.000	rua vale da aldeia, 6005-150 ESCALOS DE BAIXO - Portugal	25-34	Masculino 	Benfica	Castelo Branco	2014-08-08 15:50:52.910
+763834	KADAVER	1982-02-02 00:00:00.000	RUA DO JERONIMO FETEIRA, 6, 2480-103 porto de mos - Portugal	35-44	Masculino 	Benfica	Leiria	2011-09-07 01:16:11.807
+763836	Hosckar	1987-06-06 00:00:00.000	Rua Luis Barroso, 112, 4760-153 Vila Nova de Famalic�o - Portugal	25-34	Masculino 	Sporting	Braga	2011-09-09 09:44:11.233
+763850	brunomocho	1976-09-09 00:00:00.000	av. almirante reis , 29 - 6-port, 1150-008 Lisboa - Portugal	35-44	Feminino  	Benfica	Lisboa	2011-08-11 22:12:24.387
+763865	Adrien23	1992-01-01 00:00:00.000	Rua S�o Jos� Moreira de c�negos , 5, 4815-297 Moreira de c�negos  - Portugal	25-34	Feminino  	Sporting	Braga	2011-09-07 22:36:59.190
+763868	IvoAmbrosio	1984-11-11 00:00:00.000	, 7860-056 Moura - Portugal	35-44	Masculino 	Benfica	Beja	2014-08-11 12:46:47.033
+763877	jocasilva	1994-01-01 00:00:00.000	rua da freiras , 21, 5230-323 vimioso - Portugal	25-34	Masculino 	Benfica	Bragan�a	2012-11-13 17:49:58.057
+763878	CASA-GRANDE	1977-03-03 00:00:00.000	Rua Central da Ventosa, 389, 4750-428 Creixomil - Portugal	35-44	Masculino 	FC Porto	Braga	2011-08-02 19:47:05.520
+763879	RicardinhoR	1994-05-05 00:00:00.000	Praceta COnde de Arnoso , 6 - 3�, 2610-043 Amadora - Portugal	25-34	Masculino 	Benfica	Lisboa	2011-07-29 10:02:34.440
+763882	JoaoDragao23	1979-06-06 00:00:00.000	, 4440-565 Valongo - Portugal	35-44	Feminino  	FC Porto	Porto	2011-08-26 15:43:08.447
+763886	MS VC	1976-11-05 00:00:00.000	Rua da Gandra, 600, 4770-359 Mouquim - Portugal	35-44	Masculino 	Benfica	Braga	2011-07-31 19:33:29.107
+763889	nunoroque	1981-07-07 00:00:00.000	rua Fernando pessoa LTE 114 2drto 6230-479 Fund�o, 6230-479 lote 114 - 2, 6230-479 fund�o - Portugal	35-44	Masculino 	Sporting	Castelo Branco	2011-08-09 13:55:08.037
+763891	DVentura	1987-10-10 00:00:00.000	rua de nisa, 41, 7430-275 Gafete - Portugal	25-34	Masculino 	Sporting	Portalegre	2013-08-14 10:14:29.320
+763906	JoelMagina	1996-03-03 00:00:00.000	Rua Estrada Nova , 404, 3885-154 Arada - Portugal	15-24	Masculino 	Benfica	Aveiro	2011-08-09 15:50:20.723
+763911	mcsniper	1981-07-07 00:00:00.000	Rua da Quinta, 72, 4820-417 Fafe - Portugal	35-44	Masculino 	FC Porto	Braga	2011-08-11 18:07:30.623
+763912	Paulo Jaime 73	1973-09-09 00:00:00.000	Rua do Pa�o, 293, 3720-000 Pinheiro da Bemposta - Portugal	45-54	Masculino 	Benfica	Aveiro	2013-08-01 17:35:18.467
+763916	lfpc66	1966-12-12 00:00:00.000	, 1675-270 Pontinha - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-09-05 07:42:47.137
+763923	&amp;quot;Terriveis&amp;quot;	1945-12-12 00:00:00.000	Rua Fernando Jos� Alvarez Barid�, 10 - r/c . esq-, 2430-151 Marinha grande - Portugal	64	Masculino 	Benfica	Leiria	2011-08-01 18:47:04.360
+763926	Jos�Pereira	1973-07-07 00:00:00.000	Rua Engenheiro Guilherme Santos, n� 9, 3105-165 Louri�al - Portugal	45-54	Masculino 	Benfica	Leiria	2014-08-05 22:16:43.410
+763934	Naldo67	1967-10-10 00:00:00.000	, 2700-000 Amadora - Portugal	45-54	Masculino 	Sporting	Lisboa	2011-08-12 15:04:36.047
+763935	lamaecus	1957-09-09 00:00:00.000	Rua Eng� Pina Manique e Albuquerque  - Urbaniza��o da Ortigosa 7 - 1� Dto, 5100-183 Lamego - Portugal	55-64	Masculino 	Sporting	Viseu	2013-01-14 11:43:05.320
+763939	Tiagop77	1986-01-14 00:00:00.000	Quinta do Amieiro de Cima, lote 25 - 2 Esquerdo, 6000-214 Castelo Branco - Portugal	25-34	Masculino 	Benfica	Castelo Branco	2015-01-20 23:51:13.930
+763942	encarnado1	1958-10-10 00:00:00.000	Rua pedra calced�nia, 3 - 2, 2700-644 AMADORA - Portugal	55-64	Masculino 	Benfica	Lisboa	2011-08-25 19:15:33.147
+763943	Al-Qaeda	1968-04-15 00:00:00.000	, 7520-206 sines - Portugal	45-54	Masculino 	Sporting	Set�bal	2014-08-05 10:11:00.553
+763946	LuisCorreiaSines	1979-03-20 00:00:00.000	, 7520-206 Sines - Portugal	35-44	Masculino 	Sporting	Set�bal	2013-08-16 22:37:58.877
+763950	rimaldy	1972-07-17 00:00:00.000	Rua Dr Jo�o Malato Correia  1 - 3� B, 7300-002 Portalegre - Portugal	45-54	Masculino 	Benfica	Portalegre	2011-08-24 16:36:41.163
+763953	oFelix	1980-10-10 00:00:00.000	Rua Joue Les Tours, 91 Esq Fr - 1�, 4520-298 Feira - Portugal	35-44	Masculino 	FC Porto	Aveiro	2011-08-25 20:32:34.173
+763965	F�bioJoel	1993-07-21 00:00:00.000	Rua Associa��o Atl�tica de Avanca, 138, 3860-042 Avanca - Portugal	25-34	Masculino 	Beira-Mar	Aveiro	2014-08-15 17:19:45.017
+763969	pinto26	1985-09-09 00:00:00.000	aroes sao romao  - r/c, 4820-745 Fafe  - Portugal	25-34	Masculino 	V. Guimar�es	Braga	2011-08-10 20:55:41.547
+763977	Martunis92	1983-08-29 00:00:00.000	, 2625-448 Forte da Casa - Portugal	35-44	Feminino  	NULL	Lisboa	2013-08-16 12:02:00.963
+763981	Papagovas	1969-10-10 00:00:00.000	, 2615-164 Alverca do Ribatejo - Portugal	45-54	Masculino 	Sporting	Lisboa	2013-08-02 10:31:24.930
+763985	ToMane82	1982-09-09 00:00:00.000	Antonio gomes faria edificio piscop Barcelinhos - 1D, 4755-055 barcelinhos - Portugal	35-44	Feminino  	FC Porto	Braga	2013-09-12 23:38:46.447
+763987	Lobo-do-Rio	1972-06-15 00:00:00.000	Rua dos Lus�adas Bairro da Boa F� Elvas, 42, 7350-268 Elvas - Portugal	45-54	Masculino 	Benfica	Portalegre	2011-08-22 20:35:18.123
+763992	nmendes	1983-10-10 00:00:00.000	Rua Alexandre Herculano, 25, 7250-117 Alandroal - Portugal	35-44	Feminino  	Benfica	�vora	2011-07-31 16:09:56.310
+763994	ZecaFcp	1985-09-09 00:00:00.000	rua manuel luis leite junior 146 2�D, 146 - 2�D, 3700-181 S. Jo�o da MAdeira - Portugal	25-34	Feminino  	FC Porto	Aveiro	2011-08-05 18:57:42.600
+763995	JRATO	1980-05-29 00:00:00.000	, 7100-125 Estremoz - Portugal	35-44	Masculino 	Benfica	�vora	2011-08-08 11:01:28.903
+763998	laginhas	1977-11-14 00:00:00.000	Praceta Sa de Miranda, 2 - 8D, 2660-324 Santo Antonio Cavaleiros - Portugal	35-44	Masculino 	Benfica	Lisboa	2011-08-10 18:52:59.027
+763999	oscarmiguel	1967-06-06 00:00:00.000	, 2695-119 bobadela - Portugal	45-54	Masculino 	Benfica	Lisboa	2011-08-10 18:45:06.550
+764004	Red_Champion	1975-09-09 00:00:00.000	Av. Mestre Cid, 4 - 1� Dto., 2070-012 Cartaxo - Portugal	35-44	Masculino 	Benfica	Santar�m	2011-08-01 20:31:14.290
+764013	ruisequeira	1985-10-10 00:00:00.000	Rua 1� de Maio N�6 2�dto Bom Sucesso, 6 - 2�dto, 2615-320 Bom Sucesso - Alverca do Ribatejo - Portugal	25-34	Masculino 	Sporting	Lisboa	2013-09-07 18:37:51.487
