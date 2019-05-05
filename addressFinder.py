@@ -21,6 +21,7 @@ def addressFinder(addressStr):
     search_result = None
         
     match = re.search('([0-9]{4}-[0-9]{3})', addressStr)
+
     
     if match:
     
@@ -56,4 +57,4 @@ def addressFinder(addressStr):
         
     return dict({'cod_postal': final_cod_postal, 'ext_postal': final_ext_postal, 'nome_distrito': final_distrito, 'nome_concelho': final_concelho, 'nome_localidade': final_localidade, 'desig_postal': final_designacao})
             
-print(addressFinder('blaBla Bla-bla 5555 5555-555 bla'))
+print(addressFinder('blaBla Bla-bla 5555 3750-015 bla'))
