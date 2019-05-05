@@ -37,4 +37,3 @@ def assignCandidateKey(key, dimension):
     dimension['Team Key (PK)'] = key
 
     return dimension
-
