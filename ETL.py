@@ -1,20 +1,22 @@
 import json
 from datetime import datetime
+import sys, traceback
 # Extraction
 # Reading Files
 
-def structureReader(path='TPD-CSV/relationalSchema.csv', enc='cp850'):
+def structureReader(path='TPD-CSV/relationalSchema.csv', enc='utf-8'):
     with open(path, 'r', encoding=enc) as f:
         structure = f.readlines()
         structureDict = dict()
         for line in structure:
-            key, value = line.split(';')
-            structureDict[key.rstrip()] = value.rstrip().split('\t')
-        
+            key, value = line.split(',')
+            collumns = value.strip().split('\t')
+            
+            structureDict[key.rstrip()] = collumns
     return structureDict
 
 # returns an array containing dictionaries with keys corresponding to the given collumn label, and also the table name, ans specifications for diagostics.
-def csvReader(path, struc, ignore=False, enc='cp850', cleanOutput=False):
+def csvReader(path, struc, ignore=False, enc='utf-8', cleanOutput=True):
     with open(path, encoding=enc) as f:
         
 
@@ -26,28 +28,35 @@ def csvReader(path, struc, ignore=False, enc='cp850', cleanOutput=False):
             line = row.rstrip().split('\t')
             # weird workaround for a weird bug were tab is not recognized.
             if len(line) == 1:
-                line = row.rstrip().split(';')
+                line = row.rstrip().split(',')
             raw.append(line)
         
         # stores the previous element of the iteration
         previous = []
-        countLine = 1
-        for line in raw:
+        remIndex = list()
+        for i in range(len(raw)):
+            line = raw[i]
             if len(previous) == 0:
                 previous = line
             
             if  len(line) == 1:
-                raise Exception('Unreliable number of collumns\nFile: %s\nLine: %s' % (path, countLine))
+                raise Exception('Unreliable number of collumns\nFile: %s\nLine: %s' % (path, i))
             
             if len(previous) != len(line):
-                raise Exception('Inconsistent number of collumns\nFile: %s\nLine: %s' % (path, countLine))
+                print('Inconsistent number of collumns\nFile: %s\nLine: %s\nRemoving Line.' % (path, i))
+                remIndex.append(i)
+                continue
         
             # stores the previous set for comparison
             previous = line
-            countLine += 1
+
+        # reverse sorting for correctly removing the elems from list
+        remIndex.sort(reverse=True)
+        for i in remIndex:
+            raw.pop(i)
 
         print('File Structure: OK')
-
+        print('Lines Removed: %i\nLines Added: %i' % (len(remIndex), len(raw)))
         # identifying which table we are dealing with
         try:
 
@@ -111,14 +120,14 @@ def relationalSchemaConfig(path='TPD-CSV/relationalSchema.csv'):
     config['rounds_teams'] = ['season', 'id_team', 'order_round', 'team_name', 'team_points_round', 'team_points_total', 'team_rank_round', 'team_rank_total', 'team_value']
     config['teams'] = ['season', 'id', 'name', 'createdate', 'origin', 'is_paid', 'round_start', 'id_user']
     config['user_details_logins'] = ['season', 'id_user', 'round_order', 'premiumdate', 'in_league', 'logins_round', 'logins_sunday', 'logins_monday','logins_tuesday', 'logins_wednesday', 'logins_thursday', 'logins_friday', 'logins_saturday']
-    config['codigos_postais'] = ['cod_distrito', 'cod_concelho', 'cod_localidade', 'nome_localidade', 'num_cod_postal', 'ext_cod_postal', 'desig_postal']
-    config['concelhos'] = ['cod_concelho', 'nome_concelho', 'cod_distrito']
+    config['codigos_postais'] = ['cod_distrito','cod_concelho','cod_localidade','nome_localidade','cod_arteria','tipo_arteria','prep1','titulo_arteria','prep2','nome_arteria','local_arteria','troco','porta','cliente','num_cod_postal','ext_cod_postal','desig_postal']
+    config['concelhos'] = ['cod_distrito', 'cod_concelho', 'nome_concelho']
     config['distritos'] = ['cod_distrito', 'nome_distrito']
     config['holidays'] = ['day', 'feriado']
     with open(path, 'w') as f:
         for key, value in config.items():
             output = str()
-            output += key + '\t;\t'
+            output += key + '\t,\t'
             output += "\t".join(value)
             output += '\n'
             f.write(output)
@@ -128,7 +137,7 @@ def relationalSchemaConfig(path='TPD-CSV/relationalSchema.csv'):
     
 # Accepts days in %Y-%m-%d format.
 # Returns array containing information about weekday number and wether day corresponds to holiday.
-def everyDayWizard(date, path='TPD-CSV/holidays.csv', format='%Y-%m-%d', holidays='holidays.csv', cleanOutput=False):
+def everyDayWizard(date, path='TPD-CSV/holidays.csv', format='%Y-%m-%d', holidays='holidays.csv', cleanOutput=True):
     parsedDate = datetime.strptime(date, format)
     # retrieving number of weekday
     weekday = datetime.weekday(parsedDate)
@@ -150,97 +159,132 @@ def everyDayWizard(date, path='TPD-CSV/holidays.csv', format='%Y-%m-%d', holiday
         except KeyError:
             return weekday
 
-            
+def attributeCleanup(attribute, type, dateFormat = '%Y-%m-%d', ignoreNull = False):
+    # NULL é regra geral o que vem de sql se uma coluna não tiver valor. isto pode fazer sentido em algumas tabelas.
+    if ignoreNull==True and attribute == 'NULL':
+        return None
+    elif type == 'str':
+        return str(attribute).rstrip()
+    elif type == 'int' and attribute == '' and ignoreNull == True:
+        return None
+    elif type == 'int':
+        return int(attribute.replace('_x000D_', ''))
+    elif type == 'date':
+        return datetime.strptime(attribute.split(' ')[0], dateFormat)
+    elif type == 'bool':
+        return bool(attribute)
 
+def tableCleanup(table, ignoreDuplicates = True, dateFormat = '%Y-%m-%d'):
+    # detecting structure
+    for structure, values in structureReader().items():
+        header = list(table[0].keys())
+        if values == header:
+            tableType = structure
     
-def tableCleanup(table, tableType, keys, ignoreDuplicates = True, primaryKey=True, dateFormat = '%Y-%m-%d'):
-    
-    # array to store primary keys and test constraints
-    primaryKeys = list()
     # list of indexes to remove due to wrong format
     removeSchedule = list()
 
+    # to store output 
+    output = list()
+
+    # to count erros
+    err = 0
+
     for i in range(len(table)):
         line = table[i]
-        # checking integrity of collumn names
-        if keys != list(line.keys()):
-                raise ValueError("Collumn names not valid.")
-        
+        outputLine = dict()
         try:
             if tableType == 'user':
-                line['id'] = int(line['id'])
-                line['nickname'] = str(line['nickname']).rstrip()
-                line['birthdate'] = datetime.strptime(line['birthdate'].split(' ')[0], dateFormat)
-                line['address'] = str(line['address']).rstrip()
-                line['agegroup'] = str(line['agegroup']).rstrip()
-                line['gender'] = str(line['id_gender']).rstrip()
-                line['club'] = str(line['id_club']).rstrip()
-                line['region'] = str(line['id_region']).rstrip()
-                line['startdate'] = datetime.strptime(line['date_start'].split(' ')[0], dateFormat)
+                outputLine['id'] = attributeCleanup(line['id'], 'int')
+                outputLine['nickname'] = attributeCleanup(line['nickname'], 'str')
+                outputLine['birthdate'] = attributeCleanup(line['birthdate'], 'date')
+                outputLine['address'] = attributeCleanup(line['address'], 'str')
+                outputLine['agegroup'] = attributeCleanup(line['agegroup'], 'str')
+                outputLine['gender'] = attributeCleanup(line['gender'], 'str')
+                outputLine['club'] = attributeCleanup(line['club'], 'str')
+                outputLine['region'] = attributeCleanup(line['region'], 'str')
+                outputLine['startdate'] = attributeCleanup(line['startdate'], 'date')
             elif tableType == 'rounds':
-                line['id'] = int(line['id'])
-                line['id_user'] = int(line['id_user'])
-                line['name'] = str(line['name']).rstrip()
-                line['code'] = str(line['code']).rstrip()
-                line['id_origin'] = int(line['id_origin'])
-                line['lastupdate'] = datetime.strptime(line['lastupdate'].split(' ')[0], dateFormat)
+                outputLine['season'] = attributeCleanup(line['season'], 'str')
+                outputLine['order'] = attributeCleanup(line['order'], 'int')
+                outputLine['start_date'] = attributeCleanup(line['start_date'], 'date')
+                outputLine['end_date'] = attributeCleanup(line['end_date'], 'date')
+                outputLine['publish_date'] = attributeCleanup(line['publish_date'], 'date', ignoreNull=True)
             elif tableType == 'rounds_teams':
-                line['id'] = int(line['id'])
-                line['name'] = str(line['name']).rstrip()
-                line['is_paid'] = bool(line['is_paid'])
+                outputLine['season'] = attributeCleanup(line['season'], 'str')
+                outputLine['id_team'] = attributeCleanup(line['id_team'], 'int')
+                outputLine['order_round'] = attributeCleanup(line['order_round'], 'int')
+                outputLine['team_name'] = attributeCleanup(line['team_points_round'], 'str')
+                outputLine['team_points_round'] = attributeCleanup(line['team_points_round'], 'int')
+                outputLine['team_points_total'] = attributeCleanup(line['team_points_total'], 'int')
+                outputLine['team_rank_round'] = attributeCleanup(line['team_rank_round'], 'int')
+                outputLine['team_rank_total'] = attributeCleanup(line['team_rank_total'], 'int')
+                outputLine['team_value'] = attributeCleanup(line['team_value'], 'int')
             elif tableType == 'teams':
-                line['id'] = int(line['id'])
-                line['name'] = str(line['name']).rstrip()
-                line['id_owner'] = int(line['id_owner'])
+                outputLine['season'] = attributeCleanup(line['season'], 'str')
+                outputLine['id'] = attributeCleanup(line['id'], 'int')
+                outputLine['name'] = attributeCleanup(line['name'], 'str')
+                outputLine['createdate'] = attributeCleanup(line['createdate'], 'date')
+                outputLine['origin'] = attributeCleanup(line['origin'], 'str')
+                outputLine['is_paid'] = attributeCleanup(line['is_paid'], 'int')
+                outputLine['round_start'] = attributeCleanup(line['round_start'], 'int')
+                outputLine['id_user'] = attributeCleanup(line['id_user'], 'int') 
             elif tableType == 'user_details_logins':
-                line['id_league'] = int(line['id_league'])
-                line['id_team'] = str(line['id_team']).rstrip()
-                line['lastupdate'] = int(line['lastupdate'])
-            elif tableType == 'codigos_postais':
-                line['cod_distrito'] = int(line['cod_distrito'])
-                line['cod_concelho'] = int(line['cod_concelho'])
-                line['cod_localidade'] = int(line['cod_localidade'])
-                line['nome_localidade'] = str(line['nome_localidade']).rstrip()
-                line['num_cod_postal'] = int(line['num_cod_postal'])
-                ## verifies if postal code is within valid range
-                if line['num_cod_postal'] > 9999 or line['num_cod_postal'] < 0:
-                    raise ValueError("Invalid postal code detected.")
-                
-                line['ext_cod_postal'] = int(line['ext_cod_postal'])
-                ## verifies if postal code is within valid range
-                if line['ext_cod_postal'] > 999 or line['ext_cod_postal'] < 0:
-                    raise ValueError("Invalid postal code detected.")
-                
-                line['desig_postal'] = str(line['desig_postal']).rstrip()
-            elif tableType == 'concelhos':
-                line['cod_concelho'] = int(line['cod_concelho'])
-                line['nome_concelho'] = str(line['nome_concelho']).rstrip()
-                line['cod_distrito'] = int(line['cod_distrito'])
+                outputLine['season'] = attributeCleanup(line['season'], 'str')
+                outputLine['id_user'] = attributeCleanup(line['id_user'], 'int')
+                outputLine['round_order'] = attributeCleanup(line['round_order'], 'int')
+                outputLine['premiumdate'] = attributeCleanup(line['premiumdate'], 'date', ignoreNull = True)
+                outputLine['in_league'] = attributeCleanup(line['in_league'], 'int')
+                outputLine['logins_round'] = attributeCleanup(line['logins_round'], 'int')
+                outputLine['logins_sunday'] = attributeCleanup(line['logins_sunday'], 'int')
+                outputLine['logins_monday'] = attributeCleanup(line['logins_monday'], 'int')
+                outputLine['logins_tuesday'] = attributeCleanup(line['logins_tuesday'], 'int')
+                outputLine['logins_wednesday'] = attributeCleanup(line['logins_wednesday'], 'int')
+                outputLine['logins_thursday'] = attributeCleanup(line['logins_thursday'], 'int')
+                outputLine['logins_friday'] = attributeCleanup(line['logins_friday'], 'int')
+                outputLine['logins_saturday'] = attributeCleanup(line['logins_saturday'], 'int')
             elif tableType == 'distritos':
-                line['cod_distrito'] = int(line['cod_distrito'])
-                line['nome_distrito'] = str(line['nome_distrito']).rstrip()
-        except Exception:
+                outputLine['cod_distrito'] = attributeCleanup(line['cod_distrito'], 'int')
+                outputLine['nome_distrito'] = attributeCleanup(line['nome_distrito'], 'str')
+            elif tableType == 'concelhos':
+                outputLine['cod_distrito'] = attributeCleanup(line['cod_distrito'], 'int')
+                outputLine['cod_concelho'] = attributeCleanup(line['cod_concelho'], 'int')
+                outputLine['nome_concelho'] = attributeCleanup(line['nome_concelho'], 'str')
+            elif tableType == 'codigos_postais':
+                outputLine['cod_distrito'] = attributeCleanup(line['cod_distrito'], 'int')
+                outputLine['cod_concelho'] = attributeCleanup(line['cod_concelho'], 'int')
+                outputLine['cod_localidade'] = attributeCleanup(line['cod_localidade'], 'int')
+                outputLine['nome_localidade'] = attributeCleanup(line['nome_localidade'], 'str')
+                outputLine['cod_arteria'] = attributeCleanup(line['cod_arteria'], 'int', ignoreNull = True)
+                outputLine['tipo_arteria'] = attributeCleanup(line['tipo_arteria'], 'str', ignoreNull = True)
+                outputLine['prep1'] = attributeCleanup(line['prep1'], 'str', ignoreNull = True)
+                outputLine['titulo_arteria'] = attributeCleanup(line['titulo_arteria'], 'str', ignoreNull = True)
+                outputLine['prep2'] = attributeCleanup(line['prep2'], 'str', ignoreNull = True)
+                outputLine['nome_arteria'] = attributeCleanup(line['nome_arteria'], 'str', ignoreNull = True)
+                outputLine['local_arteria'] = attributeCleanup(line['local_arteria'], 'str', ignoreNull = True)
+                outputLine['troco'] = attributeCleanup(line['troco'], 'str', ignoreNull = True)
+                outputLine['porta'] = attributeCleanup(line['porta'], 'str', ignoreNull = True)
+                outputLine['cliente'] = attributeCleanup(line['cliente'], 'str')
+                outputLine['num_cod_postal'] = attributeCleanup(line['num_cod_postal'], 'str')
+                outputLine['ext_cod_postal'] = attributeCleanup(line['ext_cod_postal'], 'str')
+                outputLine['desig_postal'] = attributeCleanup(line['desig_postal'], 'str')
+            else:
+                raise Exception('Unknown structure given to function.')
+            
+            # attaching the new well formated line
+            output.append(outputLine)
+
+        except ValueError as e:
             print("Something went wrong with value format parsing. Line will be removed.")
+            print(e.args)
             removeSchedule.append(i)
-        if primaryKey == True:
-            # By default primary key is expected to be found as a candidate key on the first position
-            primaryKeys.append(line.values[0])
-
-    # cheking for duplicates with the same primary key
-    if primaryKey == True:
-        for i in range(len(table)):
-            key = primaryKeys[i]
-            if primaryKeys.count(key) > 1:
-                if ignoreDuplicates == True:
-                    print('Primary Key constraints do not hold up')
-                    removeSchedule.append(i)
-                else:
-                    raise Warning('Duplicates found in file, use of proper candidate keys is highly advised!')
-
-    # filtering table of bad lines
-    for i in removeSchedule:
-        table.pop(i)
+            err += 1
+        except UnboundLocalError:
+            print("Probably stored collumn structure/names don't match or are corrupted.")
+            sys.exit(1)
     
+    # measuring the ammount of errors
+    print('Lines Removed: %i\nLines Correctly Read: %i' % (err, len(output)))
     # everything with structure, domains, constraints ok!    
-    return(table)
+    return(output)
 

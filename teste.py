@@ -4,4 +4,5 @@ e.relationalSchemaConfig()
 #print(e.csvReader('holidays.csv', 'holidays'))
 #print(e.everyDayWizard('2019-1-1'))
 #print(e.structureReader())
-print(e.csvReader('TPD-CSV/LigaRecord/user_details_logins.csv', 'user_details_logins'))
+for l in e.tableCleanup(e.csvReader('TPD-CSV/CTT/codigos_postais.csv', 'codigos_postais')):
+    True
