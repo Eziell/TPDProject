@@ -1,5 +1,6 @@
 import json
 import re
+import unidecode
 
 def addressFinder(addressStr):
     
@@ -54,7 +55,25 @@ def addressFinder(addressStr):
         final_cod_postal = "nao especificado"
         final_ext_postal = "nao especificado"
         
+        for district in distritos:
+            if unidecode.unidecode(district["nome_distrito"].lower()) in unidecode.unidecode(addressStr.lower()):
+                final_distrito = district["nome_distrito"]
+                addressStr = addressStr.replace(final_distrito, '')
+                
+                for concelho in concelhos:
+                    if unidecode.unidecode(concelho["nome_concelho"].lower()) in unidecode.unidecode(addressStr.lower()):
+                        final_concelho = concelho["nome_concelho"]
+                        addressStr = addressStr.replace(final_concelho, '')
+                        filtered_cps = [cp for cp in codigos_postais if cp["cod_distrito"] == district["cod_distrito"] and cp["cod_concelho"] == concelho["cod_concelho"]]
+                        for cp in filtered_cps:
+                            if unidecode.unidecode(cp["nome_localidade"].lower()) in unidecode.unidecode(addressStr.lower()):
+                                final_localidade = cp["nome_localidade"]
+                
+                            if unidecode.unidecode(cp["desig_postal"].lower()) in unidecode.unidecode(addressStr.lower()):
+                                final_designacao = cp["desig_postal"]
+        
+        
         
     return dict({'cod_postal': final_cod_postal, 'ext_postal': final_ext_postal, 'nome_distrito': final_distrito, 'nome_concelho': final_concelho, 'nome_localidade': final_localidade, 'desig_postal': final_designacao})
             
-print(addressFinder('blaBla Bla-bla 5555 3750-015 bla'))
+print(addressFinder('Évora Bairro Lino de Carvalho VENDAS NOVAS'))
