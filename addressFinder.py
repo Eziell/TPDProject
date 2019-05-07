@@ -35,7 +35,7 @@ def addressFinder(addressStr):
         
     if search_result != None:
         distrito_result = next(item for item in distritos if item["cod_distrito"] == search_result["cod_distrito"])
-        concelho_result = next(item for item in concelhos if item["cod_concelho"] == search_result["cod_concelho"])
+        concelho_result = next(item for item in concelhos if item["cod_distrito"] == search_result["cod_distrito"] and item["cod_concelho"] == search_result["cod_concelho"])
         
         if distrito_result["nome_distrito"] != '':
                 final_distrito = distrito_result["nome_distrito"]
@@ -76,4 +76,4 @@ def addressFinder(addressStr):
         
     return dict({'cod_postal': final_cod_postal, 'ext_postal': final_ext_postal, 'nome_distrito': final_distrito, 'nome_concelho': final_concelho, 'nome_localidade': final_localidade, 'desig_postal': final_designacao})
             
-print(addressFinder('Évora Bairro Lino de Carvalho VENDAS NOVAS'))
+#print(addressFinder('Évora Bairro Lino de Carvalho VENDAS NOVAS'))
