@@ -1,0 +1,85 @@
+﻿Chapter 8 – Sistema ETL 
+
+Responsabilidades do sistema ETL
+Extração: Os dados removidos são das suas bases de dados relacionais correspondentes aos 5 anos considderados na Liga Record em SQL Server.  Ficheiros adicionais em formato csv como aqueles contendo informação sobre os CTT. A informação para cada dimensão (não transformada) foi removida usando as declarações declaradas nos seguintes ficheiros:
+users.sql:
+Pretende reunir informação para corresponder à dimensão User.
+Entradas -  Tabelas correspondentes a clubes, regiões e sexo de forma a conseguir dados descritivos em vez dos id’s referenciados nas tabelas de utilizadores.
+Saídas – Tabela não transformada “tpd_user”.
+Estrutura
+[id]
+[nickname]
+[address]
+[birthdate]
+[agegroup]
+[gender]
+[club]
+[region]
+[startdate]
+[premiumdate]
+teams.sql:
+Pretende reunir informação para corresponder a dimensão Team.
+Entradas – Tabela “tpd_user” obtida na extração. Uma interrogação separada para cada temporada.
+Saídas – Tabela não transformada “tpd_team”
+Estrutura
+season, [id]
+[name]
+[createdate]
+[origin]
+[is_paid]
+[round_start]
+[id_user]
+user_login.sql:
+Ponto de partida para corresponder informação às dimensão Date e tabela de factos Visits.
+Entradas – Tabelas de logins dos sisteamas relacioais ligadas com as informação presentes na tabela “tpd_user” obtida antes.
+Saída – Tabela “tpd_user_login”
+[season]
+[id_user]
+[date]
+[logins]
+round.sql:
+Obtém informação para correspoder à dimensão Date.
+Entradas – Tabelas relacionais de dados de ronda de cada temporada.
+Saída – Tabela “tpd_round”
+Estrutura
+[order]
+[start_date]
+[end_date]
+[publish_date]
+team_round.sql:
+Obtém informação para corresponder à dimensão Teams
+Entradas – tabelas de resultados conseguidos pelas equipas obtidas nas declarações de “teams .sql”.
+Saída – Tabela “tpd_team_round”
+Estrutura 
+[season]
+[id_team]
+[order_round]
+[team_name]
+[team_points_round]
+[team_points_total]
+[team_rank_round]
+[team_rank_total]
+[team_value]
+Tratamento: Como verificado antes nos “Problemas decorrentes dos dados” existe  uma enorme variação das moradas, com mais ou menos coerência. O sistema ETL vai então entre as suas funções básicas tentar lidar com esta questão antes do carregamento no data warehouse. Nota: Apesar de existir ainda outra questão relativamente a múltiplas contas partilhando o mesmo indivíduo, tal não conseguiu ser resolvido. Como por questões de privacidade, não pode ser extraído o nome da pessoa, a resolução do problema fica longe do nosso alcance, não tendo forma de o verificar. No entanto devido aos custos de registo para novas contas, é improvável que durante um período de 5 anos os utilizadores tenham mudado de email.
+Tratamento de valores incoerentes:
+funcao_country.sql:
+Tenta extrair o país de residência do inscrito
+Entradas: Morada completa introduzida pelo utilizador e presente na tabela “tpd_user”.
+Saída: País de residência.
+addressFinder.py:
+Tenta extrair pormenores sobre a morada do jogador inscrito em níveis diferentes de pormenor. Por defeito, cada nível que não seja possível determinar é designado por “não especificado”.
+Entradas: Morada completa introduzida pelo utilizador e presente na tabela “tpd_user”.
+Saída: Dicionário que reúne informação sobre o código postal, extensão postal, nome do concelho, nome de localidade e designação postal.
+Tratamento de dados históricos:
+historic_data.sql:
+Extrai alterações de morada, clube e região escolhida das tabelas relacionais da Liga Record.
+Entrada – Lista de users com dados actuais e tabelas com dados históricos.
+Saída – Lista de users com dados actuais e de histórico.
+Exportação das tabelas de sql em csv:
+user_csv_export.sql:
+Como o script addressFinder em python lê e opera sobre ficheiros em formato csv, esta ficheiro vai tratar da exportação
+Entradas: Tabela SQL “tpd_user”
+Saída: Tabela SQL “tpd_user” em formato csv.
+classicmatch_csv_export.sql:
+
+Enriquecimento dos dados base obtidos com dados obtidos de outras fontes 
