@@ -67,9 +67,9 @@ Tenta extrair o país de residência do inscrito
 Entradas: Morada completa introduzida pelo utilizador e presente na tabela “tpd_user”.
 Saída: País de residência.
 addressFinder.py:
-Tenta extrair pormenores sobre a morada do jogador inscrito em níveis diferentes de pormenor. Por defeito, cada nível que não seja possível determinar é designado por “não especificado”.
+Tenta extrair pormenores sobre a morada do jogador inscrito em níveis diferentes de pormenor. Por defeito, cada nível que não seja possível determinar é designado por “não especificado”. Primeiro tenta encontrar o codigo postal na morada introduzida e extrair a informação necessária a partir daí. Se falhar a obtenção do Código postal, tenta encontrar primeiro o distrito, segundo o concelho e, finalmente, a localidade e/ou designação postal do utilizador.
 Entradas: Morada completa introduzida pelo utilizador e presente na tabela “tpd_user”.
-Saída: Dicionário que reúne informação sobre o código postal, extensão postal, nome do concelho, nome de localidade e designação postal.
+Saída: Dicionário que reúne informação sobre o código postal (código + extensão postal, nome do distrito, nome do concelho, nome da localidade e designação postal.
 Tratamento de dados históricos:
 historic_data.sql:
 Extrai alterações de morada, clube e região escolhida das tabelas relacionais da Liga Record.
