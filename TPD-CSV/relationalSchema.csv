@@ -7,3 +7,4 @@ codigos_postais	,	cod_distrito	cod_concelho	cod_localidade	nome_localidade	cod_a
 concelhos	,	cod_distrito	cod_concelho	nome_concelho
 distritos	,	cod_distrito	nome_distrito
 holidays	,	day	feriado
+classicos	,	season	date	home	visitor	goals_home	goals_visitor

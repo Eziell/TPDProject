@@ -126,6 +126,7 @@ def relationalSchemaConfig(path='TPD-CSV/relationalSchema.csv'):
     config['concelhos'] = ['cod_distrito', 'cod_concelho', 'nome_concelho']
     config['distritos'] = ['cod_distrito', 'nome_distrito']
     config['holidays'] = ['day', 'feriado']
+    config['classicos'] = ['season', 'date', 'home', 'visitor', 'goals_home', 'goals_visitor']
     with open(path, 'w') as f:
         for key, value in config.items():
             output = str()
@@ -278,6 +279,13 @@ def tableCleanup(table, ignoreDuplicates = True, dateFormat = '%Y-%m-%d'):
                 outputLine['num_cod_postal'] = attributeCleanup(line['num_cod_postal'], 'str')
                 outputLine['ext_cod_postal'] = attributeCleanup(line['ext_cod_postal'], 'str')
                 outputLine['desig_postal'] = attributeCleanup(line['desig_postal'], 'str')
+            elif tableType == 'classicos':
+                outputLine['season'] = attributeCleanup(line['season'], 'str')
+                outputLine['date'] = attributeCleanup(line['date'], 'date')
+                outputLine['home'] = attributeCleanup(line['home'], 'str')
+                outputLine['visitor'] = attributeCleanup(line['visitor'], 'str')
+                outputLine['goals_home'] = attributeCleanup(line['goals_home'], 'int')
+                outputLine['goals_visitor'] = attributeCleanup(line['goals_visitor'], 'int')
             else:
                 raise Exception('Unknown structure given to function.')
             
@@ -298,3 +306,4 @@ def tableCleanup(table, ignoreDuplicates = True, dateFormat = '%Y-%m-%d'):
     # everything with structure, domains, constraints ok!    
     return(output)
 
+relationalSchemaConfig()

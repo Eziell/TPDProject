@@ -17,9 +17,13 @@ def createTeamsDimension(path='TPD-CSV/LigaRecord/'):
     # creating array of dicts with user as key, in_league value in first position and team_id in proceeding posetions
     teams = list()
     
+    candidateKey = 1
     # going through every entry from the relational database.
     for line in teamsTable:
         teamsDict = dict()
+        teamsDict['Team Key (PK)'] = candidateKey
+        candidateKey += 1
+        ##
         teamsDict['Team Natural ID'] = line['id']
         teamsDict['Team Name'] = line['name']
         teamsDict['Team Create Date'] = line['createdate']

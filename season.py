@@ -1,4 +1,4 @@
-import Extraction as ext 
+import extraction as ext 
 from datetime import datetime 
 
 def createSeasonDimension(path='TPD-CSV/LigaRecord/'):
@@ -12,7 +12,11 @@ def createSeasonDimension(path='TPD-CSV/LigaRecord/'):
     rawTable = ext.csvReader(path + 'rounds.csv')
     formatTable = ext.tableCleanup(rawTable)
 
+    candidateKey = 1
     season = dict()
+    season['Season Key (PK)'] = candidateKey
+    candidateKey += 1
+    ##
     season['Season Name'] = formatTable[1]['season']
     # retrieving year from rounds.csv
     year = (formatTable[1]['start_date']).year
