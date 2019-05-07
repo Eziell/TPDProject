@@ -54,23 +54,45 @@ def addressFinder(addressStr):
         print("Postal Code introduced not found in CTT data.")
         final_cod_postal = "nao especificado"
         final_ext_postal = "nao especificado"
+        final_distrito_codigo = None
+        final_concelho_codigo = None
+        length_of_find = 0
         
         for district in distritos:
-            if unidecode.unidecode(district["nome_distrito"].lower()) in unidecode.unidecode(addressStr.lower()):
+            if " " + unidecode.unidecode(district["nome_distrito"].lower()) in unidecode.unidecode(addressStr.lower()) and len(district["nome_distrito"]) >= length_of_find:
                 final_distrito = district["nome_distrito"]
-                addressStr = addressStr.replace(final_distrito, '')
+                final_distrito_codigo = district["cod_distrito"]
+                addressStr = unidecode.unidecode(addressStr.lower()).replace(unidecode.unidecode(final_distrito.lower()), '')
+                length_of_find = len(final_distrito)
+        
+        length_of_find = 0
+        for concelho in concelhos:
+            if " " + unidecode.unidecode(concelho["nome_concelho"].lower()) in unidecode.unidecode(addressStr.lower()):
+                if (final_distrito_codigo == "nao especificado" or final_distrito_codigo == concelho["cod_distrito"]) and length_of_find <= len(concelho["nome_concelho"]):
+                    final_concelho = concelho["nome_concelho"]
+                    final_concelho_codigo = concelho["cod_concelho"]
+                    addressStr = unidecode.unidecode(addressStr.lower()).replace(unidecode.unidecode(final_concelho.lower()), '')
+                    length_of_find = len(final_concelho)
+                    
+        filtered_cps = codigos_postais
+        
+        if final_concelho_codigo != None and final_distrito_codigo != None:
+            filtered_cps = [cp for cp in codigos_postais if cp["cod_distrito"] == final_distrito_codigo and cp["cod_concelho"] == final_concelho_codigo]
+        elif final_concelho_codigo != None:
+            filtered_cps = [cp for cp in codigos_postais if cp["cod_concelho"] == final_concelho_codigo]
+        elif final_distrito_codigo != None:
+            filtered_cps = [cp for cp in codigos_postais if cp["cod_distrito"] == final_distrito_codigo]
+        
+        length_of_find_loc = 0
+        length_of_find_desig = 0
+        for cp in filtered_cps:
+            if " " + unidecode.unidecode(cp["nome_localidade"].lower()) in unidecode.unidecode(addressStr.lower()) and length_of_find_loc <= len(cp["nome_localidade"]):
+                final_localidade = cp["nome_localidade"]
+                length_of_find_loc = len(final_localidade)
                 
-                for concelho in concelhos:
-                    if unidecode.unidecode(concelho["nome_concelho"].lower()) in unidecode.unidecode(addressStr.lower()):
-                        final_concelho = concelho["nome_concelho"]
-                        addressStr = addressStr.replace(final_concelho, '')
-                        filtered_cps = [cp for cp in codigos_postais if cp["cod_distrito"] == district["cod_distrito"] and cp["cod_concelho"] == concelho["cod_concelho"]]
-                        for cp in filtered_cps:
-                            if unidecode.unidecode(cp["nome_localidade"].lower()) in unidecode.unidecode(addressStr.lower()):
-                                final_localidade = cp["nome_localidade"]
-                
-                            if unidecode.unidecode(cp["desig_postal"].lower()) in unidecode.unidecode(addressStr.lower()):
-                                final_designacao = cp["desig_postal"]
+            if " " + unidecode.unidecode(cp["desig_postal"].lower()) in unidecode.unidecode(addressStr.lower()) and length_of_find_desig <= len(cp["desig_postal"]):
+                final_designacao = cp["desig_postal"]
+                length_of_find_desig = len(final_designacao)
         
         
         
