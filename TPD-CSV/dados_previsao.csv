@@ -1,0 +1,148 @@
+season,id_user,id_user_durable,agegroup,gender,club,district,visitas,rank_total_final,equipas
+2018/19,21,6,25-34,Masculino ,Sporting,Santarém,756,11046,1
+2018/19,236,103,45-54,Masculino ,Benfica,Castelo Branco,1104,1009,4
+2018/19,365,178,45-54,Masculino ,Benfica,Setúbal,1024,643,2
+2018/19,375,181,64,Masculino ,Benfica,Lisboa,580,1730,1
+2018/19,930,513,35-44,Feminino  ,Benfica,Braga,392,10062,1
+2018/19,975,537,55-64,Masculino ,Sporting,Beja,2080,463,22
+2018/19,1005,550,15-24,Masculino ,Sporting,Évora,368,19744,1
+2018/19,1050,566,45-54,Masculino ,Sporting,Faro,644,3261,1
+2018/19,1109,595,55-64,Masculino ,Sporting,Porto,544,2421,4
+2018/19,1129,604,45-54,Masculino ,Benfica,Lisboa,3436,81,10
+2018/19,1134,605,55-64,Feminino  ,Benfica,Lisboa,1212,383,16
+2018/19,1144,611,45-54,Masculino ,Sporting,Lisboa,1128,860,12
+2018/19,1209,665,55-64,Masculino ,Benfica,Porto,392,7400,11
+2018/19,1244,694,64,Masculino ,Sporting,Castelo Branco,1296,576,4
+2018/19,1394,800,64,Masculino ,Sporting,Évora,1208,8682,20
+2018/19,1439,844,35-44,Masculino ,FC Porto,Porto,832,5426,1
+2018/19,1454,850,15-24,Masculino ,Benfica,Porto,444,24560,1
+2018/19,1539,908,45-54,Masculino ,Benfica,Lisboa,1496,959,1
+2018/19,1814,1124,35-44,Masculino ,Benfica,Lisboa,1212,1582,7
+2018/19,1934,1206,35-44,Masculino ,Benfica,Porto,1180,2382,2
+2018/19,1939,1213,64,Masculino ,Benfica,Leiria,1264,2690,5
+2018/19,2074,1333,35-44,Masculino ,Benfica,Viseu,748,364,4
+2018/19,2104,1356,35-44,Masculino ,Sporting,Lisboa,420,10277,1
+2018/19,2184,1413,35-44,Feminino  ,Benfica,Bragança,1956,3656,2
+2018/19,2374,1568,35-44,Masculino ,Benfica,Beja,512,13721,1
+2018/19,2414,1596,35-44,Masculino ,FC Porto,Aveiro,872,9959,1
+2018/19,2484,1636,55-64,Masculino ,Benfica,Castelo Branco,504,844,6
+2018/19,2973,1998,35-44,Masculino ,FC Porto,Porto,1192,1175,1
+2018/19,3258,2180,35-44,Masculino ,Benfica,Setúbal,640,1413,5
+2018/19,3688,2509,55-64,Feminino  ,Benfica,Lisboa,916,818,1
+2018/19,3713,2528,55-64,Masculino ,Sporting,Coimbra,392,28697,1
+2018/19,3943,2742,45-54,Masculino ,FC Porto,Viana do Castelo,516,19778,1
+2018/19,3973,2764,25-34,Masculino ,Sporting,Beja,424,18667,1
+2018/19,4008,2790,25-34,Masculino ,Sporting,Beja,1448,469,1
+2018/19,4198,2931,45-54,Masculino ,Benfica,Faro,844,5250,1
+2018/19,4328,3052,25-34,Masculino ,Benfica,Aveiro,440,5510,3
+2018/19,4433,3114,25-34,Masculino ,Benfica,Leiria,672,17298,1
+2018/19,4483,3154,35-44,Feminino  ,Benfica,Setúbal,1084,3594,1
+2018/19,4508,3178,35-44,Masculino ,FC Porto,Aveiro,368,17534,2
+2018/19,4568,3219,35-44,Feminino  ,Benfica,Faro,760,6442,1
+2018/19,4638,3273,45-54,Masculino ,FC Porto,Leiria,1040,13121,1
+2018/19,4643,3278,45-54,Masculino ,Sporting,Porto,680,3173,5
+2018/19,4733,3335,55-64,Masculino ,Benfica,Lisboa,180,18172,1
+2018/19,4808,3402,25-34,Feminino  ,Sporting,Braga,820,11642,1
+2018/19,4813,3405,25-34,Masculino ,Benfica,Beja,256,19468,1
+2018/19,5027,3573,25-34,Masculino ,Benfica,Portalegre,820,3262,1
+2018/19,5147,3667,35-44,Masculino ,Benfica,Santarém,388,14326,1
+2018/19,5242,3758,35-44,Masculino ,FC Porto,Porto,748,3581,1
+2018/19,5247,3762,45-54,Masculino ,Benfica,Viseu,1044,2113,6
+2018/19,5282,3790,35-44,Masculino ,Sporting,Guarda,892,9671,2
+2018/19,5292,3792,35-44,Masculino ,Benfica,Coimbra,408,7591,1
+2018/19,5712,4108,35-44,Feminino  ,FC Porto,Faro,172,14224,1
+2018/19,5902,4252,45-54,Masculino ,Sporting,Lisboa,368,3353,2
+2018/19,5922,4272,35-44,Masculino ,Benfica,Faro,496,557,2
+2018/19,6367,4677,55-64,Feminino  ,Benfica,Castelo Branco,424,3951,1
+2018/19,6467,4771,25-34,Feminino  ,Sporting,Castelo Branco,404,10365,1
+2018/19,6597,4929,35-44,Masculino ,Benfica,Setúbal,704,4868,1
+2018/19,6652,5004,45-54,Masculino ,Benfica,Lisboa,1784,36,1
+2018/19,6662,5011,45-54,Masculino ,Benfica,Lisboa,1272,971,11
+2018/19,6747,5085,35-44,Masculino ,FC Porto,Santarém,856,2919,1
+2018/19,6972,5334,25-34,Masculino ,Sporting,Lisboa,1484,122,1
+2018/19,7047,5390,25-34,Masculino ,Benfica,Aveiro,512,3676,1
+2018/19,7067,5410,35-44,Masculino ,Benfica,Lisboa,336,6929,1
+2018/19,7147,5472,35-44,Feminino  ,Sporting,Lisboa,428,5023,3
+2018/19,7252,5547,25-34,Masculino ,Sporting,Setúbal,540,2805,1
+2018/19,7382,5641,35-44,Feminino  ,Benfica,Portalegre,564,3775,3
+2018/19,7467,5731,15-24,Masculino ,Benfica,Faro,1024,2286,1
+2018/19,7592,5819,15-24,Masculino ,Benfica,Faro,1616,102,1
+2018/19,7742,5910,35-44,Masculino ,Sporting,Santarém,1140,4527,1
+2018/19,7797,5948,64,Masculino ,Sporting,Lisboa,504,20450,2
+2018/19,7832,5985,64,Masculino ,Benfica,Lisboa,1456,579,1
+2018/19,8132,6244,45-54,Masculino ,Sporting,Lisboa,124,30808,1
+2018/19,8577,6574,35-44,Masculino ,Sporting,Lisboa,476,12559,1
+2018/19,8612,6601,35-44,Masculino ,FC Porto,Évora,616,9078,1
+2018/19,8672,6650,45-54,Masculino ,Sporting,Évora,288,14132,1
+2018/19,8827,6761,25-34,Masculino ,FC Porto,Porto,808,17753,1
+2018/19,8997,6878,45-54,Masculino ,Benfica,Viseu,912,810,1
+2018/19,9122,7026,64,Masculino ,Sporting,Lisboa,420,18024,1
+2018/19,9652,7466,45-54,Masculino ,Sporting,Castelo Branco,456,24284,1
+2018/19,10022,7797,25-34,Masculino ,Sporting,Beja,236,17392,1
+2018/19,10087,7853,25-34,Masculino ,FC Porto,Porto,968,4003,5
+2018/19,10367,8080,45-54,Masculino ,Sporting,Leiria,552,6525,1
+2018/19,10557,8298,45-54,Masculino ,Sporting,Santarém,324,4856,14
+2018/19,11322,8930,55-64,Masculino ,Benfica,Porto,1384,7153,1
+2018/19,11477,9058,64,Masculino ,Benfica,Porto,396,12879,1
+2018/19,12637,10922,25-34,Masculino ,FC Porto,Porto,612,2851,1
+2018/19,12787,11203,55-64,Feminino  ,Sporting,Portalegre,948,24,76
+2018/19,12812,11237,25-34,Masculino ,Benfica,Lisboa,656,287,1
+2018/19,12862,11294,55-64,Masculino ,Sporting,Lisboa,444,22354,1
+2018/19,12972,11431,25-34,Masculino ,Benfica,Leiria,1248,569,1
+2018/19,14262,12552,15-24,Masculino ,Benfica,Ilha da Madeira,528,14035,1
+2018/19,14712,12947,25-34,Masculino ,FC Porto,Porto,676,6741,1
+2018/19,15202,13388,15-24,Masculino ,Benfica,Lisboa,388,21800,1
+2018/19,15262,13426,35-44,Masculino ,FC Porto,Setúbal,672,12835,3
+2018/19,15452,13615,35-44,Masculino ,Benfica,Lisboa,736,12028,1
+2018/19,15562,13740,35-44,Masculino ,Benfica,Aveiro,416,7563,1
+2018/19,15652,13840,15-24,Masculino ,Benfica,Lisboa,640,1997,1
+2018/19,15852,13994,35-44,Masculino ,FC Porto,Lisboa,832,8247,2
+2018/19,16037,14155,35-44,Masculino ,FC Porto,Ilha de São Miguel,388,15174,1
+2018/19,17192,15273,35-44,Masculino ,FC Porto,Porto,1384,2804,1
+2018/19,17247,15309,35-44,Masculino ,Sporting,Leiria,940,5965,1
+2018/19,17512,15570,45-54,Feminino  ,Sporting,Lisboa,1280,1813,4
+2018/19,17782,15898,35-44,Masculino ,FC Porto,Aveiro,480,3201,1
+2018/19,17812,15914,45-54,Masculino ,Sporting,Lisboa,208,26250,1
+2018/19,17902,16026,45-54,Masculino ,Benfica,Porto,196,19056,1
+2018/19,18137,16280,35-44,Masculino ,FC Porto,Porto,1304,5344,1
+2018/19,18532,16630,25-34,Masculino ,Benfica,Évora,608,1445,1
+2018/19,18832,16913,35-44,Masculino ,Benfica,Santarém,480,9501,1
+2018/19,18847,16925,25-34,Masculino ,Sporting,Aveiro,364,23509,1
+2018/19,18862,16933,35-44,Masculino ,Benfica,Santarém,572,2701,1
+2018/19,19422,17431,45-54,Masculino ,FC Porto,Braga,808,421,2
+2018/19,19497,17509,45-54,Feminino  ,Benfica,Viseu,916,8564,1
+2018/19,19922,17981,35-44,Masculino ,FC Porto,Porto,616,11039,1
+2018/19,20117,18178,35-44,Masculino ,Benfica,Lisboa,696,2793,1
+2018/19,20287,18402,35-44,Masculino ,Sporting,Porto,696,5094,1
+2018/19,20372,18480,25-34,Feminino  ,Sporting,Lisboa,952,14699,1
+2018/19,20587,18766,35-44,Masculino ,FC Porto,Porto,684,12962,1
+2018/19,21052,19277,25-34,Masculino ,Benfica,Setúbal,388,11290,1
+2018/19,21387,19662,35-44,Masculino ,Benfica,Santarém,508,560,1
+2018/19,21442,19747,45-54,Masculino ,Benfica,Évora,1500,7283,1
+2018/19,21462,19767,35-44,Masculino ,Sporting,Setúbal,280,3614,2
+2018/19,21847,20187,45-54,Masculino ,Benfica,Leiria,600,1491,1
+2018/19,22637,21113,35-44,Masculino ,Benfica,Aveiro,500,11119,1
+2018/19,22782,21255,45-54,Masculino ,Benfica,Leiria,1120,6228,1
+2018/19,22887,21451,25-34,Masculino ,FC Porto,Faro,1128,1804,2
+2018/19,22937,21499,25-34,Feminino  ,Benfica,Faro,352,6158,1
+2018/19,23257,21914,35-44,Masculino ,Benfica,Castelo Branco,332,18543,1
+2018/19,23657,22433,25-34,Masculino ,Benfica,Portalegre,276,12553,1
+2018/19,24397,23304,35-44,Masculino ,FC Porto,Lisboa,748,13213,1
+2018/19,25041,24287,35-44,Masculino ,Benfica,Lisboa,696,9145,1
+2018/19,25261,24599,35-44,Masculino ,Benfica,Porto,620,10813,1
+2018/19,25441,24873,15-24,Masculino ,Sporting,Viseu,1164,7097,1
+2018/19,25936,25472,45-54,Masculino ,Benfica,Porto,572,3409,1
+2018/19,26146,25738,25-34,Masculino ,Benfica,Lisboa,648,1703,1
+2018/19,26271,25827,35-44,Masculino ,Benfica,Aveiro,548,11741,1
+2018/19,26951,26879,45-54,Masculino ,Sporting,Setúbal,532,9417,2
+2018/19,27166,27317,25-34,Masculino ,Benfica,Braga,400,13542,1
+2018/19,27341,27641,35-44,Masculino ,Benfica,Coimbra,320,7443,1
+2018/19,27566,28024,25-34,Masculino ,FC Porto,Braga,472,18680,1
+2018/19,27631,28156,35-44,Masculino ,Benfica,Lisboa,684,16311,1
+2018/19,28251,29222,25-34,Masculino ,Benfica,Setúbal,456,8252,1
+2018/19,28611,29963,55-64,Masculino ,Sporting,Beja,304,13952,2
+2018/19,30251,34477,25-34,Masculino ,Sporting,Lisboa,344,12995,1
+2018/19,30316,34713,35-44,Masculino ,Sporting,Lisboa,376,14264,1
+2018/19,30696,35889,35-44,Masculino ,Benfica,Évora,412,2964,1
+2018/19,31246,39212,35-44,Masculino ,Benfica,Setúbal,560,4094,1
+2018/19,31506,53041,55-64,Masculino ,Benfica,Lisboa,388,4675,2
