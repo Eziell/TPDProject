@@ -1,11 +1,9 @@
 agegroup,gender,club,district,visitas,rank_total_final,equipas
-25-34,Masculino ,Sporting,Santarém,756,11046,1
 45-54,Masculino ,Benfica,Castelo Branco,1104,1009,4
-45-54,Masculino ,Benfica,Setúbal,1024,643,2
+25-34,Masculino ,Sporting,Santarém,756,11046,1
 64,Masculino ,Benfica,Lisboa,580,1730,1
+45-54,Masculino ,Benfica,Setúbal,1024,643,2
 35-44,Feminino  ,Benfica,Braga,392,10062,1
-55-64,Masculino ,Sporting,Beja,2080,463,22
-15-24,Masculino ,Sporting,Évora,368,19744,1
 45-54,Masculino ,Sporting,Faro,644,3261,1
 55-64,Masculino ,Sporting,Porto,544,2421,4
 45-54,Masculino ,Benfica,Lisboa,3436,81,10
@@ -13,6 +11,8 @@ agegroup,gender,club,district,visitas,rank_total_final,equipas
 45-54,Masculino ,Sporting,Lisboa,1128,860,12
 55-64,Masculino ,Benfica,Porto,392,7400,11
 64,Masculino ,Sporting,Castelo Branco,1296,576,4
+55-64,Masculino ,Sporting,Beja,2080,463,22
+15-24,Masculino ,Sporting,Évora,368,19744,1
 64,Masculino ,Sporting,Évora,1208,8682,20
 35-44,Masculino ,FC Porto,Porto,832,5426,1
 15-24,Masculino ,Benfica,Porto,444,24560,1
@@ -20,62 +20,62 @@ agegroup,gender,club,district,visitas,rank_total_final,equipas
 35-44,Masculino ,Benfica,Lisboa,1212,1582,7
 35-44,Masculino ,Benfica,Porto,1180,2382,2
 64,Masculino ,Benfica,Leiria,1264,2690,5
-35-44,Masculino ,Benfica,Viseu,748,364,4
 35-44,Masculino ,Sporting,Lisboa,420,10277,1
+35-44,Masculino ,Benfica,Viseu,748,364,4
+55-64,Masculino ,Benfica,Castelo Branco,504,844,6
 35-44,Feminino  ,Benfica,Bragança,1956,3656,2
 35-44,Masculino ,Benfica,Beja,512,13721,1
 35-44,Masculino ,FC Porto,Aveiro,872,9959,1
-55-64,Masculino ,Benfica,Castelo Branco,504,844,6
-35-44,Masculino ,FC Porto,Porto,1192,1175,1
 35-44,Masculino ,Benfica,Setúbal,640,1413,5
-55-64,Feminino  ,Benfica,Lisboa,916,818,1
+35-44,Masculino ,FC Porto,Porto,1192,1175,1
 55-64,Masculino ,Sporting,Coimbra,392,28697,1
-45-54,Masculino ,FC Porto,Viana do Castelo,516,19778,1
-25-34,Masculino ,Sporting,Beja,424,18667,1
+55-64,Feminino  ,Benfica,Lisboa,916,818,1
 25-34,Masculino ,Sporting,Beja,1448,469,1
+25-34,Masculino ,Sporting,Beja,424,18667,1
+45-54,Masculino ,FC Porto,Viana do Castelo,516,19778,1
 45-54,Masculino ,Benfica,Faro,844,5250,1
 25-34,Masculino ,Benfica,Aveiro,440,5510,3
 25-34,Masculino ,Benfica,Leiria,672,17298,1
-35-44,Feminino  ,Benfica,Setúbal,1084,3594,1
-35-44,Masculino ,FC Porto,Aveiro,368,17534,2
-35-44,Feminino  ,Benfica,Faro,760,6442,1
 45-54,Masculino ,FC Porto,Leiria,1040,13121,1
-45-54,Masculino ,Sporting,Porto,680,3173,5
 55-64,Masculino ,Benfica,Lisboa,180,18172,1
 25-34,Feminino  ,Sporting,Braga,820,11642,1
 25-34,Masculino ,Benfica,Beja,256,19468,1
-25-34,Masculino ,Benfica,Portalegre,820,3262,1
+45-54,Masculino ,Sporting,Porto,680,3173,5
+35-44,Masculino ,FC Porto,Aveiro,368,17534,2
+35-44,Feminino  ,Benfica,Faro,760,6442,1
+35-44,Feminino  ,Benfica,Setúbal,1084,3594,1
 35-44,Masculino ,Benfica,Santarém,388,14326,1
-35-44,Masculino ,FC Porto,Porto,748,3581,1
+25-34,Masculino ,Benfica,Portalegre,820,3262,1
 45-54,Masculino ,Benfica,Viseu,1044,2113,6
 35-44,Masculino ,Sporting,Guarda,892,9671,2
 35-44,Masculino ,Benfica,Coimbra,408,7591,1
+35-44,Masculino ,FC Porto,Porto,748,3581,1
 35-44,Feminino  ,FC Porto,Faro,172,14224,1
 45-54,Masculino ,Sporting,Lisboa,368,3353,2
 35-44,Masculino ,Benfica,Faro,496,557,2
-55-64,Feminino  ,Benfica,Castelo Branco,424,3951,1
-25-34,Feminino  ,Sporting,Castelo Branco,404,10365,1
-35-44,Masculino ,Benfica,Setúbal,704,4868,1
 45-54,Masculino ,Benfica,Lisboa,1784,36,1
 45-54,Masculino ,Benfica,Lisboa,1272,971,11
+35-44,Masculino ,Benfica,Setúbal,704,4868,1
+25-34,Feminino  ,Sporting,Castelo Branco,404,10365,1
+55-64,Feminino  ,Benfica,Castelo Branco,424,3951,1
 35-44,Masculino ,FC Porto,Santarém,856,2919,1
+35-44,Masculino ,Benfica,Lisboa,336,6929,1
 25-34,Masculino ,Sporting,Lisboa,1484,122,1
 25-34,Masculino ,Benfica,Aveiro,512,3676,1
-35-44,Masculino ,Benfica,Lisboa,336,6929,1
+35-44,Feminino  ,Benfica,Portalegre,564,3775,3
 35-44,Feminino  ,Sporting,Lisboa,428,5023,3
 25-34,Masculino ,Sporting,Setúbal,540,2805,1
-35-44,Feminino  ,Benfica,Portalegre,564,3775,3
 15-24,Masculino ,Benfica,Faro,1024,2286,1
-15-24,Masculino ,Benfica,Faro,1616,102,1
-35-44,Masculino ,Sporting,Santarém,1140,4527,1
-64,Masculino ,Sporting,Lisboa,504,20450,2
 64,Masculino ,Benfica,Lisboa,1456,579,1
+15-24,Masculino ,Benfica,Faro,1616,102,1
+64,Masculino ,Sporting,Lisboa,504,20450,2
+35-44,Masculino ,Sporting,Santarém,1140,4527,1
 45-54,Masculino ,Sporting,Lisboa,124,30808,1
 35-44,Masculino ,Sporting,Lisboa,476,12559,1
-35-44,Masculino ,FC Porto,Évora,616,9078,1
-45-54,Masculino ,Sporting,Évora,288,14132,1
 25-34,Masculino ,FC Porto,Porto,808,17753,1
 45-54,Masculino ,Benfica,Viseu,912,810,1
+45-54,Masculino ,Sporting,Évora,288,14132,1
+35-44,Masculino ,FC Porto,Évora,616,9078,1
 64,Masculino ,Sporting,Lisboa,420,18024,1
 45-54,Masculino ,Sporting,Castelo Branco,456,24284,1
 25-34,Masculino ,Sporting,Beja,236,17392,1
@@ -84,25 +84,25 @@ agegroup,gender,club,district,visitas,rank_total_final,equipas
 45-54,Masculino ,Sporting,Santarém,324,4856,14
 55-64,Masculino ,Benfica,Porto,1384,7153,1
 64,Masculino ,Benfica,Porto,396,12879,1
-25-34,Masculino ,FC Porto,Porto,612,2851,1
 55-64,Feminino  ,Sporting,Portalegre,948,24,76
 25-34,Masculino ,Benfica,Lisboa,656,287,1
 55-64,Masculino ,Sporting,Lisboa,444,22354,1
 25-34,Masculino ,Benfica,Leiria,1248,569,1
+25-34,Masculino ,FC Porto,Porto,612,2851,1
 15-24,Masculino ,Benfica,Ilha da Madeira,528,14035,1
 25-34,Masculino ,FC Porto,Porto,676,6741,1
 15-24,Masculino ,Benfica,Lisboa,388,21800,1
 35-44,Masculino ,FC Porto,Setúbal,672,12835,3
+35-44,Masculino ,FC Porto,Lisboa,832,8247,2
+15-24,Masculino ,Benfica,Lisboa,640,1997,1
 35-44,Masculino ,Benfica,Lisboa,736,12028,1
 35-44,Masculino ,Benfica,Aveiro,416,7563,1
-15-24,Masculino ,Benfica,Lisboa,640,1997,1
-35-44,Masculino ,FC Porto,Lisboa,832,8247,2
 35-44,Masculino ,FC Porto,Ilha de São Miguel,388,15174,1
 35-44,Masculino ,FC Porto,Porto,1384,2804,1
 35-44,Masculino ,Sporting,Leiria,940,5965,1
-45-54,Feminino  ,Sporting,Lisboa,1280,1813,4
 35-44,Masculino ,FC Porto,Aveiro,480,3201,1
 45-54,Masculino ,Sporting,Lisboa,208,26250,1
+45-54,Feminino  ,Sporting,Lisboa,1280,1813,4
 45-54,Masculino ,Benfica,Porto,196,19056,1
 35-44,Masculino ,FC Porto,Porto,1304,5344,1
 25-34,Masculino ,Benfica,Évora,608,1445,1
@@ -111,38 +111,38 @@ agegroup,gender,club,district,visitas,rank_total_final,equipas
 35-44,Masculino ,Benfica,Santarém,572,2701,1
 45-54,Masculino ,FC Porto,Braga,808,421,2
 45-54,Feminino  ,Benfica,Viseu,916,8564,1
-35-44,Masculino ,FC Porto,Porto,616,11039,1
-35-44,Masculino ,Benfica,Lisboa,696,2793,1
-35-44,Masculino ,Sporting,Porto,696,5094,1
-25-34,Feminino  ,Sporting,Lisboa,952,14699,1
-35-44,Masculino ,FC Porto,Porto,684,12962,1
-25-34,Masculino ,Benfica,Setúbal,388,11290,1
-35-44,Masculino ,Benfica,Santarém,508,560,1
-45-54,Masculino ,Benfica,Évora,1500,7283,1
-35-44,Masculino ,Sporting,Setúbal,280,3614,2
-45-54,Masculino ,Benfica,Leiria,600,1491,1
-35-44,Masculino ,Benfica,Aveiro,500,11119,1
-45-54,Masculino ,Benfica,Leiria,1120,6228,1
-25-34,Masculino ,FC Porto,Faro,1128,1804,2
-25-34,Feminino  ,Benfica,Faro,352,6158,1
-35-44,Masculino ,Benfica,Castelo Branco,332,18543,1
-25-34,Masculino ,Benfica,Portalegre,276,12553,1
-35-44,Masculino ,FC Porto,Lisboa,748,13213,1
-35-44,Masculino ,Benfica,Lisboa,696,9145,1
-35-44,Masculino ,Benfica,Porto,620,10813,1
-15-24,Masculino ,Sporting,Viseu,1164,7097,1
-45-54,Masculino ,Benfica,Porto,572,3409,1
-25-34,Masculino ,Benfica,Lisboa,648,1703,1
-35-44,Masculino ,Benfica,Aveiro,548,11741,1
+55-64,Masculino ,Sporting,Beja,304,13952,2
+25-34,Masculino ,Benfica,Setúbal,456,8252,1
 45-54,Masculino ,Sporting,Setúbal,532,9417,2
 25-34,Masculino ,Benfica,Braga,400,13542,1
+35-44,Masculino ,Benfica,Lisboa,684,16311,1
 35-44,Masculino ,Benfica,Coimbra,320,7443,1
 25-34,Masculino ,FC Porto,Braga,472,18680,1
-35-44,Masculino ,Benfica,Lisboa,684,16311,1
-25-34,Masculino ,Benfica,Setúbal,456,8252,1
-55-64,Masculino ,Sporting,Beja,304,13952,2
+15-24,Masculino ,Sporting,Viseu,1164,7097,1
+35-44,Masculino ,Benfica,Porto,620,10813,1
+35-44,Masculino ,Benfica,Lisboa,696,9145,1
+25-34,Masculino ,Benfica,Lisboa,648,1703,1
+35-44,Masculino ,Benfica,Aveiro,548,11741,1
+45-54,Masculino ,Benfica,Porto,572,3409,1
 25-34,Masculino ,Sporting,Lisboa,344,12995,1
 35-44,Masculino ,Sporting,Lisboa,376,14264,1
 35-44,Masculino ,Benfica,Évora,412,2964,1
 35-44,Masculino ,Benfica,Setúbal,560,4094,1
 55-64,Masculino ,Benfica,Lisboa,388,4675,2
+35-44,Masculino ,FC Porto,Lisboa,748,13213,1
+25-34,Masculino ,FC Porto,Faro,1128,1804,2
+25-34,Feminino  ,Benfica,Faro,352,6158,1
+35-44,Masculino ,Benfica,Castelo Branco,332,18543,1
+25-34,Masculino ,Benfica,Portalegre,276,12553,1
+35-44,Masculino ,Benfica,Aveiro,500,11119,1
+45-54,Masculino ,Benfica,Leiria,1120,6228,1
+45-54,Masculino ,Benfica,Leiria,600,1491,1
+35-44,Masculino ,Sporting,Setúbal,280,3614,2
+35-44,Masculino ,Sporting,Porto,696,5094,1
+25-34,Feminino  ,Sporting,Lisboa,952,14699,1
+35-44,Masculino ,FC Porto,Porto,684,12962,1
+35-44,Masculino ,FC Porto,Porto,616,11039,1
+35-44,Masculino ,Benfica,Lisboa,696,2793,1
+35-44,Masculino ,Benfica,Santarém,508,560,1
+45-54,Masculino ,Benfica,Évora,1500,7283,1
+25-34,Masculino ,Benfica,Setúbal,388,11290,1

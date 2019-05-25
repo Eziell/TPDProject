@@ -53,7 +53,7 @@ to_predict = to_predict.iloc[:,:].values
 
 from sklearn.model_selection import train_test_split
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25)
 
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
@@ -62,14 +62,14 @@ X_test = scaler.transform(X_test)
 
 from sklearn.ensemble import RandomForestClassifier
 
-classifier = RandomForestClassifier(n_estimators=100)  
+classifier = RandomForestClassifier(n_estimators=1000, criterion='gini')  
 classifier.fit(X_train, y_train)  
 y_pred = classifier.predict(X_test)
 
 # Making the Confusion Matrix
 from sklearn import metrics
 pscore = metrics.accuracy_score(y_test, y_pred)
-print(pscore)
+print("Accuracy: " + str(pscore))
 print(pd.crosstab(y_test, y_pred, rownames=['Actual Class'], colnames=['Predicted Class']))
 
 predictions = classifier.predict(to_predict)
